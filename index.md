@@ -3,7 +3,7 @@ layout: default
 title: Apex Data Cloud
 ---
 
-![Apex Data Cloud Logo](apex_logo.PNG)
+![Apex Data Cloud Logo](apex_logo77.PNG)
 
 # Welcome to Apex Data Cloud
 
