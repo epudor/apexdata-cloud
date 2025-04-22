@@ -45,7 +45,8 @@ We’re not your average data firm. We're a **tech-driven think tank**, a **digi
 **GitHub:** [@epudor](https://github.com/epudor)
 
 
-                                        ![Apex Data Cloud Logo](apex_logo77.PNG)
                                         
 > _"The journey to mastery begins with understanding. Apex Data Cloud is your compass."_
 
+
+![Apex Data Cloud Logo](apex_logo77.PNG)
