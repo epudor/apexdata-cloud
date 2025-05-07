@@ -9,7 +9,7 @@ title: Apex Data Cloud
 
 ### **Where Timeless Wisdom Meets Cutting-Edge Innovation**
 
-At **Apex Data Cloud**, we believe in the power of transformation — not just through technology, but through precision, integrity, and insight. Rooted in principles as enduring as the Freemasons and as forward-looking as quantum computing, we merge symbolism and circuitry to create intelligent systems that scale with purpose.
+At **Apex Data Cloud**, we believe in the power of transformation — not just through technology, but through precision, integrity, and insight. Rooted in principles as entrepreneurship and as forward-looking as quantum computing, we merge symbolism and circuitry to create intelligent systems that scale with purpose.
 
 ## **What We Do**
 
@@ -43,7 +43,7 @@ We’re not your average data firm. We're a **tech-driven think tank**, a **digi
 
 ## **Let’s Connect**
 
-**Email:** contact@apexdatacloud.com  
-**GitHub:** [@yourusername](https://github.com/yourusername)
+**Email:** ezequiel@apexdatacloud.com  
+**GitHub:** [@epudor](https://github.com/epudor)
 
 > _"The journey to mastery begins with understanding. Apex Data Cloud is your compass."_
