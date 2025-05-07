@@ -3,7 +3,7 @@ layout: default
 title: Apex Data Cloud
 ---
 
-                                                                                        <img src="apex_logo.PNG" alt="Apex Data Cloud Logo" style="float:right; width:85px; margin-right:20px;"/>
+<img src="apex_logo.PNG" alt="Apex Data Cloud Logo" style="float:right; width:85px; margin-right:20px;"/>
 
 # Welcome to Apex Data Cloud
 
