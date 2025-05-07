@@ -3,8 +3,6 @@ layout: default
 title: Apex Data Cloud
 ---
 
-![Apex Data Cloud Logo](apex_logo.PNG)
-
 # Welcome to Apex Data Cloud
 
 ### **Where Timeless Wisdom Meets Cutting-Edge Innovation**
@@ -47,3 +45,4 @@ We’re not your average data firm. We're a **tech-driven think tank**, a **digi
 **GitHub:** [@epudor](https://github.com/epudor)
 
 > _"The journey to mastery begins with understanding. Apex Data Cloud is your compass."_
+                                                        ![Apex Data Cloud Logo](main/apex_logo.PNG)
