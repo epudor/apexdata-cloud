@@ -43,8 +43,9 @@ We’re not your average data firm. We're a **tech-driven think tank**, a **digi
 
 ## **Let’s Connect**
 
-**Email:** ezequiel@apexdata.cloud  
-**Phone (US):** +1 305 778 8223  
-**Phone (EU):** +34 664 497 792
+**Email:** [ezequiel@apexdata.cloud](mailto:ezequiel@apexdata.cloud) 
+<span style="color:#54C3EA;"><strong>Phone (US):</strong> +1 305 778 8223</span>  
+<span style="color:#54C3EA;"><strong>Phone (EU):</strong> +34 664 497 792</span>
+
 
 > _"The journey to mastery begins with understanding. Apex Data Cloud is your compass."_
