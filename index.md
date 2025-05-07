@@ -41,8 +41,10 @@ We’re not your average data firm. We're a **tech-driven think tank**, a **digi
 
 ## **Let’s Connect**
 
-**Email:** ezequiel@apexdatacloud.com  
+**Email:** ezequiel@apexdata.cloud
 **GitHub:** [@epudor](https://github.com/epudor)
 
 > _"The journey to mastery begins with understanding. Apex Data Cloud is your compass."_
-                                                        ![Apex Data Cloud Logo](main/apex_logo.PNG)
+>
+> 
+                                                        ![Apex Data Cloud Logo](main/apex_logo77.PNG)
