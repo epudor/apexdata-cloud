@@ -48,11 +48,12 @@ We’re not your average data firm. We're a **tech-driven think tank**, and a **
 **Phone (US):** +1 786 519 4360 
 **Phone (EU):** +34 664 497 792
 
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/54ef4ef9-6e87-4fa1-af93-c16c4dcfcb6f">
-</iframe>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Harvey"
+  agent-id="54ef4ef9-6e87-4fa1-af93-c16c4dcfcb6f"
+  language-code="en"
+></df-messenger>
 
 > _"The journey to mastery begins with understanding."_
