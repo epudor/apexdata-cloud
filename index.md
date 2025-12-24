@@ -44,8 +44,7 @@ We are a data and technology consulting firm that supports executives, operators
 ## **Let’s Connect**
 
 **Email:** [ezequiel@apexdata.cloud](mailto:ezequiel@apexdata.cloud) 
-**Phone (US):** +1 786 519 4360 
-**Phone (EU):** +34 664 497 792
+**Phone (US):** +1 305 778 8223
 
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
