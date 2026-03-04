@@ -20,15 +20,15 @@ description: Apex Data Cloud partners with executives and founders to transform 
   --navy-2:   #0A1628;
   --navy-3:   #112240;
   --navy-4:   #1a3a6b;
-  --blue:     #0EA5E9;
-  --blue-2:   #38BDF8;
-  --blue-3:   #7DD3FC;
+  --blue:     #F1C6D3;
+  --blue-2:   #EAA0B5;
+  --blue-3:   #F8DDE5;
   --gold:     #F59E0B;
   --white:    #F8FAFC;
   --text:     #94A3B8;
   --text-2:   #CBD5E1;
-  --border:   rgba(14,165,233,0.18);
-  --border-2: rgba(14,165,233,0.08);
+  --border:   rgba(241,198,211,0.18);
+  --border-2: rgba(241,198,211,0.08);
 }
 
 .apex-site {
@@ -72,12 +72,12 @@ description: Apex Data Cloud partners with executives and founders to transform 
 }
 .nav-links a:hover { color: var(--white); }
 .nav-cta {
-  background: linear-gradient(135deg, var(--blue), #0284C7) !important;
+  background: linear-gradient(135deg, var(--blue), #C96B87) !important;
   color: white !important;
   padding: 9px 22px; border-radius: 8px; font-weight: 600;
-  box-shadow: 0 2px 14px rgba(14,165,233,0.28); transition: all 0.3s;
+  box-shadow: 0 2px 14px rgba(241,198,211,0.28); transition: all 0.3s;
 }
-.nav-cta:hover { transform: translateY(-1px); box-shadow: 0 5px 22px rgba(14,165,233,0.42) !important; }
+.nav-cta:hover { transform: translateY(-1px); box-shadow: 0 5px 22px rgba(241,198,211,0.42) !important; }
 
 /* === HERO === */
 .hero {
@@ -90,13 +90,13 @@ description: Apex Data Cloud partners with executives and founders to transform 
 .hero-grid-bg {
   position: absolute; inset: 0; pointer-events: none;
   background-image:
-    linear-gradient(rgba(14,165,233,0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(14,165,233,0.035) 1px, transparent 1px);
+    linear-gradient(rgba(241,198,211,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(241,198,211,0.035) 1px, transparent 1px);
   background-size: 64px 64px;
 }
 .hero-glow-1 {
   position: absolute; top: 0; right: -5%; width: 750px; height: 750px;
-  background: radial-gradient(circle, rgba(14,165,233,0.10) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(241,198,211,0.10) 0%, transparent 65%);
   pointer-events: none;
 }
 .hero-glow-2 {
@@ -111,7 +111,7 @@ description: Apex Data Cloud partners with executives and founders to transform 
 }
 .hero-badge {
   display: inline-flex; align-items: center; gap: 7px;
-  background: rgba(14,165,233,0.08); border: 1px solid rgba(14,165,233,0.25);
+  background: rgba(241,198,211,0.08); border: 1px solid rgba(241,198,211,0.25);
   border-radius: 50px; padding: 5px 16px;
   font-size: 11px; font-weight: 600; letter-spacing: 1.5px;
   text-transform: uppercase; color: var(--blue-2); margin-bottom: 20px;
@@ -142,13 +142,13 @@ description: Apex Data Cloud partners with executives and founders to transform 
 
 .btn-primary {
   display: inline-flex; align-items: center; gap: 8px;
-  background: linear-gradient(135deg, var(--blue), #0284C7);
+  background: linear-gradient(135deg, var(--blue), #C96B87);
   color: white; padding: 14px 30px; border-radius: 10px;
   font-size: 15px; font-weight: 600; text-decoration: none;
   border: none; cursor: pointer; transition: all 0.3s;
-  box-shadow: 0 4px 24px rgba(14,165,233,0.32);
+  box-shadow: 0 4px 24px rgba(241,198,211,0.32);
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 36px rgba(14,165,233,0.48); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 36px rgba(241,198,211,0.48); }
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 8px;
   background: transparent; color: var(--text-2);
@@ -250,11 +250,11 @@ section { padding: 96px 32px; }
   background: linear-gradient(90deg, transparent, var(--blue), transparent);
   transform: scaleX(0); transform-origin: center; transition: transform 0.35s;
 }
-.svc-card:hover { border-color: var(--border); transform: translateY(-5px); box-shadow: 0 20px 50px rgba(14,165,233,0.09); }
+.svc-card:hover { border-color: var(--border); transform: translateY(-5px); box-shadow: 0 20px 50px rgba(241,198,211,0.09); }
 .svc-card:hover::after { transform: scaleX(1); }
 .svc-icon {
   width: 52px; height: 52px; border-radius: 14px;
-  background: rgba(14,165,233,0.1); border: 1px solid rgba(14,165,233,0.2);
+  background: rgba(241,198,211,0.1); border: 1px solid rgba(241,198,211,0.2);
   display: flex; align-items: center; justify-content: center;
   font-size: 22px; margin-bottom: 20px;
 }
@@ -266,7 +266,7 @@ section { padding: 96px 32px; }
 .svc-tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .tag {
   font-size: 11px; font-weight: 500; color: var(--blue-3);
-  background: rgba(14,165,233,0.08); border: 1px solid rgba(14,165,233,0.15);
+  background: rgba(241,198,211,0.08); border: 1px solid rgba(241,198,211,0.15);
   border-radius: 50px; padding: 3px 12px;
 }
 
@@ -313,7 +313,7 @@ section { padding: 96px 32px; }
 .diff:hover { border-color: var(--border); }
 .diff-ico {
   width: 40px; height: 40px; border-radius: 10px;
-  background: rgba(14,165,233,0.1); border: 1px solid rgba(14,165,233,0.2);
+  background: rgba(241,198,211,0.1); border: 1px solid rgba(241,198,211,0.2);
   display: flex; align-items: center; justify-content: center;
   font-size: 18px; flex-shrink: 0; margin-top: 1px;
 }
@@ -370,7 +370,7 @@ section { padding: 96px 32px; }
   content: ''; position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   width: 900px; height: 400px;
-  background: radial-gradient(ellipse, rgba(14,165,233,0.06) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(241,198,211,0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 .contact-inner {
@@ -391,10 +391,10 @@ section { padding: 96px 32px; }
   padding: 14px 16px; border-radius: 12px; border: 1px solid var(--border-2);
   background: rgba(6,13,26,0.3); transition: all 0.2s;
 }
-.c-method:hover { color: var(--white); border-color: var(--border); background: rgba(14,165,233,0.05); }
+.c-method:hover { color: var(--white); border-color: var(--border); background: rgba(241,198,211,0.05); }
 .c-ico {
   width: 42px; height: 42px; border-radius: 10px;
-  background: rgba(14,165,233,0.1); border: 1px solid rgba(14,165,233,0.2);
+  background: rgba(241,198,211,0.1); border: 1px solid rgba(241,198,211,0.2);
   display: flex; align-items: center; justify-content: center;
   font-size: 18px; flex-shrink: 0;
 }
@@ -426,19 +426,19 @@ section { padding: 96px 32px; }
   font-family: 'Inter', sans-serif; outline: none; resize: none; transition: border-color 0.2s;
 }
 .fg input:focus, .fg select:focus, .fg textarea:focus {
-  border-color: rgba(14,165,233,0.4); box-shadow: 0 0 0 3px rgba(14,165,233,0.07);
+  border-color: rgba(241,198,211,0.4); box-shadow: 0 0 0 3px rgba(241,198,211,0.07);
 }
 .fg input::placeholder, .fg textarea::placeholder { color: var(--text); }
 .fg select option { background: var(--navy-2); color: var(--white); }
 .fg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .cf-submit {
-  width: 100%; background: linear-gradient(135deg, var(--blue), #0284C7);
+  width: 100%; background: linear-gradient(135deg, var(--blue), #C96B87);
   color: white; border: none; border-radius: 9px; padding: 13px;
   font-size: 15px; font-weight: 600; cursor: pointer;
   font-family: 'Inter', sans-serif; transition: all 0.3s;
-  box-shadow: 0 4px 20px rgba(14,165,233,0.28); margin-top: 6px;
+  box-shadow: 0 4px 20px rgba(241,198,211,0.28); margin-top: 6px;
 }
-.cf-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(14,165,233,0.44); }
+.cf-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(241,198,211,0.44); }
 
 /* === FOOTER === */
 .footer {
@@ -545,7 +545,7 @@ section { padding: 96px 32px; }
         </div>
         <div class="panel-pills">
           <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(14,165,233,0.12);">&#128202;</div>
+            <div class="ppill-icon" style="background:rgba(241,198,211,0.12);">&#128202;</div>
             Predictive Analytics &amp; Forecasting
           </div>
           <div class="ppill">
