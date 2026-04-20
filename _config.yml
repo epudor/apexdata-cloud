@@ -1,0 +1,20 @@
+title: "Apex Data Cloud"
+description: "AI & Data Strategy Consulting — Transform complex data into decisive competitive advantage using AI, machine learning, predictive analytics, and modern cloud platforms."
+url: "https://apexdata.cloud"
+baseurl: ""
+author: "Apex Data Cloud"
+email: "ezequiel@apexdata.cloud"
+lang: en-US
+timezone: America/New_York
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/apex_logo.PNG"
+      twitter:
+        card: summary_large_image
