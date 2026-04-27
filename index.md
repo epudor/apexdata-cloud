@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Apex Data Cloud | AI & Data Strategy Consulting"
-description: "We partner with executives, founders, and operators to transform complex data into decisive competitive advantage — combining AI, machine learning, predictive analytics, and cloud-native platforms to drive measurable business outcomes."
+title: "Apex Data & Marketing Cloud | AI-Powered Marketing Intelligence Consulting"
+description: "We help CMOs, founders, and growth teams turn customer data into measurable revenue — combining AI, customer segmentation, marketing analytics, and predictive intelligence to drive sustainable growth."
 image: "/apex_logo.PNG"
-author: "Apex Data Cloud"
+author: "Apex Data & Marketing Cloud"
 lang: en-US
 ---
 
@@ -19,12 +19,12 @@ lang: en-US
   var head = document.head;
   var tags = [
     ['meta', {property:'og:type', content:'website'}],
-    ['meta', {property:'og:title', content:'Apex Data Cloud | AI & Data Strategy Consulting'}],
-    ['meta', {property:'og:description', content:'We partner with executives and founders to transform complex data into decisive competitive advantage using AI, machine learning, and modern cloud platforms.'}],
+    ['meta', {property:'og:title', content:'Apex Data & Marketing Cloud | AI-Powered Marketing Intelligence Consulting'}],
+    ['meta', {property:'og:description', content:'We help CMOs, founders, and growth teams turn customer data into measurable revenue — combining AI, customer segmentation, marketing analytics, and predictive intelligence.'}],
     ['meta', {property:'og:image', content:'https://apexdata.cloud/apex_logo.PNG'}],
-    ['meta', {property:'og:site_name', content:'Apex Data Cloud'}],
+    ['meta', {property:'og:site_name', content:'Apex Data & Marketing Cloud'}],
     ['meta', {name:'twitter:card', content:'summary_large_image'}],
-    ['meta', {name:'twitter:title', content:'Apex Data Cloud | AI & Data Strategy Consulting'}],
+    ['meta', {name:'twitter:title', content:'Apex Data & Marketing Cloud | AI-Powered Marketing Intelligence Consulting'}],
     ['link', {rel:'canonical', href:'https://apexdata.cloud/'}]
   ];
   tags.forEach(function(t){
@@ -404,6 +404,14 @@ section { padding: 100px 32px; }
 .services-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
 }
+.services-primary-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-bottom: 0;
+}
+.capabilities-subheader {
+  text-align: center; margin: 72px 0 48px;
+  padding-top: 64px; border-top: 1px solid var(--border-2);
+}
+.capabilities-subheader .sec-label { margin-bottom: 14px; display: block; }
 .svc-card {
   background: var(--navy-3); border: 1px solid var(--border-2);
   border-radius: 20px; padding: 36px 28px;
@@ -831,6 +839,7 @@ section { padding: 100px 32px; }
   .nav-links { display: none; }
   .hamburger-btn { display: flex; }
   .services-grid { grid-template-columns: 1fr; }
+  .services-primary-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr; gap: 32px; }
 }
@@ -866,9 +875,9 @@ section { padding: 100px 32px; }
 <!-- ======================== NAVBAR ======================== -->
 <nav class="nav" id="mainNav" aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="#" class="nav-logo" aria-label="Apex Data Cloud home">
-      <img src="apex_logo.PNG" alt="Apex Data Cloud logo" width="34" height="34">
-      <span class="nav-logo-text">Apex <span>Data</span> Cloud</span>
+    <a href="#" class="nav-logo" aria-label="Apex Data &amp; Marketing Cloud home">
+      <img src="apex_logo.PNG" alt="Apex Data &amp; Marketing Cloud logo" width="34" height="34">
+      <span class="nav-logo-text">Apex <span>Data &amp; Marketing</span> Cloud</span>
     </a>
     <ul class="nav-links" role="list">
       <li><a href="#services">Services</a></li>
@@ -891,18 +900,18 @@ section { padding: 100px 32px; }
   <div class="hero-glow-3" aria-hidden="true"></div>
   <div class="hero-inner">
     <div>
-      <div class="hero-badge" aria-label="AI & Data Strategy Consulting firm">
+      <div class="hero-badge" aria-label="AI-Powered Marketing Intelligence Consulting firm">
         <span class="live-dot" aria-hidden="true"></span>
-        AI &amp; Data Strategy Consulting
+        AI-Powered Marketing Intelligence
       </div>
-      <h1 id="hero-heading">Transform Data Into<br><span class="hl">Decisive Advantage</span></h1>
-      <p>We partner with executives, founders, and operators to turn complex data into confident decisions—combining timeless business strategy with modern AI, machine learning, and cloud-native platforms.</p>
+      <h1 id="hero-heading">Turn Customer Intelligence Into<br><span class="hl">Unstoppable Growth</span></h1>
+      <p>We partner with CMOs, founders, and growth leaders to transform raw customer data into revenue-driving marketing strategy — combining AI, predictive segmentation, attribution science, and machine learning to deliver measurable, compounding results.</p>
       <div class="hero-cta">
         <a href="#contact" class="btn-primary" onclick="gtag('event','click',{event_category:'CTA',event_label:'Hero Primary'})">
           Start a Conversation &#8594;
         </a>
         <a href="#services" class="btn-ghost">
-          Explore Services
+          Explore Our Services
         </a>
       </div>
     </div>
@@ -911,41 +920,41 @@ section { padding: 100px 32px; }
         <div class="panel-label">Core Capabilities</div>
         <div class="panel-metrics">
           <div class="pm-card">
-            <div class="pm-val">AI / ML</div>
-            <div class="pm-lbl">Advisory &amp; Deploy</div>
+            <div class="pm-val">Segmentation</div>
+            <div class="pm-lbl">Audience Intelligence</div>
+          </div>
+          <div class="pm-card">
+            <div class="pm-val">Attribution</div>
+            <div class="pm-lbl">Multi-Touch ROI</div>
+          </div>
+          <div class="pm-card">
+            <div class="pm-val">Predictive</div>
+            <div class="pm-lbl">LTV &amp; Churn Models</div>
           </div>
           <div class="pm-card">
             <div class="pm-val">GenAI</div>
-            <div class="pm-lbl">LLM Integration</div>
-          </div>
-          <div class="pm-card">
-            <div class="pm-val">Cloud</div>
-            <div class="pm-lbl">Architecture</div>
-          </div>
-          <div class="pm-card">
-            <div class="pm-val">Analytics</div>
-            <div class="pm-lbl">Predictive</div>
+            <div class="pm-lbl">Personalization at Scale</div>
           </div>
         </div>
         <div class="panel-pills">
           <div class="ppill">
             <div class="ppill-icon" style="background:rgba(241,198,211,0.12);">&#128202;</div>
-            Predictive Analytics &amp; Forecasting
+            Customer Segmentation &amp; Audience Intelligence
             <span class="ppill-arrow">&#8594;</span>
           </div>
           <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(245,158,11,0.12);">&#129302;</div>
-            AI &amp; Machine Learning Deployment
+            <div class="ppill-icon" style="background:rgba(245,158,11,0.12);">&#127919;</div>
+            Marketing Analytics &amp; Attribution
             <span class="ppill-arrow">&#8594;</span>
           </div>
           <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(16,185,129,0.12);">&#10024;</div>
-            Generative AI &amp; LLM Strategy
+            <div class="ppill-icon" style="background:rgba(16,185,129,0.12);">&#129302;</div>
+            AI-Powered Personalization
             <span class="ppill-arrow">&#8594;</span>
           </div>
           <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(139,92,246,0.12);">&#9729;&#65039;</div>
-            Cloud Platform Optimization
+            <div class="ppill-icon" style="background:rgba(139,92,246,0.12);">&#128200;</div>
+            Demand Generation &amp; Growth Analytics
             <span class="ppill-arrow">&#8594;</span>
           </div>
         </div>
@@ -963,15 +972,15 @@ section { padding: 100px 32px; }
     </div>
     <div class="t-item">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      Evidence-Based Strategy
+      Full-Funnel Attribution
     </div>
     <div class="t-item">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      End-to-End Execution
+      AI-Native Intelligence
     </div>
     <div class="t-item">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      Measurable Business Outcomes
+      Measurable Revenue Impact
     </div>
     <div class="t-item">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
@@ -984,8 +993,8 @@ section { padding: 100px 32px; }
 <div class="stats-section" aria-label="Impact statistics">
   <div class="stats-grid">
     <div class="stat-item reveal">
-      <span class="stat-num" data-target="3" data-suffix="×">0×</span>
-      <div class="stat-label">Average Client ROI</div>
+      <span class="stat-num" data-target="4.2" data-suffix="×" data-decimal="1">0×</span>
+      <div class="stat-label">Average Campaign ROI</div>
       <div class="stat-sublabel">Delivered within 12 months</div>
     </div>
     <div class="stat-item reveal reveal-delay-1">
@@ -994,9 +1003,9 @@ section { padding: 100px 32px; }
       <div class="stat-sublabel">Completed end-to-end</div>
     </div>
     <div class="stat-item reveal reveal-delay-2">
-      <span class="stat-num" data-target="15" data-suffix="+">0+</span>
-      <div class="stat-label">Industries Served</div>
-      <div class="stat-sublabel">Across 4 continents</div>
+      <span class="stat-num" data-target="68" data-suffix="%">0%</span>
+      <div class="stat-label">Average CAC Reduction</div>
+      <div class="stat-sublabel">Across client portfolio</div>
     </div>
     <div class="stat-item reveal reveal-delay-3">
       <span class="stat-num" data-target="98" data-suffix="%">0%</span>
@@ -1011,31 +1020,81 @@ section { padding: 100px 32px; }
   <div class="container">
     <div class="sec-header reveal">
       <div class="sec-label">What We Do</div>
-      <h2 class="sec-title" id="services-heading">End-to-End Advisory &amp; Implementation</h2>
-      <p class="sec-sub">We operate at the intersection of strategy, analytics, and execution—delivering solutions that connect every data initiative directly to measurable business outcomes.</p>
+      <h2 class="sec-title" id="services-heading">Intelligence-Driven Marketing, End to End</h2>
+      <p class="sec-sub">We operate at the intersection of marketing strategy, data science, and AI — connecting every customer insight directly to pipeline, revenue, and sustainable competitive advantage.</p>
     </div>
-    <div class="services-grid">
+    <div class="services-primary-grid">
 
       <div class="svc-card reveal">
-        <div class="svc-icon" aria-hidden="true">&#128202;</div>
-        <h3>Strategic Analytics &amp; Predictive Intelligence</h3>
-        <p>We identify the metrics that drive performance, uncover hidden patterns, and model future scenarios to support confident, evidence-based decisions at every level of your organization.</p>
+        <div class="svc-icon" aria-hidden="true">&#128101;</div>
+        <h3>Customer Segmentation &amp; Audience Intelligence</h3>
+        <p>We build precision audience models that go far beyond demographics — RFM analysis, behavioral cohorts, psychographic profiling, and lookalike modeling — so every campaign reaches exactly the right customer at exactly the right moment.</p>
         <div class="svc-tags">
-          <span class="tag">KPI Design</span>
-          <span class="tag">Forecasting</span>
-          <span class="tag">Scenario Modeling</span>
-          <span class="tag">Executive Dashboards</span>
-          <span class="tag">A/B Testing</span>
+          <span class="tag">RFM Modeling</span>
+          <span class="tag">Behavioral Cohorts</span>
+          <span class="tag">Persona Mapping</span>
+          <span class="tag">Lookalike Audiences</span>
+          <span class="tag">Churn Segmentation</span>
         </div>
         <a href="#contact" class="svc-link">Explore this service &#8594;</a>
       </div>
 
       <div class="svc-card reveal reveal-delay-1">
+        <div class="svc-icon" aria-hidden="true">&#127919;</div>
+        <h3>Marketing Analytics &amp; Attribution</h3>
+        <p>We replace vanity metrics with revenue truth — designing full-funnel attribution frameworks, campaign ROI dashboards, and multi-touch models that tell you precisely which channels, messages, and moments drive conversion and growth.</p>
+        <div class="svc-tags">
+          <span class="tag">Multi-Touch Attribution</span>
+          <span class="tag">Funnel Analytics</span>
+          <span class="tag">Campaign ROI</span>
+          <span class="tag">Marketing Dashboards</span>
+          <span class="tag">A/B Testing</span>
+        </div>
+        <a href="#contact" class="svc-link">Explore this service &#8594;</a>
+      </div>
+
+      <div class="svc-card reveal reveal-delay-2">
+        <div class="svc-new-badge">New</div>
+        <div class="svc-icon" aria-hidden="true">&#129302;</div>
+        <h3>AI-Powered Personalization</h3>
+        <p>We engineer real-time personalization systems powered by machine learning — dynamic content engines, next-best-action models, and recommendation algorithms — delivering hyper-relevant experiences that convert and retain at scale.</p>
+        <div class="svc-tags">
+          <span class="tag">Recommendation Engines</span>
+          <span class="tag">Next-Best-Action</span>
+          <span class="tag">Dynamic Content</span>
+          <span class="tag">Real-Time Decisioning</span>
+          <span class="tag">LLM-Driven Copy</span>
+        </div>
+        <a href="#contact" class="svc-link">Explore this service &#8594;</a>
+      </div>
+
+      <div class="svc-card reveal reveal-delay-3">
+        <div class="svc-icon" aria-hidden="true">&#128200;</div>
+        <h3>Demand Generation &amp; Growth Analytics</h3>
+        <p>We model the full revenue engine — lead scoring, pipeline forecasting, CAC/LTV optimization, and churn prediction — giving your growth team the intelligence to acquire better customers, faster, at lower cost.</p>
+        <div class="svc-tags">
+          <span class="tag">Lead Scoring</span>
+          <span class="tag">Pipeline Forecasting</span>
+          <span class="tag">CAC / LTV Modeling</span>
+          <span class="tag">Churn Prediction</span>
+          <span class="tag">Revenue Attribution</span>
+        </div>
+        <a href="#contact" class="svc-link">Explore this service &#8594;</a>
+      </div>
+
+    </div>
+
+    <div class="capabilities-subheader reveal">
+      <div class="sec-label">The Intelligence Engine Behind Every Campaign</div>
+      <p class="sec-sub">Our marketing work is powered by enterprise-grade data and AI infrastructure — capabilities most agencies simply don't have.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="svc-card reveal">
         <div class="svc-icon" aria-hidden="true">&#129302;</div>
         <h3>AI &amp; Machine Learning Advisory</h3>
-        <p>From use-case discovery to production deployment and governance, we help you apply AI pragmatically—where it creates genuine, sustained value rather than experimental novelty.</p>
+        <p>From use-case discovery to production deployment, we apply AI pragmatically — where it creates genuine, sustained marketing value rather than experimental novelty.</p>
         <div class="svc-tags">
-          <span class="tag">Use-Case Discovery</span>
           <span class="tag">Model Development</span>
           <span class="tag">MLOps</span>
           <span class="tag">AI Governance</span>
@@ -1044,59 +1103,55 @@ section { padding: 100px 32px; }
         <a href="#contact" class="svc-link">Explore this service &#8594;</a>
       </div>
 
-      <div class="svc-card reveal reveal-delay-2">
+      <div class="svc-card reveal reveal-delay-1">
         <div class="svc-new-badge">New</div>
         <div class="svc-icon" aria-hidden="true">&#10024;</div>
         <h3>Generative AI &amp; LLM Strategy</h3>
-        <p>We help organizations cut through the hype and build enterprise-grade GenAI capabilities—RAG pipelines, AI agents, fine-tuned LLMs, and robust guardrails that ensure safe, reliable deployment.</p>
+        <p>We help marketing organizations deploy GenAI capabilities responsibly — RAG-powered content systems, AI copywriting agents, and fine-tuned LLMs that scale creative output without sacrificing brand integrity.</p>
         <div class="svc-tags">
           <span class="tag">RAG Systems</span>
-          <span class="tag">AI Agents</span>
+          <span class="tag">AI Content Agents</span>
           <span class="tag">LLM Fine-Tuning</span>
           <span class="tag">Prompt Engineering</span>
-          <span class="tag">AI Safety</span>
         </div>
         <a href="#contact" class="svc-link">Explore this service &#8594;</a>
       </div>
 
-      <div class="svc-card reveal reveal-delay-1">
+      <div class="svc-card reveal reveal-delay-2">
         <div class="svc-icon" aria-hidden="true">&#128300;</div>
         <h3>Business, Data &amp; Digital Strategy</h3>
-        <p>We assess your current state, define a clear strategic roadmap, and guide execution—transforming ambiguity into structured, achievable initiatives aligned with your business objectives and competitive position.</p>
+        <p>We assess your current marketing data landscape, define a clear strategic roadmap, and guide execution — transforming fragmented data assets into a unified, revenue-generating intelligence layer.</p>
         <div class="svc-tags">
           <span class="tag">Data Roadmap</span>
+          <span class="tag">MarTech Strategy</span>
           <span class="tag">Digital Transformation</span>
-          <span class="tag">Change Management</span>
           <span class="tag">OKR Alignment</span>
         </div>
         <a href="#contact" class="svc-link">Explore this service &#8594;</a>
       </div>
 
-      <div class="svc-card reveal reveal-delay-2">
+      <div class="svc-card reveal">
         <div class="svc-icon" aria-hidden="true">&#9729;&#65039;</div>
         <h3>Cloud &amp; Data Platform Architecture</h3>
-        <p>We design scalable, secure, cost-efficient cloud environments and modern data platforms—from data mesh to lakehouse architecture—built to support sustained growth and organizational resilience.</p>
+        <p>We design the scalable, secure data infrastructure your marketing stack requires — from customer data platforms to real-time event pipelines — built for sustained growth.</p>
         <div class="svc-tags">
-          <span class="tag">Cloud Architecture</span>
+          <span class="tag">CDP Architecture</span>
+          <span class="tag">Real-Time Pipelines</span>
           <span class="tag">Data Lakehouse</span>
-          <span class="tag">Data Mesh</span>
-          <span class="tag">Cost Optimization</span>
           <span class="tag">DataOps</span>
         </div>
         <a href="#contact" class="svc-link">Explore this service &#8594;</a>
       </div>
 
-      <div class="svc-card reveal reveal-delay-3">
-        <div class="svc-new-badge">New</div>
+      <div class="svc-card reveal reveal-delay-1">
         <div class="svc-icon" aria-hidden="true">&#128737;&#65039;</div>
         <h3>Data Governance &amp; Compliance</h3>
-        <p>We build the frameworks, policies, and tooling your organization needs to ensure data quality, lineage, and regulatory compliance—turning governance from a burden into a competitive asset.</p>
+        <p>We ensure your customer data assets meet the highest standards of quality, lineage, and regulatory compliance — turning governance into a marketing competitive advantage.</p>
         <div class="svc-tags">
           <span class="tag">Data Quality</span>
-          <span class="tag">Data Lineage</span>
           <span class="tag">GDPR / CCPA</span>
+          <span class="tag">Consent Management</span>
           <span class="tag">Master Data Mgmt</span>
-          <span class="tag">Compliance</span>
         </div>
         <a href="#contact" class="svc-link">Explore this service &#8594;</a>
       </div>
@@ -1125,29 +1180,29 @@ section { padding: 100px 32px; }
   <div class="container">
     <div class="sec-header reveal">
       <div class="sec-label">How We Work</div>
-      <h2 class="sec-title" id="approach-heading">A Disciplined, Four-Phase Methodology</h2>
-      <p class="sec-sub">Meaningful transformation starts with clarity. Our structured approach ensures every engagement delivers durable, measurable results—from strategy through sustained optimization.</p>
+      <h2 class="sec-title" id="approach-heading">A Disciplined, Four-Phase Engagement Model</h2>
+      <p class="sec-sub">Sustainable marketing performance doesn't come from tactics — it comes from a rigorous, repeatable methodology that connects every initiative to measurable business outcomes.</p>
     </div>
     <div class="steps-row">
       <div class="step reveal">
         <div class="step-num" aria-hidden="true">01</div>
-        <h4>Discover &amp; Diagnose</h4>
-        <p>We immerse in your business context, data landscape, and strategic objectives to establish a precise picture of where you are and where you need to go.</p>
+        <h4>Audit &amp; Diagnose</h4>
+        <p>We assess your current data assets, MarTech stack, audience quality, and attribution gaps — establishing a precise baseline before recommending a single initiative.</p>
       </div>
       <div class="step reveal reveal-delay-1">
         <div class="step-num" aria-hidden="true">02</div>
-        <h4>Strategize &amp; Design</h4>
-        <p>We develop a prioritized roadmap—identifying highest-impact opportunities and designing the right solutions before a single line of code is written.</p>
+        <h4>Strategy &amp; Blueprint</h4>
+        <p>We design a prioritized marketing intelligence roadmap — identifying highest-impact opportunities and the exact models, platforms, and campaigns that will move your most critical KPIs.</p>
       </div>
       <div class="step reveal reveal-delay-2">
         <div class="step-num" aria-hidden="true">03</div>
-        <h4>Build &amp; Deploy</h4>
-        <p>Our team executes with precision—building scalable models, platforms, and processes that integrate seamlessly into your existing operations and culture.</p>
+        <h4>Build &amp; Activate</h4>
+        <p>We build, deploy, and activate — segmentation models, attribution frameworks, personalization engines, and demand generation systems — integrated seamlessly into your existing stack.</p>
       </div>
       <div class="step reveal reveal-delay-3">
         <div class="step-num" aria-hidden="true">04</div>
-        <h4>Measure &amp; Optimize</h4>
-        <p>We establish feedback loops, track performance against business KPIs, and continuously refine to ensure sustained competitive advantage long after delivery.</p>
+        <h4>Measure &amp; Scale</h4>
+        <p>We close the loop with rigorous performance tracking against agreed business KPIs, continuously optimizing to compound returns and extend your competitive advantage over time.</p>
       </div>
     </div>
   </div>
@@ -1159,51 +1214,51 @@ section { padding: 100px 32px; }
     <div class="why-grid">
       <div class="why-content reveal">
         <div class="sec-label">Why Choose Apex</div>
-        <h2 id="why-heading">Trusted Advisors First.<br>Technologists Second.</h2>
-        <p>Meaningful transformation doesn't start with tools—it starts with clarity, disciplined thinking, and informed judgment. We bring both strategic depth and technical excellence to every engagement, ensuring nothing gets lost between boardroom and engineering.</p>
+        <h2 id="why-heading">Data Scientists Who Think Like Marketers.<br>Marketers Who Are Fluent in Data.</h2>
+        <p>Most marketing agencies can't build a predictive churn model. Most data consultancies can't write a go-to-market strategy. We sit at that rare intersection — bringing both the strategic depth of a senior marketing partner and the technical precision of an AI and data science firm to every engagement.</p>
         <div class="diffs">
           <div class="diff">
             <div class="diff-ico" aria-hidden="true">&#127919;</div>
             <div>
-              <h4>Outcome-Oriented Engagements</h4>
-              <p>Every recommendation ties to a measurable business result. We don't deliver reports—we deliver impact with clear ROI attribution.</p>
+              <h4>Revenue-Tied Outcomes</h4>
+              <p>Every recommendation maps to pipeline, CAC, LTV, or conversion rate. We don't deliver reports — we deliver measurable revenue impact with clear attribution.</p>
             </div>
           </div>
           <div class="diff">
             <div class="diff-ico" aria-hidden="true">&#128275;</div>
             <div>
-              <h4>Uncompromising Clarity</h4>
-              <p>We translate complex data realities into language leadership teams can act on immediately and confidently—no jargon, no ambiguity.</p>
+              <h4>Audience Clarity</h4>
+              <p>We eliminate the guesswork from audience strategy. Our segmentation models give your team the precision to personalize at scale and acquire customers that actually stay.</p>
             </div>
           </div>
           <div class="diff">
             <div class="diff-ico" aria-hidden="true">&#9881;&#65039;</div>
             <div>
-              <h4>Pragmatic AI &amp; GenAI Deployment</h4>
-              <p>We apply AI where it genuinely creates value—with robust governance, compliance guardrails, and a clear path to production.</p>
+              <h4>Pragmatic AI Deployment</h4>
+              <p>We apply AI where it genuinely moves the needle — with robust governance and a clear path to production, not proof-of-concept theater.</p>
             </div>
           </div>
           <div class="diff">
             <div class="diff-ico" aria-hidden="true">&#128736;&#65039;</div>
             <div>
               <h4>End-to-End Partnership</h4>
-              <p>From strategy through deployment and optimization—one trusted partner across the entire data and AI journey, with no handoffs.</p>
+              <p>From strategy through activation and optimization — one trusted partner across your entire marketing intelligence journey, with no handoffs and full accountability.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="why-cards reveal reveal-delay-2">
         <div class="why-card">
-          <div class="wc-val">Strategy + Execution</div>
-          <div class="wc-lbl">We bridge the gap between boardroom strategy and engineering delivery, ensuring your vision becomes operational reality with full accountability.</div>
+          <div class="wc-val">Marketing Strategy + Data Science</div>
+          <div class="wc-lbl">We bridge the gap between CMO priorities and data engineering reality, ensuring your marketing vision becomes measurable operational performance.</div>
         </div>
         <div class="why-card">
           <div class="wc-val">AI-Native</div>
-          <div class="wc-lbl">Modern ML and GenAI tooling embedded in every engagement from day one—not bolted on afterward.</div>
+          <div class="wc-lbl">Modern ML, predictive modeling, and GenAI tooling embedded in every engagement from day one — not bolted on afterward.</div>
         </div>
         <div class="why-card">
           <div class="wc-val">ROI-Focused</div>
-          <div class="wc-lbl">Every initiative measured against clear business KPIs and financial outcomes from kickoff to close.</div>
+          <div class="wc-lbl">Every initiative measured against clear revenue KPIs from kickoff to close. No vanity metrics, no ambiguity.</div>
         </div>
       </div>
     </div>
@@ -1215,71 +1270,71 @@ section { padding: 100px 32px; }
   <div class="container">
     <div class="sec-header reveal">
       <div class="sec-label">Industries We Serve</div>
-      <h2 class="sec-title" id="industries-heading">Deep Domain Expertise</h2>
-      <p class="sec-sub">We bring industry-specific context to every engagement—ensuring solutions address real-world constraints and opportunities unique to your sector and competitive environment.</p>
+      <h2 class="sec-title" id="industries-heading">Deep Domain Expertise Across Every Growth Vertical</h2>
+      <p class="sec-sub">We bring industry-specific marketing intelligence to every engagement — ensuring solutions address the real acquisition, retention, and monetization challenges unique to your sector.</p>
     </div>
     <div class="ind-grid">
       <div class="ind-card reveal">
         <div class="ind-ico" aria-hidden="true">&#127970;</div>
         <div>
           <h4>Financial Services</h4>
-          <p>Risk modeling, fraud detection, regulatory analytics, algorithmic trading</p>
+          <p>Customer acquisition models, retention analytics, cross-sell intelligence, regulatory-compliant personalization</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-1">
         <div class="ind-ico" aria-hidden="true">&#128138;</div>
         <div>
           <h4>Healthcare &amp; Life Sciences</h4>
-          <p>Clinical analytics, patient outcomes, operational efficiency, drug discovery</p>
+          <p>Patient journey analytics, HCP engagement modeling, compliant segmentation, outcomes-based attribution</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-2">
         <div class="ind-ico" aria-hidden="true">&#128722;</div>
         <div>
           <h4>Retail &amp; E-Commerce</h4>
-          <p>Demand forecasting, personalization, supply chain, customer analytics</p>
+          <p>Customer lifetime value optimization, purchase propensity, abandoned cart intelligence, loyalty segmentation</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-1">
         <div class="ind-ico" aria-hidden="true">&#128679;</div>
         <div>
           <h4>Manufacturing &amp; Operations</h4>
-          <p>Predictive maintenance, process optimization, IoT analytics, quality control</p>
+          <p>Dealer/distributor analytics, B2B demand generation, account scoring, market penetration modeling</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-2">
         <div class="ind-ico" aria-hidden="true">&#128640;</div>
         <div>
           <h4>Technology &amp; SaaS</h4>
-          <p>Product analytics, growth metrics, churn modeling, LTV optimization</p>
+          <p>Product-led growth analytics, churn modeling, expansion revenue intelligence, trial-to-paid conversion</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-3">
         <div class="ind-ico" aria-hidden="true">&#127968;</div>
         <div>
           <h4>Real Estate &amp; PropTech</h4>
-          <p>Market intelligence, valuation models, portfolio analytics, AVM systems</p>
+          <p>Buyer intent modeling, market intelligence, lead scoring, digital campaign attribution</p>
         </div>
       </div>
       <div class="ind-card reveal">
         <div class="ind-ico" aria-hidden="true">&#9889;</div>
         <div>
           <h4>Energy &amp; Utilities</h4>
-          <p>Demand forecasting, grid optimization, sustainability analytics, ESG reporting</p>
+          <p>Customer engagement analytics, retention modeling, sustainability campaign performance, ESG communications</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-1">
         <div class="ind-ico" aria-hidden="true">&#127979;</div>
         <div>
           <h4>Education &amp; EdTech</h4>
-          <p>Learning analytics, student outcomes, adaptive platforms, institutional data</p>
+          <p>Enrollment funnel analytics, student acquisition intelligence, engagement scoring, retention campaigns</p>
         </div>
       </div>
       <div class="ind-card reveal reveal-delay-2">
         <div class="ind-ico" aria-hidden="true">&#128241;</div>
         <div>
           <h4>Media &amp; Entertainment</h4>
-          <p>Audience intelligence, content recommendation, ad optimization, streaming analytics</p>
+          <p>Audience monetization, subscriber retention, content personalization, ad revenue optimization</p>
         </div>
       </div>
     </div>
@@ -1291,8 +1346,8 @@ section { padding: 100px 32px; }
   <div class="container">
     <div class="sec-header reveal">
       <div class="sec-label">Client Voices</div>
-      <h2 class="sec-title" id="testimonials-heading">What Our Partners Say</h2>
-      <p class="sec-sub">We measure success not by deliverables, but by the business outcomes we create alongside our clients.</p>
+      <h2 class="sec-title" id="testimonials-heading">Results Our Partners Speak To</h2>
+      <p class="sec-sub">We measure success not by deliverables — but by the revenue, growth, and competitive advantage we create alongside our clients.</p>
     </div>
     <div class="testimonials-grid">
 
@@ -1301,7 +1356,7 @@ section { padding: 100px 32px; }
           <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
         </div>
         <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">Apex didn't just build us a dashboard—they rebuilt how our leadership team thinks about data. Within six months, we had cut forecasting error by 40% and had our first AI-powered pricing engine in production. The ROI was undeniable.</p>
+        <p class="testimonial-text">Apex rebuilt how our marketing team thinks about customers entirely. Their segmentation models identified three audience cohorts we had never monetized — within six months, those segments alone drove a 40% lift in campaign conversion and our first AI-powered personalization engine in production.</p>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#F1C6D3,#C96B87);" aria-hidden="true">SC</div>
           <div>
@@ -1316,12 +1371,12 @@ section { padding: 100px 32px; }
           <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
         </div>
         <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">What sets Apex apart is that they speak both languages—they can sit in a board meeting and articulate strategy, then turn around and architect the data platform to make it real. We went from zero ML capability to production models in 14 weeks.</p>
+        <p class="testimonial-text">What sets Apex apart is that they speak both languages — they can align with your CMO on growth strategy, then turn around and architect the data models to make it real. We went from zero marketing intelligence capability to production-grade lead scoring in 14 weeks. Pipeline quality transformed overnight.</p>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#F59E0B,#D97706);" aria-hidden="true">MR</div>
           <div>
             <div class="author-name">Marcus Rivera</div>
-            <div class="author-title">VP of Operations, HealthTech Scale-Up</div>
+            <div class="author-title">VP Growth, HealthTech Scale-Up</div>
           </div>
         </div>
       </div>
@@ -1331,7 +1386,7 @@ section { padding: 100px 32px; }
           <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
         </div>
         <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">We engaged Apex to help us evaluate our GenAI readiness. They delivered a comprehensive roadmap, identified three immediate high-value use cases, and stayed with us through deployment. Three months later, we'd automated 30% of our manual data workflows.</p>
+        <p class="testimonial-text">We engaged Apex to overhaul our customer segmentation and attribution. They delivered a comprehensive roadmap, built our first RFM model, and stayed with us through full deployment. Three months later, CAC was down 31% and our best-fit customer cohort had doubled in size.</p>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#10B981,#059669);" aria-hidden="true">AB</div>
           <div>
@@ -1351,6 +1406,7 @@ section { padding: 100px 32px; }
     <span class="sec-label">Technology Ecosystem</span>
     <div class="tech-badges" role="list">
       <span class="tbadge" role="listitem">Python</span>
+      <span class="tbadge" role="listitem">R</span>
       <span class="tbadge" role="listitem">Apache Spark</span>
       <span class="tbadge" role="listitem">dbt</span>
       <span class="tbadge" role="listitem">Snowflake</span>
@@ -1359,6 +1415,16 @@ section { padding: 100px 32px; }
       <span class="tbadge" role="listitem">AWS</span>
       <span class="tbadge" role="listitem">Google Cloud</span>
       <span class="tbadge" role="listitem">Azure</span>
+      <span class="tbadge" role="listitem">Salesforce</span>
+      <span class="tbadge" role="listitem">HubSpot</span>
+      <span class="tbadge" role="listitem">Marketo</span>
+      <span class="tbadge" role="listitem">Segment</span>
+      <span class="tbadge" role="listitem">mParticle</span>
+      <span class="tbadge" role="listitem">Amplitude</span>
+      <span class="tbadge" role="listitem">Mixpanel</span>
+      <span class="tbadge" role="listitem">Braze</span>
+      <span class="tbadge" role="listitem">Klaviyo</span>
+      <span class="tbadge" role="listitem">GA4</span>
       <span class="tbadge" role="listitem">Tableau</span>
       <span class="tbadge" role="listitem">Power BI</span>
       <span class="tbadge" role="listitem">Looker</span>
@@ -1368,8 +1434,9 @@ section { padding: 100px 32px; }
       <span class="tbadge" role="listitem">LangChain</span>
       <span class="tbadge" role="listitem">Apache Airflow</span>
       <span class="tbadge" role="listitem">Kafka</span>
-      <span class="tbadge" role="listitem">dbt Cloud</span>
       <span class="tbadge" role="listitem">Vertex AI</span>
+      <span class="tbadge" role="listitem">Meta Ads API</span>
+      <span class="tbadge" role="listitem">Google Ads API</span>
     </div>
   </div>
 </div>
@@ -1390,7 +1457,17 @@ section { padding: 100px 32px; }
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer">
-          <p>We partner with a broad range of organizations—from mid-to-large enterprises navigating complex data transformations, to growth-stage startups building their first data infrastructure. We work across Financial Services, Healthcare, Technology, Retail, Manufacturing, Energy, and more. If your challenge involves data, analytics, or AI, we can help.</p>
+          <p>We partner with CMOs, marketing directors, founders, and growth leaders across a broad range of organizations — from mid-to-large enterprises optimizing marketing spend at scale, to growth-stage startups building their first customer intelligence infrastructure. If your challenge involves customers, data, or growth, we can help.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          How is this different from a traditional marketing agency?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Traditional agencies focus on creative execution and media buying. We focus on the intelligence layer underneath — the segmentation models, attribution frameworks, and predictive systems that make every campaign smarter and every dollar more accountable. We make your existing agency more effective, or replace the need for one entirely.</p>
         </div>
       </div>
 
@@ -1400,27 +1477,17 @@ section { padding: 100px 32px; }
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer">
-          <p>Timelines depend on scope and complexity. Strategic assessments and data audits typically run 4–8 weeks. End-to-end platform builds and AI deployments range from 12–24 weeks. We also offer ongoing advisory retainers for organizations that want continuous strategic support. We'll scope accurately during our initial discovery call.</p>
+          <p>Marketing audits and segmentation assessments typically run 4–6 weeks. Full attribution framework builds and AI personalization deployments range from 10–20 weeks. We also offer ongoing advisory retainers for organizations that want continuous marketing intelligence support. We'll scope accurately on our discovery call.</p>
         </div>
       </div>
 
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false">
-          Do you work with organizations that have limited data infrastructure?
+          Do you integrate with our existing MarTech stack?
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer">
-          <p>Absolutely. Many of our most impactful engagements start from ground zero. We assess your current state honestly, identify quick wins, and design a pragmatic roadmap that builds capability incrementally—so you're never overwhelmed, and every step delivers value. We meet you where you are, not where we wish you were.</p>
-        </div>
-      </div>
-
-      <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          What makes Apex different from traditional consulting firms?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>We execute, not just advise. Traditional consulting firms often deliver strategy decks and move on—leaving your team to figure out implementation. We stay through deployment and optimization, owning outcomes alongside you. We're also AI-native by design: modern ML and GenAI tooling is embedded in our process, not bolted on as an afterthought.</p>
+          <p>Yes — always. We work within and around your existing platforms (Salesforce, HubSpot, Segment, GA4, and more) rather than replacing them. Our role is to extract maximum intelligence from the tools you already have, and recommend additions only when the ROI is clear and justified.</p>
         </div>
       </div>
 
@@ -1430,17 +1497,17 @@ section { padding: 100px 32px; }
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer">
-          <p>Against pre-defined, agreed-upon business KPIs—not vanity metrics. Before any engagement begins, we align on what success looks like in measurable, financial terms: revenue impact, cost reduction, error rate improvements, time-to-decision acceleration. We track these throughout and report transparently on progress.</p>
+          <p>Against pre-agreed, financial business KPIs — not impressions, clicks, or vanity metrics. Before any engagement begins, we align on what success looks like in measurable terms: pipeline growth, CAC reduction, LTV improvement, conversion rate uplift. We track and report transparently throughout.</p>
         </div>
       </div>
 
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false">
-          Can you work alongside our existing internal data team?
+          Can you work alongside our internal marketing team?
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer">
-          <p>Yes—and this is often the most effective model. We integrate with your internal team as a senior extension: setting direction, handling specialized work, and upskilling your team in the process. We're not here to replace internal capability; we're here to accelerate and amplify it.</p>
+          <p>Yes — and this is often our most effective model. We integrate as a senior extension of your team: setting intelligence strategy, building the models, and upskilling your marketers in the process. We're not here to replace internal capability — we're here to give it an unfair advantage.</p>
         </div>
       </div>
 
@@ -1453,8 +1520,8 @@ section { padding: 100px 32px; }
   <div class="contact-inner">
     <div class="contact-info reveal">
       <div class="sec-label">Get in Touch</div>
-      <h2 id="contact-heading">Let's Build Something<br>Extraordinary Together</h2>
-      <p>Whether you're looking to modernize your data infrastructure, deploy AI at scale, launch a GenAI capability, or simply clarify your data strategy—we're ready to help you move forward with confidence.</p>
+      <h2 id="contact-heading">Let's Build Your Marketing Intelligence Advantage</h2>
+      <p>Whether you're looking to understand your customers more precisely, attribute marketing spend more accurately, deploy AI-powered personalization, or simply clarify your growth strategy — we're ready to help you move forward with confidence.</p>
       <div class="c-methods">
         <a href="mailto:ezequiel@apexdata.cloud" class="c-method" onclick="gtag('event','click',{event_category:'Contact',event_label:'Email'})">
           <div class="c-ico" aria-hidden="true">&#9993;&#65039;</div>
@@ -1463,24 +1530,10 @@ section { padding: 100px 32px; }
             <div class="c-val">ezequiel@apexdata.cloud</div>
           </div>
         </a>
-        <a href="tel:+13057788223" class="c-method" onclick="gtag('event','click',{event_category:'Contact',event_label:'Phone'})">
-          <div class="c-ico" aria-hidden="true">&#128222;</div>
-          <div>
-            <div class="c-lbl">Phone (US)</div>
-            <div class="c-val">+1 305 778 8223</div>
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/company/apexdatacloud" class="c-method" target="_blank" rel="noopener noreferrer" onclick="gtag('event','click',{event_category:'Contact',event_label:'LinkedIn'})">
-          <div class="c-ico" aria-hidden="true">&#128101;</div>
-          <div>
-            <div class="c-lbl">LinkedIn</div>
-            <div class="c-val">Apex Data Cloud</div>
-          </div>
-        </a>
       </div>
       <div class="c-guarantee">
         <div class="c-guarantee-ico" aria-hidden="true">&#9989;</div>
-        <p><strong>We respond within one business day.</strong> Every inquiry is reviewed personally—no automated responses, no sales handoffs. You'll speak directly with a senior advisor.</p>
+        <p><strong>We respond within one business day.</strong> Every inquiry is reviewed personally — no automated responses, no sales handoffs. You'll speak directly with a senior advisor.</p>
       </div>
     </div>
 
@@ -1501,7 +1554,7 @@ section { padding: 100px 32px; }
           </div>
           <div class="fg">
             <label for="email">Work Email</label>
-            <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="work email">
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email">
           </div>
           <div class="fg">
             <label for="company">Company</label>
@@ -1511,10 +1564,13 @@ section { padding: 100px 32px; }
             <label for="interest">Area of Interest</label>
             <select id="interest" name="interest">
               <option value="" disabled selected>Select a service...</option>
-              <option>Strategic Analytics &amp; Predictive Intelligence</option>
+              <option>Customer Segmentation &amp; Audience Intelligence</option>
+              <option>Marketing Analytics &amp; Attribution</option>
+              <option>AI-Powered Personalization</option>
+              <option>Demand Generation &amp; Growth Analytics</option>
               <option>AI &amp; Machine Learning Advisory</option>
               <option>Generative AI &amp; LLM Strategy</option>
-              <option>Business, Data &amp; Digital Strategy</option>
+              <option>Data &amp; MarTech Strategy</option>
               <option>Cloud &amp; Data Platform Architecture</option>
               <option>Data Governance &amp; Compliance</option>
               <option>General Inquiry</option>
@@ -1541,14 +1597,11 @@ section { padding: 100px 32px; }
   <div class="footer-top">
     <div class="f-brand">
       <div class="f-brand-row">
-        <img src="apex_logo.PNG" alt="Apex Data Cloud" width="30" height="30">
-        <span class="f-brand-name">Apex Data Cloud</span>
+        <img src="apex_logo.PNG" alt="Apex Data &amp; Marketing Cloud" width="30" height="30">
+        <span class="f-brand-name">Apex Data &amp; Marketing Cloud</span>
       </div>
-      <p class="f-brand-desc">AI & Data Strategy Consulting — helping executives and founders turn complex data into decisive competitive advantage.</p>
-      <div class="f-social" aria-label="Social media links">
-        <a href="https://www.linkedin.com/company/apexdatacloud" class="f-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          in
-        </a>
+      <p class="f-brand-desc">AI-Powered Marketing Intelligence — helping CMOs, founders, and growth leaders turn customer data into measurable revenue and sustainable competitive advantage.</p>
+      <div class="f-social" aria-label="Contact">
         <a href="mailto:ezequiel@apexdata.cloud" class="f-social-link" aria-label="Email us">
           &#9993;
         </a>
@@ -1557,12 +1610,12 @@ section { padding: 100px 32px; }
     <div class="f-col">
       <h5>Services</h5>
       <ul role="list">
-        <li><a href="#services">Strategic Analytics</a></li>
+        <li><a href="#services">Customer Segmentation</a></li>
+        <li><a href="#services">Marketing Analytics</a></li>
+        <li><a href="#services">AI Personalization</a></li>
+        <li><a href="#services">Demand Generation</a></li>
         <li><a href="#services">AI &amp; ML Advisory</a></li>
-        <li><a href="#services">Generative AI</a></li>
         <li><a href="#services">Data Strategy</a></li>
-        <li><a href="#services">Cloud Platform</a></li>
-        <li><a href="#services">Data Governance</a></li>
       </ul>
     </div>
     <div class="f-col">
@@ -1578,13 +1631,11 @@ section { padding: 100px 32px; }
       <h5>Contact</h5>
       <ul role="list">
         <li><a href="mailto:ezequiel@apexdata.cloud">ezequiel@apexdata.cloud</a></li>
-        <li><a href="tel:+13057788223">+1 305 778 8223</a></li>
-        <li><a href="https://www.linkedin.com/company/apexdatacloud" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
-    <div class="f-copy">&copy; 2026 Apex Data Cloud. All rights reserved.</div>
+    <div class="f-copy">&copy; 2026 Apex Data &amp; Marketing Cloud. All rights reserved.</div>
     <div class="f-bottom-links">
       <a href="#services">Services</a>
       <a href="#approach">Approach</a>
@@ -1681,8 +1732,9 @@ section { padding: 100px 32px; }
   var countersAnimated = false;
 
   function animateCounter(el) {
-    var target = parseInt(el.getAttribute('data-target'), 10);
+    var target = parseFloat(el.getAttribute('data-target'));
     var suffix = el.getAttribute('data-suffix') || '';
+    var decimals = parseInt(el.getAttribute('data-decimal') || '0', 10);
     var duration = 1800;
     var start = performance.now();
 
@@ -1690,8 +1742,8 @@ section { padding: 100px 32px; }
       var elapsed = now - start;
       var progress = Math.min(elapsed / duration, 1);
       var ease = 1 - Math.pow(1 - progress, 3);
-      var current = Math.round(ease * target);
-      el.textContent = current + suffix;
+      var current = ease * target;
+      el.textContent = (decimals > 0 ? current.toFixed(decimals) : Math.round(current)) + suffix;
       if (progress < 1) requestAnimationFrame(update);
     }
     requestAnimationFrame(update);

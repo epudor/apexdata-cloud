@@ -1,0 +1,20 @@
+title: "Apex Data & Marketing Cloud"
+description: "AI-Powered Marketing Intelligence Consulting — We help CMOs, founders, and growth teams turn customer data into measurable revenue using AI, customer segmentation, marketing analytics, and predictive intelligence."
+url: "https://apexdata.cloud"
+baseurl: ""
+author: "Apex Data & Marketing Cloud"
+email: "ezequiel@apexdata.cloud"
+lang: en-US
+timezone: America/New_York
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/apex_logo.PNG"
+      twitter:
+        card: summary_large_image
