@@ -1,0 +1,48 @@
+<footer class="footer" role="contentinfo">
+  <div class="footer-top">
+    <div class="f-brand">
+      <div class="f-brand-row">
+        <img src="/apex_logo.PNG" alt="Apex Data Cloud" width="30" height="30">
+        <span class="f-brand-name">Apex Data Cloud</span>
+      </div>
+      <p class="f-brand-desc">AI, data analytics, and machine learning consulting — helping companies in Orlando, Central Florida, and nationwide turn data into measurable revenue and durable competitive advantage.</p>
+      <div class="f-social" aria-label="Contact">
+        <a href="mailto:{{ site.email }}" class="f-social-link" aria-label="Email Apex Data Cloud">&#9993;</a>
+        <a href="{{ site.company.sameAs[0] }}" class="f-social-link" aria-label="Apex Data Cloud on LinkedIn" rel="noopener" target="_blank">in</a>
+      </div>
+    </div>
+    <div class="f-col">
+      <h5>Services</h5>
+      <ul role="list">
+        {% for item in site.data.navigation.footer_services %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5>Industries</h5>
+      <ul role="list">
+        {% for item in site.data.navigation.footer_industries %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5>Company</h5>
+      <ul role="list">
+        {% for item in site.data.navigation.footer_company %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="f-copy">&copy; {{ site.time | date: "%Y" }} Apex Data Cloud. All rights reserved. &nbsp;|&nbsp; Orlando &amp; Central Florida &middot; Serving clients nationwide.</div>
+    <div class="f-bottom-links">
+      <a href="/services/">Services</a>
+      <a href="/resources/">Resources</a>
+      <a href="/contact/">Contact</a>
+      <a href="mailto:{{ site.email }}">Email Us</a>
+    </div>
+  </div>
+</footer>

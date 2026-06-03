@@ -1,0 +1,43 @@
+<div class="form-card" id="assessmentForm">
+  <form action="https://formspree.io/f/xqedrddj" method="POST" id="aForm" novalidate>
+    <input type="hidden" name="assessment" value="{{ include.name }}">
+    <input type="hidden" name="_subject" value="New {{ include.name }} request">
+    <div class="form-row">
+      <div class="field"><label for="a_first">First name</label><input type="text" id="a_first" name="first_name" placeholder="Jane" required autocomplete="given-name"></div>
+      <div class="field"><label for="a_last">Last name</label><input type="text" id="a_last" name="last_name" placeholder="Smith" required autocomplete="family-name"></div>
+    </div>
+    <div class="field"><label for="a_email">Work email</label><input type="email" id="a_email" name="email" placeholder="jane@company.com" required autocomplete="email"></div>
+    <div class="field"><label for="a_company">Company</label><input type="text" id="a_company" name="company" placeholder="Company name" autocomplete="organization"></div>
+    <div class="field">
+      <label for="a_stage">Where are you today?</label>
+      <select id="a_stage" name="current_stage">
+        <option value="">Select…</option>
+        <option>Just exploring</option>
+        <option>Have data, no clear strategy</option>
+        <option>Some projects underway</option>
+        <option>Scaling / need expert help</option>
+      </select>
+    </div>
+    <div class="field"><label for="a_goal">What's the #1 outcome you're after?</label><textarea id="a_goal" name="primary_goal" rows="3" placeholder="e.g. reduce churn, deploy a RAG assistant, cut cloud costs…"></textarea></div>
+    <button type="submit" class="cf-submit" id="aSubmit">Get My {{ include.name }} &#8594;</button>
+    <p style="font-size:12px;color:var(--text);margin-top:12px;text-align:center;">No obligation. We'll review your inputs and send a prioritized action plan within one business day.</p>
+  </form>
+  <div class="form-success" id="aSuccess">
+    <h3 style="font-family:'Space Grotesk',sans-serif;color:var(--white);margin-bottom:10px;">Thank you — request received.</h3>
+    <p style="color:var(--text-2);">We'll review your {{ include.name }} inputs and send your prioritized action plan within one business day. For anything urgent, email <a href="mailto:ezequiel@apexdata.cloud">ezequiel@apexdata.cloud</a>.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var f=document.getElementById('aForm'), s=document.getElementById('aSuccess'), b=document.getElementById('aSubmit');
+  if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault(); b.textContent='Sending…'; b.disabled=true;
+    fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+      .then(function(r){ if(r.ok){ f.style.display='none'; s.style.display='block'; if(typeof gtag!=='undefined'){gtag('event','generate_lead',{event_category:'Assessment',event_label:'{{ include.name }}'});} }
+        else { b.textContent='Try again'; b.disabled=false; alert('There was an error. Please email ezequiel@apexdata.cloud'); } })
+      .catch(function(){ b.textContent='Try again'; b.disabled=false; alert('There was an error. Please email ezequiel@apexdata.cloud'); });
+  });
+})();
+</script>

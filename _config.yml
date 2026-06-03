@@ -1,0 +1,89 @@
+# ============================================================
+#  Apex Data Cloud — Jekyll configuration
+# ============================================================
+title: "Apex Data Cloud"
+tagline: "AI, Data Analytics & Machine Learning Consulting"
+description: "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm. We help companies turn data into measurable revenue with generative AI, RAG systems, AI agents, data engineering, and marketing analytics."
+url: "https://apexdata.cloud"
+baseurl: ""
+author: "Apex Data Cloud"
+email: "ezequiel@apexdata.cloud"
+lang: en-US
+timezone: America/New_York
+logo: "/apex_logo.PNG"
+
+# Entity / NAP (service-area business — no public street address)
+company:
+  legal_name: "Apex Data Cloud"
+  founder: "Ezequiel Pudor"
+  area_served:
+    - "Orlando, Florida"
+    - "Central Florida"
+    - "Florida"
+    - "United States"
+  geo_lat: 28.5384
+  geo_lng: -81.3789
+  sameAs:
+    - "https://www.linkedin.com/company/apex-data-cloud"
+
+# ------------------------------------------------------------
+#  Build
+# ------------------------------------------------------------
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# jekyll-feed
+feed:
+  path: /feed.xml
+  posts_limit: 30
+
+# ------------------------------------------------------------
+#  Collections
+# ------------------------------------------------------------
+collections:
+  glossary:
+    output: true
+    permalink: /glossary/:name/
+  comparisons:
+    output: true
+    permalink: /comparisons/:name/
+  case_studies:
+    output: true
+    permalink: /resources/case-studies/:name/
+
+# ------------------------------------------------------------
+#  Front-matter defaults
+# ------------------------------------------------------------
+defaults:
+  - scope: { path: "" }
+    values:
+      image: "/apex_logo.PNG"
+      layout: "page"
+      twitter:
+        card: summary_large_image
+  - scope: { path: "", type: "posts" }
+    values:
+      layout: "post"
+  - scope: { path: "", type: "glossary" }
+    values:
+      layout: "glossary"
+  - scope: { path: "", type: "comparisons" }
+    values:
+      layout: "page"
+  - scope: { path: "", type: "case_studies" }
+    values:
+      layout: "case-study"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CONTENT-STRATEGY.md
+  - IMPLEMENTATION-README.md
+  - README.md
+  - vendor

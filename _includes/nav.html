@@ -1,0 +1,24 @@
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Navigation menu">
+  {% for item in site.data.navigation.main %}
+  <a href="{{ item.url }}" class="mobile-link">{{ item.title }}</a>
+  {% endfor %}
+  <a href="/contact/" class="m-cta mobile-link">Get in Touch</a>
+</div>
+
+<nav class="nav" id="mainNav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" aria-label="Apex Data Cloud home">
+      <img src="/apex_logo.PNG" alt="Apex Data Cloud logo" width="34" height="34">
+      <span class="nav-logo-text">Apex <span>Data</span> Cloud</span>
+    </a>
+    <ul class="nav-links" role="list">
+      {% for item in site.data.navigation.main %}
+      <li><a href="{{ item.url }}"{% if page.url contains item.url and item.url != "/" %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+      <li><a href="/contact/" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>

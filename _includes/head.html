@@ -1,0 +1,67 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{%- assign page_title = page.title | default: site.title -%}
+{%- assign page_desc = page.description | default: site.description -%}
+{%- assign page_image = page.image | default: site.logo | prepend: site.url -%}
+{%- capture canonical_url -%}{{ site.url }}{{ page.url | replace:'index.html','' }}{%- endcapture -%}
+
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="{{ canonical_url }}">
+
+<!-- Crawl directives (traditional + AI engines) -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="{{ site.author }}">
+{%- if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}">
+{%- endif %}
+<meta name="geo.region" content="US-FL">
+<meta name="geo.placename" content="Orlando, Florida">
+<meta name="geo.position" content="{{ site.company.geo_lat }};{{ site.company.geo_lng }}">
+<meta name="ICBM" content="{{ site.company.geo_lat }}, {{ site.company.geo_lng }}">
+
+<!-- Open Graph -->
+<meta property="og:type" content="{{ page.og_type | default: 'website' }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:image" content="{{ page_image }}">
+<meta property="og:image:alt" content="{{ page.image_alt | default: 'Apex Data Cloud — AI, Data Analytics & Machine Learning Consulting' }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_desc }}">
+<meta name="twitter:image" content="{{ page_image }}">
+<meta name="twitter:image:alt" content="Apex Data Cloud">
+
+<!-- Feeds -->
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} — Insights" href="{{ site.url }}/feed.xml">
+
+<!-- Icons -->
+<link rel="icon" type="image/png" href="/apex_logo.PNG">
+<link rel="apple-touch-icon" href="/apex_logo.PNG">
+
+<!-- Performance: preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Structured data: sitewide entity graph -->
+{% include schema-organization.html %}
+<!-- Structured data: per-page (breadcrumb / service / FAQ / article) -->
+{% include schema-page.html %}
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CHDEWQ4X2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6CHDEWQ4X2', { page_title: document.title, page_location: window.location.href });
+</script>

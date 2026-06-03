@@ -1,0 +1,38 @@
+---
+permalink: /llms.txt
+layout: null
+sitemap: false
+---
+# Apex Data Cloud
+
+> Apex Data Cloud is an AI, data analytics, and machine learning consulting firm based in Orlando, Florida, serving clients across Central Florida, Florida, and nationwide. We help companies turn data into measurable revenue through AI, generative AI, RAG systems, AI agents, data engineering, cloud architecture, customer segmentation, and marketing analytics.
+
+Contact: ezequiel@apexdata.cloud
+Location: Orlando, Florida, United States (service-area business; remote nationwide)
+
+## Services
+- [AI Consulting]({{ site.url }}/services/ai-consulting/): Strategy, use-case discovery, and deployment of high-ROI AI.
+- [Machine Learning Consulting]({{ site.url }}/services/machine-learning-consulting/): Predictive models, MLOps, production ML.
+- [Generative AI Consulting]({{ site.url }}/services/generative-ai-consulting/): LLM strategy, fine-tuning, GenAI applications.
+- [RAG Development]({{ site.url }}/services/rag-development/): Retrieval-augmented generation systems grounded in your data.
+- [AI Agent Development]({{ site.url }}/services/ai-agent-development/): Tool-using agents that complete multi-step workflows.
+- [Data Engineering]({{ site.url }}/services/data-engineering/): Pipelines, lakehouses, and real-time data.
+- [Data Governance]({{ site.url }}/services/data-governance/): Quality, lineage, consent, GDPR/CCPA.
+- [Cloud Architecture]({{ site.url }}/services/cloud-architecture/): Scalable, cost-optimized cloud data platforms.
+- [Customer Segmentation]({{ site.url }}/services/customer-segmentation/): Behavioral, predictive, and lookalike segmentation.
+- [Marketing Analytics]({{ site.url }}/services/marketing-analytics/): Attribution, MMM, and ROI measurement.
+
+## Industries
+- [Healthcare]({{ site.url }}/industries/healthcare/), [Financial Services]({{ site.url }}/industries/financial-services/), [Retail]({{ site.url }}/industries/retail/), [Manufacturing]({{ site.url }}/industries/manufacturing/), [Technology & SaaS]({{ site.url }}/industries/technology/), [Real Estate]({{ site.url }}/industries/real-estate/)
+
+## Locations
+- [Orlando]({{ site.url }}/locations/orlando/), [Central Florida]({{ site.url }}/locations/central-florida/), [Florida]({{ site.url }}/locations/florida/)
+
+## Resources
+- [Blog]({{ site.url }}/resources/blog/), [Case Studies]({{ site.url }}/resources/case-studies/), [Guides]({{ site.url }}/resources/guides/), [Research]({{ site.url }}/resources/research/), [Glossary]({{ site.url }}/glossary/), [Comparisons]({{ site.url }}/comparisons/)
+
+## Free Assessments
+- [AI Readiness Assessment]({{ site.url }}/assessments/ai-readiness-assessment/)
+- [Data Maturity Assessment]({{ site.url }}/assessments/data-maturity-assessment/)
+- [Marketing Analytics Audit]({{ site.url }}/assessments/marketing-analytics-audit/)
+- [Cloud Optimization Assessment]({{ site.url }}/assessments/cloud-optimization-assessment/)

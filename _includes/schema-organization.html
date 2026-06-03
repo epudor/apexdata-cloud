@@ -1,0 +1,115 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "Apex Data Cloud",
+      "alternateName": "Apex Data Cloud — AI & Data Consulting",
+      "url": "{{ site.url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "{{ site.url }}/#logo",
+        "url": "{{ site.url }}/apex_logo.PNG",
+        "width": 400,
+        "height": 400,
+        "caption": "Apex Data Cloud"
+      },
+      "image": { "@id": "{{ site.url }}/#logo" },
+      "description": "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm helping companies turn data into measurable revenue.",
+      "founder": { "@type": "Person", "name": "{{ site.company.founder }}" },
+      "email": "{{ site.email }}",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "{{ site.email }}",
+        "areaServed": "US",
+        "availableLanguage": ["English", "Spanish"]
+      }],
+      "areaServed": [
+        { "@type": "City", "name": "Orlando", "containedInPlace": { "@type": "AdministrativeArea", "name": "Florida" } },
+        { "@type": "AdministrativeArea", "name": "Central Florida" },
+        { "@type": "State", "name": "Florida" },
+        { "@type": "Country", "name": "United States" }
+      ],
+      "sameAs": [
+        {% for s in site.company.sameAs %}"{{ s }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+      ],
+      "knowsAbout": [
+        "Artificial Intelligence Consulting",
+        "Machine Learning Consulting",
+        "Generative AI",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI Agents",
+        "Data Engineering",
+        "Data Governance",
+        "Cloud Architecture",
+        "Customer Segmentation",
+        "Marketing Analytics",
+        "Predictive Analytics",
+        "Business Intelligence"
+      ]
+    },
+    {
+      "@type": ["ProfessionalService", "LocalBusiness"],
+      "@id": "{{ site.url }}/#business",
+      "name": "Apex Data Cloud",
+      "image": { "@id": "{{ site.url }}/#logo" },
+      "logo": "{{ site.url }}/apex_logo.PNG",
+      "url": "{{ site.url }}/",
+      "email": "{{ site.email }}",
+      "parentOrganization": { "@id": "{{ site.url }}/#organization" },
+      "priceRange": "$$$$",
+      "description": "AI, data analytics, and machine learning consulting for companies in Orlando, Central Florida, and nationwide.",
+      "areaServed": [
+        { "@type": "City", "name": "Orlando" },
+        { "@type": "AdministrativeArea", "name": "Central Florida" },
+        { "@type": "State", "name": "Florida" },
+        { "@type": "Country", "name": "United States" }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Orlando",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": {{ site.company.geo_lat }},
+        "longitude": {{ site.company.geo_lng }}
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI, Data & Machine Learning Consulting Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Consulting", "url": "{{ site.url }}/services/ai-consulting/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Machine Learning Consulting", "url": "{{ site.url }}/services/machine-learning-consulting/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Generative AI Consulting", "url": "{{ site.url }}/services/generative-ai-consulting/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "RAG Development", "url": "{{ site.url }}/services/rag-development/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Agent Development", "url": "{{ site.url }}/services/ai-agent-development/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Data Engineering", "url": "{{ site.url }}/services/data-engineering/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Data Governance", "url": "{{ site.url }}/services/data-governance/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cloud Architecture", "url": "{{ site.url }}/services/cloud-architecture/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Customer Segmentation", "url": "{{ site.url }}/services/customer-segmentation/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marketing Analytics", "url": "{{ site.url }}/services/marketing-analytics/" } }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "Apex Data Cloud",
+      "description": "{{ site.description }}",
+      "publisher": { "@id": "{{ site.url }}/#organization" },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": { "@type": "EntryPoint", "urlTemplate": "{{ site.url }}/search/?q={search_term_string}" },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>

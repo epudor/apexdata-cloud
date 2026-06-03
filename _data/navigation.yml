@@ -1,0 +1,45 @@
+# Primary navigation
+main:
+  - title: "Services"
+    url: /services/
+  - title: "Industries"
+    url: /industries/
+  - title: "Locations"
+    url: /locations/
+  - title: "Resources"
+    url: /resources/
+  - title: "Assessments"
+    url: /assessments/
+  - title: "About"
+    url: /about/
+
+# Footer — Services column
+footer_services:
+  - { title: "AI Consulting", url: /services/ai-consulting/ }
+  - { title: "Machine Learning Consulting", url: /services/machine-learning-consulting/ }
+  - { title: "Generative AI Consulting", url: /services/generative-ai-consulting/ }
+  - { title: "RAG Development", url: /services/rag-development/ }
+  - { title: "AI Agent Development", url: /services/ai-agent-development/ }
+  - { title: "Data Engineering", url: /services/data-engineering/ }
+  - { title: "Customer Segmentation", url: /services/customer-segmentation/ }
+  - { title: "Marketing Analytics", url: /services/marketing-analytics/ }
+
+# Footer — Industries column
+footer_industries:
+  - { title: "Healthcare", url: /industries/healthcare/ }
+  - { title: "Financial Services", url: /industries/financial-services/ }
+  - { title: "Retail", url: /industries/retail/ }
+  - { title: "Manufacturing", url: /industries/manufacturing/ }
+  - { title: "Technology", url: /industries/technology/ }
+  - { title: "Real Estate", url: /industries/real-estate/ }
+
+# Footer — Company / Resources column
+footer_company:
+  - { title: "About Apex", url: /about/ }
+  - { title: "Blog & Insights", url: /resources/blog/ }
+  - { title: "Case Studies", url: /resources/case-studies/ }
+  - { title: "Guides", url: /resources/guides/ }
+  - { title: "Glossary", url: /glossary/ }
+  - { title: "AI Readiness Assessment", url: /assessments/ai-readiness-assessment/ }
+  - { title: "Orlando AI Consulting", url: /locations/orlando/ }
+  - { title: "Contact", url: /contact/ }
