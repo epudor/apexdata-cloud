@@ -1,23 +1,25 @@
 ---
 layout: home
-title: "AI, Data Analytics & Machine Learning Consulting | Apex Data Cloud"
-description: "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm. We help companies turn customer data into measurable revenue with generative AI, RAG systems, AI agents, data engineering, and marketing analytics."
+title: "AI, Data & Machine Learning Consulting | Apex Data Cloud"
+description: "Apex Data Cloud helps organizations answer the questions they've never been able to answer — turning data into decisions with AI, machine learning, predictive analytics, RAG systems, and data engineering."
 image: "/apex_logo.PNG"
-keywords: "AI consulting, machine learning consulting, generative AI consulting, data analytics consulting, RAG development, AI agent development, data engineering, marketing analytics, customer segmentation, Orlando AI consulting"
+keywords: "AI consulting, machine learning consulting, generative AI consulting, data analytics consulting, RAG development, AI agent development, data engineering, predictive analytics, customer segmentation, Orlando AI consulting"
 faqs:
-  - q: "What types of organizations do you work with?"
-    a: "We partner with CMOs, marketing directors, founders, and growth leaders across a broad range of organizations — from mid-to-large enterprises optimizing spend at scale, to growth-stage companies building their first customer intelligence infrastructure. If your challenge involves customers, data, or growth, we can help."
-  - q: "How is this different from a traditional marketing agency?"
-    a: "Traditional agencies focus on creative execution and media buying. We focus on the intelligence layer underneath — the data pipelines, segmentation models, attribution frameworks, and AI systems that make every campaign smarter and every dollar more accountable. We make your existing agency more effective, or replace the need for one entirely."
+  - q: "What kinds of questions do you help organizations answer?"
+    a: "The ones buried in your data that no report has ever surfaced: which customers you're about to lose, which decisions are quietly costing you the most, where your next dollar of growth will actually come from, and what to do first. If the answer should exist in your data but doesn't yet, that's our work."
+  - q: "How is this different from a traditional agency or BI tool?"
+    a: "Dashboards and agencies tell you what already happened. We build the intelligence layer underneath — the data pipelines, models, and AI systems that answer forward-looking questions and turn them into decisions you can act on."
   - q: "How long does a typical engagement take?"
-    a: "Audits and segmentation assessments typically run 4–6 weeks. Attribution builds, RAG systems, and AI personalization deployments range from 10–20 weeks. We also offer ongoing advisory retainers. We scope accurately on our discovery call."
-  - q: "Do you integrate with our existing data and MarTech stack?"
-    a: "Yes — always. We work within and around your existing platforms (Salesforce, HubSpot, Segment, GA4, Snowflake, BigQuery, and more) rather than replacing them. We extract maximum value from the tools you already have, and recommend additions only when the ROI is clear."
+    a: "Diagnostic assessments typically run 4–6 weeks. Model builds, attribution frameworks, RAG systems, and AI deployments range from 10–20 weeks. We also offer ongoing advisory retainers, and we scope accurately on our first call."
+  - q: "Do you work within our existing data and tech stack?"
+    a: "Yes — always. We work within and around your existing platforms (Salesforce, HubSpot, Segment, GA4, Snowflake, BigQuery, and more) rather than replacing them. We extract maximum value from what you already have, and recommend additions only when the ROI is clear."
   - q: "How do you measure success?"
-    a: "Against pre-agreed, financial business KPIs — not impressions, clicks, or vanity metrics. Before any engagement begins we align on measurable terms: pipeline growth, CAC reduction, LTV improvement, and conversion rate uplift. We track and report transparently throughout."
+    a: "By the quality of the decisions you can now make. We align on measurable outcomes before any engagement begins — pipeline growth, CAC reduction, LTV improvement, faster time-to-answer — and report transparently throughout."
   - q: "Where is Apex Data Cloud located?"
     a: "Apex Data Cloud is based in Orlando and serves clients across Central Florida, the state of Florida, and nationwide. Engagements run remotely and on-site as needed."
 ---
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Hanken+Grotesk:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================================
@@ -30,46 +32,80 @@ faqs:
 html { scroll-behavior: smooth; }
 
 /* ============================================================
-   DESIGN TOKENS
+   DESIGN TOKENS — "The Unanswered"
    ============================================================ */
 :root {
-  --navy:      #060D1A;
-  --navy-2:    #0A1628;
-  --navy-3:    #112240;
-  --navy-4:    #1a3a6b;
-  --blue:      #F1C6D3;
-  --blue-2:    #EAA0B5;
-  --blue-3:    #F8DDE5;
-  --rose:      #C96B87;
-  --gold:      #F59E0B;
-  --green:     #10B981;
-  --white:     #F8FAFC;
-  --text:      #94A3B8;
-  --text-2:    #CBD5E1;
-  --border:    rgba(241,198,211,0.22);
-  --border-2:  rgba(241,198,211,0.09);
-  --shadow-sm: 0 4px 20px rgba(0,0,0,0.35);
-  --shadow-md: 0 12px 40px rgba(0,0,0,0.45);
-  --shadow-glow: 0 8px 36px rgba(241,198,211,0.28);
+  --ink:      #0E0E11;
+  --ink-2:    #15151A;
+  --ink-3:    #1D1D24;
+  --paper:    #F3EFE6;
+  --paper-2:  #E9E3D6;
+  --dim:      rgba(243,239,230,0.64);
+  --faint:    rgba(243,239,230,0.40);
+  --signal:   #F0B429;
+  --signal-2: #F8CD5C;
+  --signal-soft: rgba(240,180,41,0.12);
+  --clay:     #D98C5F;
+  --line:     rgba(243,239,230,0.13);
+  --line-2:   rgba(243,239,230,0.07);
+  --serif:    'Fraunces', Georgia, 'Times New Roman', serif;
+  --sans:     'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  --mono:     'Spline Sans Mono', ui-monospace, 'SFMono-Regular', monospace;
+  --shadow:   0 30px 80px -40px rgba(0,0,0,0.8);
 }
 
 /* ============================================================
    BASE
    ============================================================ */
 .apex-site {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: var(--navy);
-  color: var(--white);
+  font-family: var(--sans);
+  background: var(--ink);
+  color: var(--paper);
   overflow-x: hidden;
-  line-height: 1.6;
+  line-height: 1.65;
+  font-size: 17px;
+  letter-spacing: 0.005em;
+  position: relative;
+}
+.apex-site::before {
+  /* film grain */
+  content: ""; position: fixed; inset: 0; z-index: 1; pointer-events: none;
+  opacity: 0.045; mix-blend-mode: screen;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.apex-site > * { position: relative; z-index: 2; }
+.container { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+::selection { background: var(--signal); color: var(--ink); }
+
+a { color: inherit; }
+
+/* Section eyebrow / mono label */
+.eyebrow {
+  font-family: var(--mono); font-size: 12px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.28em;
+  color: var(--signal); display: inline-flex; align-items: center; gap: 12px;
+}
+.eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--signal); opacity: 0.7; }
+
+/* Section heading */
+.sec-head { max-width: 760px; margin-bottom: 64px; }
+.sec-head h2 {
+  font-family: var(--serif); font-optical-sizing: auto;
+  font-weight: 340; font-size: clamp(2rem, 4.4vw, 3.3rem);
+  line-height: 1.08; letter-spacing: -0.015em; margin: 22px 0 0;
+}
+.sec-head h2 em { font-style: italic; color: var(--signal-2); font-weight: 380; }
+.sec-head p {
+  color: var(--dim); font-size: 1.18rem; max-width: 640px; margin-top: 22px; line-height: 1.6;
 }
 
 /* ============================================================
-   SCROLL PROGRESS BAR
+   SCROLL PROGRESS
    ============================================================ */
 .scroll-progress {
   position: fixed; top: 0; left: 0; height: 2px; z-index: 9999;
-  background: linear-gradient(90deg, var(--blue), var(--rose), var(--gold));
+  background: linear-gradient(90deg, var(--signal), var(--clay));
   width: 0%; transition: width 0.08s linear;
 }
 
@@ -77,770 +113,460 @@ html { scroll-behavior: smooth; }
    NAVBAR
    ============================================================ */
 .nav {
-  position: fixed; top: 2px; left: 0; right: 0; z-index: 1000;
-  padding: 14px 32px;
-  background: rgba(6,13,26,0.88);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border-bottom: 1px solid var(--border-2);
-  transition: padding 0.3s, background 0.3s;
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  padding: 22px 32px;
+  background: rgba(14,14,17,0);
+  border-bottom: 1px solid transparent;
+  transition: padding 0.35s ease, background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s;
 }
 .nav.scrolled {
-  padding: 10px 32px;
-  background: rgba(6,13,26,0.97);
-  border-bottom-color: var(--border);
+  padding: 13px 32px;
+  background: rgba(14,14,17,0.82);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border-bottom-color: var(--line);
 }
 .nav-inner {
-  max-width: 1200px; margin: 0 auto;
+  max-width: 1180px; margin: 0 auto;
   display: flex; align-items: center; justify-content: space-between;
 }
-.nav-logo {
-  display: flex; align-items: center; gap: 10px; text-decoration: none;
-}
-.nav-logo img { height: 34px; width: auto; }
+.nav-logo { display: flex; align-items: center; gap: 11px; text-decoration: none; }
+.nav-logo img { height: 30px; width: auto; filter: saturate(0.9); }
 .nav-logo-text {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700; font-size: 17px; color: var(--white);
+  font-family: var(--serif); font-weight: 460; font-size: 19px;
+  letter-spacing: -0.01em; color: var(--paper);
 }
-.nav-logo-text span { color: var(--blue-2); }
-.nav-links {
-  display: flex; align-items: center; gap: 28px; list-style: none;
-}
+.nav-logo-text span { font-style: italic; color: var(--signal); }
+.nav-links { display: flex; align-items: center; gap: 30px; list-style: none; }
 .nav-links a {
-  font-size: 14px; font-weight: 500; color: var(--text-2);
-  text-decoration: none; transition: color 0.2s;
+  font-family: var(--mono); font-size: 12.5px; font-weight: 400;
+  text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--dim); text-decoration: none; transition: color 0.2s; position: relative;
 }
-.nav-links a:hover { color: var(--white); }
+.nav-links a:not(.nav-cta)::after {
+  content: ""; position: absolute; left: 0; bottom: -5px; height: 1px; width: 0;
+  background: var(--signal); transition: width 0.28s ease;
+}
+.nav-links a:not(.nav-cta):hover { color: var(--paper); }
+.nav-links a:not(.nav-cta):hover::after { width: 100%; }
 .nav-cta {
-  background: linear-gradient(135deg, var(--blue), var(--rose)) !important;
-  color: #060D1A !important;
-  padding: 9px 22px; border-radius: 8px; font-weight: 700 !important;
-  box-shadow: var(--shadow-glow); transition: all 0.3s;
+  background: var(--signal); color: var(--ink) !important;
+  padding: 9px 18px; border-radius: 2px; font-weight: 500 !important;
+  transition: all 0.25s ease; letter-spacing: 0.1em !important;
 }
-.nav-cta:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 28px rgba(241,198,211,0.48) !important;
-  color: #060D1A !important;
-}
-
-/* Hamburger */
+.nav-cta:hover { background: var(--signal-2); transform: translateY(-1px); }
 .hamburger-btn {
-  display: none; background: none; border: none; cursor: pointer;
-  padding: 6px; flex-direction: column; gap: 5px; z-index: 1100;
+  display: none; flex-direction: column; gap: 5px; background: none;
+  border: 0; cursor: pointer; padding: 6px;
 }
-.hamburger-btn span {
-  display: block; width: 22px; height: 2px; background: var(--white);
-  border-radius: 2px; transition: all 0.3s;
-}
-.hamburger-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger-btn span { width: 24px; height: 1.5px; background: var(--paper); transition: 0.3s; }
+.hamburger-btn.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
 .hamburger-btn.open span:nth-child(2) { opacity: 0; }
-.hamburger-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.hamburger-btn.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
-/* Mobile menu overlay */
+/* Mobile menu */
 .mobile-menu {
-  display: none; position: fixed; inset: 0; z-index: 1050;
-  background: rgba(6,13,26,0.98); backdrop-filter: blur(20px);
-  flex-direction: column; align-items: center; justify-content: center; gap: 36px;
-  opacity: 0; transition: opacity 0.3s;
+  position: fixed; inset: 0; z-index: 999; background: var(--ink-2);
+  flex-direction: column; align-items: flex-start; justify-content: center;
+  gap: 8px; padding: 0 40px; display: none;
 }
-.mobile-menu.active { display: flex; opacity: 1; }
-.mobile-menu a {
-  font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700;
-  color: var(--white); text-decoration: none; transition: color 0.2s;
+.mobile-menu.active { display: flex; }
+.mobile-link {
+  font-family: var(--serif); font-size: 2rem; font-weight: 360; color: var(--paper);
+  text-decoration: none; padding: 8px 0; transition: color 0.2s;
 }
-.mobile-menu a:hover { color: var(--blue-2); }
-.mobile-menu .m-cta {
-  background: linear-gradient(135deg, var(--blue), var(--rose));
-  color: #060D1A !important; padding: 14px 36px; border-radius: 12px;
-  font-size: 20px;
-}
-
-/* ============================================================
-   SCROLL REVEAL ANIMATION
-   ============================================================ */
-.reveal {
-  opacity: 0; transform: translateY(28px);
-  transition: opacity 0.75s cubic-bezier(.22,1,.36,1), transform 0.75s cubic-bezier(.22,1,.36,1);
-}
-.reveal.visible { opacity: 1; transform: none; }
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
-.reveal-delay-4 { transition-delay: 0.4s; }
-.reveal-delay-5 { transition-delay: 0.5s; }
+.mobile-link:hover { color: var(--signal); }
+.mobile-link.m-cta { color: var(--signal); font-style: italic; margin-top: 16px; }
 
 /* ============================================================
    HERO
    ============================================================ */
 .hero {
-  min-height: 100vh;
-  display: flex; align-items: center;
-  padding: 140px 32px 100px;
-  position: relative; overflow: hidden;
-  background: var(--navy);
+  position: relative; min-height: 100vh; display: flex; align-items: center;
+  padding: 160px 0 100px; overflow: hidden;
 }
-.hero-grid-bg {
-  position: absolute; inset: 0; pointer-events: none;
-  background-image:
-    linear-gradient(rgba(241,198,211,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(241,198,211,0.03) 1px, transparent 1px);
-  background-size: 64px 64px;
-  animation: gridShift 30s linear infinite;
+.hero-glow {
+  position: absolute; top: -10%; left: 50%; transform: translateX(-50%);
+  width: 1100px; height: 760px; pointer-events: none;
+  background: radial-gradient(ellipse at center, rgba(240,180,41,0.16), rgba(240,180,41,0.04) 38%, transparent 66%);
+  filter: blur(8px);
 }
-@keyframes gridShift {
-  0% { background-position: 0 0; }
-  100% { background-position: 64px 64px; }
+.hero-ghost {
+  position: absolute; right: -4%; top: 50%; transform: translateY(-50%);
+  font-family: var(--serif); font-weight: 300; font-style: italic;
+  font-size: 62vh; line-height: 0.7; color: var(--paper);
+  opacity: 0.025; pointer-events: none; user-select: none;
 }
-.hero-glow-1 {
-  position: absolute; top: -5%; right: -5%; width: 800px; height: 800px;
-  background: radial-gradient(circle, rgba(241,198,211,0.09) 0%, transparent 65%);
-  pointer-events: none; animation: breathe 8s ease-in-out infinite;
-}
-.hero-glow-2 {
-  position: absolute; bottom: -15%; left: -8%; width: 600px; height: 600px;
-  background: radial-gradient(circle, rgba(245,158,11,0.055) 0%, transparent 65%);
-  pointer-events: none; animation: breathe 10s ease-in-out infinite reverse;
-}
-.hero-glow-3 {
-  position: absolute; top: 40%; left: 30%; width: 400px; height: 400px;
-  background: radial-gradient(circle, rgba(201,107,135,0.04) 0%, transparent 65%);
-  pointer-events: none; animation: breathe 12s ease-in-out infinite;
-}
-@keyframes breathe {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.8; }
-}
-.hero-inner {
-  max-width: 1200px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 72px; align-items: center; width: 100%; position: relative; z-index: 1;
-}
-
-/* Hero left */
+.hero-rule { position: absolute; left: 0; right: 0; height: 1px; background: var(--line-2); }
+.hero-inner { position: relative; max-width: 1180px; margin: 0 auto; padding: 0 32px; width: 100%; }
 .hero-badge {
-  display: inline-flex; align-items: center; gap: 7px;
-  background: rgba(241,198,211,0.08); border: 1px solid rgba(241,198,211,0.28);
-  border-radius: 50px; padding: 5px 16px;
-  font-size: 11px; font-weight: 600; letter-spacing: 1.5px;
-  text-transform: uppercase; color: var(--blue-2); margin-bottom: 22px;
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--mono); font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.24em; color: var(--dim);
+  border: 1px solid var(--line); border-radius: 100px; padding: 8px 16px;
+  margin-bottom: 38px;
 }
 .live-dot {
-  width: 7px; height: 7px; border-radius: 50%; background: var(--green);
-  animation: pulse-dot 2.2s infinite;
+  width: 7px; height: 7px; border-radius: 50%; background: var(--signal);
+  box-shadow: 0 0 0 0 rgba(240,180,41,0.6); animation: pulse 2.4s infinite;
 }
-@keyframes pulse-dot {
-  0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(16,185,129,0.5); }
-  50% { opacity: 0.7; transform: scale(0.85); box-shadow: 0 0 0 6px rgba(16,185,129,0); }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(240,180,41,0.5); }
+  70% { box-shadow: 0 0 0 9px rgba(240,180,41,0); }
+  100% { box-shadow: 0 0 0 0 rgba(240,180,41,0); }
 }
 .hero h1 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(36px, 4.8vw, 62px);
-  font-weight: 800; line-height: 1.07; letter-spacing: -2px;
-  color: var(--white); margin-bottom: 22px;
+  font-family: var(--serif); font-optical-sizing: auto;
+  font-weight: 330; font-size: clamp(2.6rem, 6.4vw, 5.4rem);
+  line-height: 1.02; letter-spacing: -0.025em; max-width: 16ch;
 }
-.hero h1 .hl {
-  background: linear-gradient(130deg, var(--blue) 0%, var(--blue-2) 50%, var(--rose) 100%);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+.hero h1 em { font-style: italic; color: var(--signal-2); font-weight: 360; }
+.hero-sub {
+  margin-top: 30px; font-size: 1.28rem; line-height: 1.6; color: var(--dim);
+  max-width: 54ch;
 }
-.hero p {
-  font-size: 17px; line-height: 1.78; color: var(--text-2);
-  margin-bottom: 40px; max-width: 500px;
-}
-.hero-cta { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
 
+/* rotating questions */
+.qrotator {
+  margin-top: 46px; padding-left: 26px; border-left: 2px solid var(--signal);
+  min-height: 4.2em; display: flex; flex-direction: column; justify-content: center;
+}
+.qrotator-label {
+  font-family: var(--mono); font-size: 11.5px; text-transform: uppercase;
+  letter-spacing: 0.26em; color: var(--faint); margin-bottom: 12px;
+}
+.qrotator-q {
+  font-family: var(--serif); font-style: italic; font-weight: 340;
+  font-size: clamp(1.25rem, 2.7vw, 1.9rem); line-height: 1.3; color: var(--paper);
+  opacity: 0; transform: translateY(8px); transition: opacity 0.6s, transform 0.6s;
+  position: absolute;
+}
+.qrotator-track { position: relative; min-height: 2.6em; width: 100%; }
+.qrotator-q.active { opacity: 1; transform: translateY(0); position: relative; }
+
+.hero-cta { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 50px; }
 .btn-primary {
-  display: inline-flex; align-items: center; gap: 9px;
-  background: linear-gradient(135deg, var(--blue), var(--rose));
-  color: #060D1A; padding: 15px 32px; border-radius: 10px;
-  font-size: 15px; font-weight: 700; text-decoration: none;
-  border: none; cursor: pointer; transition: all 0.3s;
-  box-shadow: var(--shadow-glow); white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--signal); color: var(--ink);
+  font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em;
+  padding: 16px 30px; border-radius: 2px; text-decoration: none; font-weight: 500;
+  transition: all 0.28s ease; border: 1px solid var(--signal);
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 42px rgba(241,198,211,0.48); }
+.btn-primary:hover { background: var(--signal-2); transform: translateY(-2px); box-shadow: 0 16px 40px -16px rgba(240,180,41,0.55); }
 .btn-ghost {
-  display: inline-flex; align-items: center; gap: 9px;
-  background: transparent; color: var(--text-2);
-  padding: 15px 28px; border-radius: 10px; font-size: 15px; font-weight: 500;
-  text-decoration: none; border: 1px solid rgba(255,255,255,0.12); transition: all 0.3s;
-  white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 10px;
+  border: 1px solid var(--line); color: var(--paper);
+  font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em;
+  padding: 16px 30px; border-radius: 2px; text-decoration: none; transition: all 0.28s ease;
 }
-.btn-ghost:hover { color: var(--white); border-color: rgba(255,255,255,0.3); background: rgba(255,255,255,0.05); }
-
-/* Hero right panel */
-.hero-panel {
-  background: rgba(17,34,64,0.7);
-  border: 1px solid var(--border);
-  border-radius: 22px; padding: 30px;
-  backdrop-filter: blur(16px); position: relative;
-  box-shadow: var(--shadow-md);
-}
-.hero-panel::before {
-  content: ''; position: absolute; top: -1px; left: 22%; right: 22%;
-  height: 1px; background: linear-gradient(90deg, transparent, var(--blue), var(--rose), transparent);
-}
-.panel-label {
-  font-size: 10px; font-weight: 700; letter-spacing: 2.5px;
-  text-transform: uppercase; color: var(--text); margin-bottom: 20px;
-}
-.panel-metrics {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px;
-}
-.pm-card {
-  background: rgba(6,13,26,0.65); border: 1px solid var(--border-2);
-  border-radius: 12px; padding: 14px; text-align: center;
-  transition: border-color 0.2s;
-}
-.pm-card:hover { border-color: var(--border); }
-.pm-val {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 14px; font-weight: 700; color: var(--blue-2); margin-bottom: 3px;
-}
-.pm-lbl { font-size: 11px; color: var(--text); }
-.panel-pills { display: flex; flex-direction: column; gap: 8px; }
-.ppill {
-  display: flex; align-items: center; gap: 12px;
-  background: rgba(6,13,26,0.5); border: 1px solid var(--border-2);
-  border-radius: 10px; padding: 11px 14px;
-  font-size: 13px; color: var(--text-2); transition: all 0.25s;
-}
-.ppill:hover { border-color: var(--border); color: var(--white); background: rgba(241,198,211,0.04); }
-.ppill-icon {
-  width: 32px; height: 32px; border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 16px; flex-shrink: 0;
-}
-.ppill-arrow { margin-left: auto; color: var(--text); font-size: 12px; }
+.btn-ghost:hover { border-color: var(--paper); background: rgba(243,239,230,0.04); }
 
 /* ============================================================
-   TRUST BAR
+   MARQUEE / TRUST
    ============================================================ */
-.trust-bar {
-  padding: 22px 32px;
-  border-top: 1px solid var(--border-2); border-bottom: 1px solid var(--border-2);
-  background: rgba(17,34,64,0.4);
-}
+.trust-bar { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 26px 0; overflow: hidden; }
 .trust-bar-inner {
-  max-width: 1200px; margin: 0 auto;
-  display: flex; align-items: center; justify-content: center;
-  gap: 48px; flex-wrap: wrap;
+  max-width: 1180px; margin: 0 auto; padding: 0 32px;
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 22px 36px;
 }
 .t-item {
-  display: flex; align-items: center; gap: 8px;
-  font-size: 13px; font-weight: 500; color: var(--text);
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--mono); font-size: 12.5px; text-transform: uppercase;
+  letter-spacing: 0.14em; color: var(--dim);
 }
-.t-item svg { color: var(--green); flex-shrink: 0; }
+.t-item svg { color: var(--signal); flex-shrink: 0; }
 
 /* ============================================================
-   COMMON SECTION STYLES
+   PREMISE (inverted paper section)
    ============================================================ */
-section { padding: 100px 32px; }
-.container { max-width: 1200px; margin: 0 auto; }
-.sec-header { text-align: center; margin-bottom: 64px; }
-.sec-label {
-  display: inline-block; font-size: 11px; font-weight: 700;
-  letter-spacing: 2.5px; text-transform: uppercase;
-  color: var(--blue-2); margin-bottom: 14px;
+.premise { background: var(--paper); color: var(--ink); padding: 130px 0; }
+.premise-inner { max-width: 1180px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; }
+.premise .eyebrow { color: var(--clay); }
+.premise .eyebrow::before { background: var(--clay); }
+.premise h2 {
+  font-family: var(--serif); font-weight: 340; font-size: clamp(2rem, 4vw, 3.1rem);
+  line-height: 1.1; letter-spacing: -0.015em; margin-top: 22px; color: var(--ink);
 }
-.sec-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(28px, 3.5vw, 46px);
-  font-weight: 700; letter-spacing: -1px;
-  color: var(--white); margin-bottom: 18px; line-height: 1.18;
+.premise h2 em { font-style: italic; color: var(--clay); }
+.premise-body p { font-size: 1.18rem; line-height: 1.7; color: #46433c; margin-top: 22px; }
+.premise-body p strong { color: var(--ink); font-weight: 600; }
+.premise-list { list-style: none; }
+.premise-list li {
+  font-family: var(--serif); font-style: italic; font-size: 1.45rem; line-height: 1.4;
+  color: var(--ink); padding: 24px 0; border-top: 1px solid rgba(14,14,17,0.12);
+  display: flex; gap: 18px; align-items: baseline;
 }
-.sec-sub {
-  font-size: 17px; color: var(--text-2);
-  max-width: 580px; margin: 0 auto; line-height: 1.78;
-}
+.premise-list li:last-child { border-bottom: 1px solid rgba(14,14,17,0.12); }
+.premise-list .qnum { font-family: var(--mono); font-style: normal; font-size: 12px; color: var(--clay); letter-spacing: 0.1em; flex-shrink: 0; padding-top: 6px; }
 
 /* ============================================================
-   IMPACT STATS
+   STATS
    ============================================================ */
-.stats-section {
-  padding: 80px 32px;
-  background: linear-gradient(180deg, var(--navy-3) 0%, var(--navy-2) 100%);
-  border-top: 1px solid var(--border-2); border-bottom: 1px solid var(--border-2);
-}
-.stats-grid {
-  max-width: 1000px; margin: 0 auto;
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; text-align: center;
-}
-.stat-item { padding: 8px; }
+.stats-section { padding: 110px 0; }
+.stats-grid { max-width: 1180px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+.stat-item { padding: 12px 30px; border-left: 1px solid var(--line); }
+.stat-item:first-child { border-left: 0; padding-left: 0; }
 .stat-num {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(36px, 4vw, 56px); font-weight: 800; line-height: 1;
-  background: linear-gradient(135deg, var(--blue), var(--blue-2));
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-  margin-bottom: 10px; display: block;
+  font-family: var(--serif); font-weight: 320; font-size: clamp(2.8rem, 5.2vw, 4rem);
+  line-height: 1; color: var(--signal-2); letter-spacing: -0.02em; display: block;
 }
-.stat-label { font-size: 15px; font-weight: 600; color: var(--white); margin-bottom: 6px; }
-.stat-sublabel { font-size: 13px; color: var(--text); line-height: 1.4; }
-.stat-divider {
-  width: 1px; background: var(--border-2);
-  display: none;
-}
+.stat-label { font-size: 1.02rem; color: var(--paper); margin-top: 16px; font-weight: 500; }
+.stat-sublabel { font-family: var(--mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--faint); margin-top: 8px; }
 
 /* ============================================================
-   SERVICES
+   DISCIPLINES (services as questions)
    ============================================================ */
-.services-section { background: var(--navy); }
-.services-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
+.services-section { padding: 50px 0 130px; }
+.disc-list { border-top: 1px solid var(--line); }
+.disc {
+  display: grid; grid-template-columns: 90px 1fr auto; gap: 40px; align-items: start;
+  padding: 46px 0; border-bottom: 1px solid var(--line);
+  text-decoration: none; color: inherit; transition: background 0.3s ease, padding 0.3s ease;
+  position: relative;
 }
-.services-primary-grid {
-  display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-bottom: 0;
+.disc::before {
+  content: ""; position: absolute; left: -32px; right: -32px; top: 0; bottom: 0;
+  background: var(--signal-soft); opacity: 0; transition: opacity 0.3s; z-index: -1; border-radius: 4px;
 }
-.capabilities-subheader {
-  text-align: center; margin: 72px 0 48px;
-  padding-top: 64px; border-top: 1px solid var(--border-2);
+.disc:hover::before { opacity: 1; }
+.disc:hover { padding-left: 12px; padding-right: 12px; }
+.disc-num { font-family: var(--mono); font-size: 13px; color: var(--signal); letter-spacing: 0.1em; padding-top: 10px; }
+.disc-q {
+  font-family: var(--serif); font-style: italic; font-weight: 340;
+  font-size: clamp(1.35rem, 2.8vw, 2.05rem); line-height: 1.25; color: var(--paper); letter-spacing: -0.01em;
 }
-.capabilities-subheader .sec-label { margin-bottom: 14px; display: block; }
-.svc-card {
-  background: var(--navy-3); border: 1px solid var(--border-2);
-  border-radius: 20px; padding: 36px 28px;
-  transition: all 0.35s; position: relative; overflow: hidden;
-  display: flex; flex-direction: column;
-}
-.svc-card::after {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-  background: linear-gradient(90deg, transparent, var(--blue), var(--rose), transparent);
-  transform: scaleX(0); transform-origin: center; transition: transform 0.4s;
-}
-.svc-card:hover { border-color: var(--border); transform: translateY(-6px); box-shadow: 0 24px 56px rgba(241,198,211,0.10); }
-.svc-card:hover::after { transform: scaleX(1); }
-.svc-icon {
-  width: 54px; height: 54px; border-radius: 15px;
-  background: rgba(241,198,211,0.1); border: 1px solid rgba(241,198,211,0.2);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 24px; margin-bottom: 22px; flex-shrink: 0;
-  transition: background 0.3s;
-}
-.svc-card:hover .svc-icon { background: rgba(241,198,211,0.18); }
-.svc-new-badge {
-  position: absolute; top: 20px; right: 20px;
-  background: linear-gradient(135deg, var(--gold), #D97706);
-  color: #060D1A; font-size: 9px; font-weight: 800; letter-spacing: 1.2px;
-  text-transform: uppercase; padding: 3px 9px; border-radius: 50px;
-}
-.svc-card h3 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 18px; font-weight: 700; color: var(--white); margin-bottom: 12px;
-  line-height: 1.3;
-}
-.svc-card p { font-size: 14px; color: var(--text-2); line-height: 1.75; margin-bottom: 22px; flex: 1; }
-.svc-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 20px; }
+.disc-name { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--signal); margin-top: 14px; }
+.disc-desc { color: var(--dim); margin-top: 14px; max-width: 60ch; font-size: 1.05rem; line-height: 1.6; }
+.disc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .tag {
-  font-size: 11px; font-weight: 500; color: var(--blue-3);
-  background: rgba(241,198,211,0.08); border: 1px solid rgba(241,198,211,0.15);
-  border-radius: 50px; padding: 3px 12px; white-space: nowrap;
+  font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--dim); border: 1px solid var(--line); border-radius: 100px; padding: 5px 12px;
 }
-.svc-link {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 13px; font-weight: 600; color: var(--blue-2);
-  text-decoration: none; transition: gap 0.2s;
-  margin-top: auto;
+.disc-arrow {
+  font-family: var(--serif); font-size: 2rem; color: var(--faint); align-self: center;
+  transition: transform 0.3s, color 0.3s;
 }
-.svc-link:hover { gap: 10px; }
+.disc:hover .disc-arrow { color: var(--signal); transform: translate(6px, -6px); }
 
 /* ============================================================
-   MID-PAGE CTA BANNER
+   CTA BANNER
    ============================================================ */
-.cta-banner {
-  padding: 88px 32px; position: relative; overflow: hidden;
-  background: linear-gradient(135deg,
-    rgba(241,198,211,0.06) 0%,
-    rgba(201,107,135,0.06) 50%,
-    rgba(245,158,11,0.04) 100%);
-  border-top: 1px solid var(--border-2); border-bottom: 1px solid var(--border-2);
-}
-.cta-banner::before {
-  content: ''; position: absolute; top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px; height: 400px;
-  background: radial-gradient(ellipse, rgba(241,198,211,0.05) 0%, transparent 70%);
-  pointer-events: none;
-}
+.cta-banner { padding: 0 0 130px; }
 .cta-banner-inner {
-  max-width: 700px; margin: 0 auto;
-  text-align: center; position: relative; z-index: 1;
+  max-width: 1180px; margin: 0 auto;
+  background: linear-gradient(135deg, var(--ink-2), var(--ink-3));
+  border: 1px solid var(--line); border-radius: 6px; padding: 80px 60px; text-align: center;
+  position: relative; overflow: hidden;
+}
+.cta-banner-inner::after {
+  content: "?"; position: absolute; right: 4%; bottom: -30%; font-family: var(--serif);
+  font-style: italic; font-size: 24rem; color: var(--signal); opacity: 0.05; line-height: 1;
 }
 .cta-banner h2 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(26px, 3vw, 42px); font-weight: 800;
-  color: var(--white); margin-bottom: 16px; letter-spacing: -1px;
-  line-height: 1.15;
+  font-family: var(--serif); font-weight: 340; font-size: clamp(1.9rem, 4vw, 3rem);
+  line-height: 1.12; margin: 20px auto 0; max-width: 20ch; letter-spacing: -0.015em;
 }
-.cta-banner p {
-  font-size: 17px; color: var(--text-2); line-height: 1.75; margin-bottom: 36px;
-}
-.cta-banner-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.cta-banner h2 em { font-style: italic; color: var(--signal-2); }
+.cta-banner p { color: var(--dim); max-width: 56ch; margin: 22px auto 0; font-size: 1.12rem; }
+.cta-banner-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 40px; }
 
 /* ============================================================
    APPROACH
    ============================================================ */
-.approach-section { background: linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%); }
-.steps-row {
-  display: grid; grid-template-columns: repeat(4, 1fr);
-  gap: 0; position: relative;
-}
-.steps-row::before {
-  content: ''; position: absolute; top: 34px; left: 12.5%; right: 12.5%;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border), var(--border), transparent);
-}
-.step { text-align: center; padding: 0 20px; }
-.step-num {
-  width: 68px; height: 68px; border-radius: 50%;
-  background: var(--navy-3); border: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: center; margin: 0 auto 22px;
-  font-family: 'Space Grotesk', sans-serif; font-size: 19px; font-weight: 700;
-  color: var(--blue-2); position: relative; z-index: 1;
-  transition: all 0.3s;
-}
-.step:hover .step-num {
-  background: rgba(241,198,211,0.1);
-  border-color: var(--blue-2);
-  box-shadow: 0 0 24px rgba(241,198,211,0.18);
-}
-.step h4 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 15px; font-weight: 700; color: var(--white); margin-bottom: 10px;
-}
-.step p { font-size: 13px; color: var(--text); line-height: 1.7; }
+.approach-section { padding: 0 0 130px; }
+.steps-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.step { background: var(--ink); padding: 44px 34px; transition: background 0.3s; }
+.step:hover { background: var(--ink-2); }
+.step-num { font-family: var(--mono); font-size: 13px; color: var(--signal); letter-spacing: 0.1em; }
+.step h4 { font-family: var(--serif); font-weight: 420; font-size: 1.5rem; margin: 18px 0 12px; letter-spacing: -0.01em; }
+.step p { color: var(--dim); font-size: 0.98rem; line-height: 1.6; }
 
 /* ============================================================
-   WHY APEX
+   WHY
    ============================================================ */
-.why-section { background: var(--navy-2); }
-.why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.why-content h2 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(26px, 2.8vw, 42px); font-weight: 700; letter-spacing: -0.8px;
-  color: var(--white); margin-bottom: 16px; line-height: 1.18;
-}
-.why-content > p { font-size: 16px; color: var(--text-2); line-height: 1.78; margin-bottom: 36px; }
-.diffs { display: flex; flex-direction: column; gap: 16px; }
-.diff {
-  display: flex; gap: 16px; align-items: flex-start;
-  padding: 18px 20px; border-radius: 14px;
-  border: 1px solid var(--border-2); background: rgba(6,13,26,0.3);
-  transition: all 0.25s;
-}
-.diff:hover { border-color: var(--border); background: rgba(241,198,211,0.03); }
-.diff-ico {
-  width: 42px; height: 42px; border-radius: 11px;
-  background: rgba(241,198,211,0.1); border: 1px solid rgba(241,198,211,0.2);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 19px; flex-shrink: 0; margin-top: 1px;
-}
-.diff h4 { font-size: 14px; font-weight: 600; color: var(--white); margin-bottom: 5px; }
-.diff p { font-size: 13px; color: var(--text); line-height: 1.65; }
-.why-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.why-card {
-  background: var(--navy-3); border: 1px solid var(--border-2);
-  border-radius: 18px; padding: 28px; text-align: center; transition: all 0.3s;
-}
-.why-card:hover { border-color: var(--border); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
-.why-card:first-child { grid-column: 1 / -1; }
-.wc-val {
-  font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 700;
-  background: linear-gradient(135deg, var(--blue), var(--blue-2));
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-  margin-bottom: 8px;
-}
-.wc-lbl { font-size: 13px; color: var(--text); line-height: 1.55; }
+.why-section { padding: 0 0 130px; }
+.why-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 80px; align-items: start; }
+.why-content h2 { font-family: var(--serif); font-weight: 340; font-size: clamp(1.9rem, 3.8vw, 2.9rem); line-height: 1.12; margin: 22px 0 22px; letter-spacing: -0.015em; }
+.why-content h2 em { font-style: italic; color: var(--signal-2); }
+.why-content > p { color: var(--dim); font-size: 1.12rem; line-height: 1.65; }
+.diffs { margin-top: 40px; display: grid; gap: 4px; }
+.diff { display: grid; grid-template-columns: auto 1fr; gap: 20px; padding: 24px 0; border-top: 1px solid var(--line); }
+.diff-ico { font-family: var(--mono); color: var(--signal); font-size: 13px; letter-spacing: 0.1em; padding-top: 4px; }
+.diff h4 { font-size: 1.12rem; font-weight: 600; margin-bottom: 6px; }
+.diff p { color: var(--dim); font-size: 0.98rem; line-height: 1.55; }
+.why-cards { display: grid; gap: 16px; position: sticky; top: 110px; }
+.why-card { border: 1px solid var(--line); border-radius: 4px; padding: 30px; transition: border-color 0.3s, transform 0.3s; }
+.why-card:hover { border-color: var(--signal); transform: translateY(-3px); }
+.wc-val { font-family: var(--serif); font-style: italic; font-size: 1.35rem; color: var(--signal-2); line-height: 1.25; }
+.wc-lbl { color: var(--dim); font-size: 0.98rem; margin-top: 12px; line-height: 1.55; }
 
 /* ============================================================
    INDUSTRIES
    ============================================================ */
-.industries-section { background: var(--navy); }
-.ind-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.ind-card {
-  background: var(--navy-3); border: 1px solid var(--border-2); border-radius: 16px;
-  padding: 22px 18px; display: flex; align-items: center; gap: 14px;
-  transition: all 0.3s; text-decoration: none;
-}
-.ind-card:hover { border-color: var(--border); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
-.ind-ico { font-size: 28px; flex-shrink: 0; }
-.ind-card h4 { font-size: 14px; font-weight: 600; color: var(--white); margin-bottom: 4px; }
-.ind-card p { font-size: 12px; color: var(--text); line-height: 1.5; }
+.industries-section { padding: 0 0 130px; }
+.ind-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.ind-card { background: var(--ink); padding: 36px 32px; transition: background 0.3s; text-decoration: none; color: inherit; display: block; }
+.ind-card:hover { background: var(--ink-2); }
+.ind-num { font-family: var(--mono); font-size: 12px; color: var(--signal); letter-spacing: 0.1em; }
+.ind-card h4 { font-family: var(--serif); font-weight: 420; font-size: 1.32rem; margin: 16px 0 12px; letter-spacing: -0.01em; }
+.ind-q { font-family: var(--serif); font-style: italic; color: var(--dim); font-size: 1.02rem; line-height: 1.45; }
 
 /* ============================================================
    TESTIMONIALS
    ============================================================ */
-.testimonials-section { background: var(--navy-2); }
-.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-.testimonial-card {
-  background: var(--navy-3); border: 1px solid var(--border-2); border-radius: 20px;
-  padding: 32px 26px; position: relative; transition: all 0.35s;
-  display: flex; flex-direction: column;
-}
-.testimonial-card:hover { border-color: var(--border); transform: translateY(-5px); box-shadow: 0 20px 48px rgba(241,198,211,0.09); }
-.testimonial-card::before {
-  content: ''; position: absolute; top: 0; left: 20%; right: 20%; height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border), transparent);
-}
-.stars {
-  display: flex; gap: 2px; margin-bottom: 18px;
-}
-.stars span { color: var(--gold); font-size: 14px; }
-.quote-icon {
-  font-size: 44px; line-height: 1; color: var(--blue); opacity: 0.35;
-  font-family: Georgia, serif; margin-bottom: 10px; display: block; margin-top: -10px;
-}
-.testimonial-text {
-  font-size: 14px; color: var(--text-2); line-height: 1.8;
-  margin-bottom: 24px; font-style: italic; flex: 1;
-}
-.testimonial-author { display: flex; align-items: center; gap: 14px; }
-.author-avatar {
-  width: 44px; height: 44px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 800; font-size: 16px; color: var(--navy); flex-shrink: 0;
-}
-.author-name { font-size: 14px; font-weight: 600; color: var(--white); margin-bottom: 3px; }
-.author-title { font-size: 12px; color: var(--text); }
+.testimonials-section { padding: 0 0 130px; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.testimonial-card { border: 1px solid var(--line); border-radius: 6px; padding: 36px 32px; position: relative; transition: border-color 0.3s, transform 0.3s; background: var(--ink-2); }
+.testimonial-card:hover { border-color: var(--line); transform: translateY(-4px); box-shadow: var(--shadow); }
+.quote-icon { font-family: var(--serif); font-style: italic; font-size: 4rem; color: var(--signal); opacity: 0.5; line-height: 0.5; display: block; height: 28px; }
+.testimonial-text { font-family: var(--serif); font-weight: 340; font-size: 1.12rem; line-height: 1.55; color: var(--paper); margin: 14px 0 26px; }
+.testimonial-author { display: flex; align-items: center; gap: 14px; border-top: 1px solid var(--line); padding-top: 22px; }
+.author-avatar { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 13px; font-weight: 500; color: var(--ink); flex-shrink: 0; }
+.author-name { font-weight: 600; font-size: 0.98rem; }
+.author-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--faint); margin-top: 3px; }
 
 /* ============================================================
-   TECH STACK
+   TECH
    ============================================================ */
-.tech-section {
-  padding: 60px 32px;
-  border-top: 1px solid var(--border-2); border-bottom: 1px solid var(--border-2);
-  background: rgba(17,34,64,0.35);
-}
-.tech-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
-.tech-inner .sec-label { margin-bottom: 26px; display: block; }
-.tech-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.tech-section { padding: 0 0 130px; }
+.tech-inner { max-width: 1180px; margin: 0 auto; padding: 0 32px; text-align: center; }
+.tech-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 40px; }
 .tbadge {
-  background: var(--navy-3); border: 1px solid var(--border-2); border-radius: 8px;
-  padding: 8px 20px; font-size: 13px; font-weight: 500;
-  color: var(--text-2); transition: all 0.25s; cursor: default;
+  font-family: var(--mono); font-size: 12px; color: var(--dim);
+  border: 1px solid var(--line); border-radius: 100px; padding: 8px 16px; transition: all 0.25s;
 }
-.tbadge:hover { border-color: var(--border); color: var(--white); background: rgba(241,198,211,0.06); }
+.tbadge:hover { color: var(--signal); border-color: var(--signal); }
 
 /* ============================================================
    FAQ
    ============================================================ */
-.faq-section { background: var(--navy); }
-.faq-list { max-width: 800px; margin: 0 auto; }
-.faq-item {
-  border: 1px solid var(--border-2); border-radius: 14px; margin-bottom: 12px;
-  overflow: hidden; transition: border-color 0.25s;
-  background: rgba(17,34,64,0.4);
-}
-.faq-item.open { border-color: var(--border); background: rgba(241,198,211,0.025); }
+.faq-section { padding: 0 0 130px; }
+.faq-list { max-width: 880px; }
+.faq-item { border-bottom: 1px solid var(--line); }
 .faq-question {
-  width: 100%; display: flex; justify-content: space-between; align-items: center;
-  padding: 20px 24px; background: none; border: none; cursor: pointer;
-  font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 500;
-  color: var(--white); text-align: left; gap: 16px;
+  width: 100%; background: none; border: 0; cursor: pointer; text-align: left;
+  display: flex; justify-content: space-between; align-items: center; gap: 24px;
+  padding: 30px 0; color: var(--paper); font-family: var(--serif); font-weight: 380;
+  font-size: clamp(1.15rem, 2vw, 1.45rem); letter-spacing: -0.01em; line-height: 1.3;
 }
-.faq-question:hover { color: var(--blue-3); }
-.faq-icon {
-  width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 18px; color: var(--blue-2); flex-shrink: 0;
-  transition: transform 0.35s, border-color 0.25s;
-}
-.faq-item.open .faq-icon { transform: rotate(45deg); border-color: var(--blue); }
-.faq-answer {
-  max-height: 0; overflow: hidden;
-  transition: max-height 0.4s cubic-bezier(.4,0,.2,1);
-  padding: 0 24px;
-}
-.faq-item.open .faq-answer { max-height: 300px; padding: 0 24px 22px; }
-.faq-answer p { font-size: 14px; color: var(--text-2); line-height: 1.78; }
+.faq-question:hover { color: var(--signal-2); }
+.faq-icon { font-family: var(--sans); font-size: 1.6rem; color: var(--signal); flex-shrink: 0; transition: transform 0.3s; font-weight: 300; }
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+.faq-item.open .faq-answer { max-height: 340px; }
+.faq-answer p { color: var(--dim); padding-bottom: 30px; font-size: 1.05rem; line-height: 1.65; max-width: 70ch; }
+.faq-answer a { color: var(--signal); }
 
 /* ============================================================
    CONTACT
    ============================================================ */
-.contact-section {
-  background: var(--navy); position: relative; overflow: hidden;
-}
-.contact-section::before {
-  content: ''; position: absolute; top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px; height: 450px;
-  background: radial-gradient(ellipse, rgba(241,198,211,0.055) 0%, transparent 70%);
-  pointer-events: none;
-}
+.contact-section { padding: 0 0 130px; }
 .contact-inner {
-  max-width: 1100px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 72px; align-items: start; position: relative; z-index: 1;
+  max-width: 1180px; margin: 0 auto; padding: 80px 60px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 70px;
+  background: var(--paper); color: var(--ink); border-radius: 8px;
 }
-.contact-info h2 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(26px, 2.8vw, 42px); font-weight: 700; letter-spacing: -0.8px;
-  color: var(--white); margin-bottom: 16px; line-height: 1.18;
-}
-.contact-info > p { font-size: 16px; color: var(--text-2); line-height: 1.78; margin-bottom: 36px; }
-.c-methods { display: flex; flex-direction: column; gap: 14px; margin-bottom: 32px; }
-.c-method {
-  display: flex; align-items: center; gap: 14px;
-  text-decoration: none; color: var(--text-2); transition: all 0.2s;
-  padding: 14px 18px; border-radius: 14px; border: 1px solid var(--border-2);
-  background: rgba(6,13,26,0.3);
-}
-.c-method:hover { color: var(--white); border-color: var(--border); background: rgba(241,198,211,0.05); }
-.c-ico {
-  width: 44px; height: 44px; border-radius: 11px;
-  background: rgba(241,198,211,0.1); border: 1px solid rgba(241,198,211,0.2);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 19px; flex-shrink: 0;
-}
-.c-lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 1.2px; color: var(--text); margin-bottom: 3px; }
-.c-val { font-size: 15px; font-weight: 500; }
-.c-guarantee {
-  display: flex; align-items: flex-start; gap: 12px; padding: 16px 18px;
-  background: rgba(16,185,129,0.07); border: 1px solid rgba(16,185,129,0.2);
-  border-radius: 12px;
-}
-.c-guarantee-ico { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
-.c-guarantee p { font-size: 13px; color: var(--text-2); line-height: 1.65; }
-.c-guarantee strong { color: var(--white); }
+.contact-info .eyebrow { color: var(--clay); }
+.contact-info .eyebrow::before { background: var(--clay); }
+.contact-info h2 { font-family: var(--serif); font-weight: 340; font-size: clamp(1.9rem, 3.6vw, 2.7rem); line-height: 1.12; margin: 20px 0 20px; letter-spacing: -0.015em; color: var(--ink); }
+.contact-info h2 em { font-style: italic; color: var(--clay); }
+.contact-info > p { color: #46433c; font-size: 1.12rem; line-height: 1.65; }
+.c-methods { margin-top: 30px; }
+.c-method { display: flex; align-items: center; gap: 16px; text-decoration: none; color: var(--ink); padding: 16px 0; border-top: 1px solid rgba(14,14,17,0.12); transition: gap 0.25s; }
+.c-method:hover { gap: 22px; }
+.c-ico { font-size: 1.3rem; }
+.c-lbl { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--clay); }
+.c-val { font-weight: 600; font-size: 1.05rem; }
+.c-guarantee { display: flex; gap: 14px; margin-top: 30px; padding: 20px; background: rgba(14,14,17,0.04); border-radius: 6px; }
+.c-guarantee-ico { color: #1a7d4b; flex-shrink: 0; font-size: 1.1rem; }
+.c-guarantee p { font-size: 0.94rem; color: #46433c; line-height: 1.55; }
+.c-guarantee strong { color: var(--ink); }
 
-/* Contact form */
-.c-form-box {
-  background: var(--navy-3); border: 1px solid var(--border-2);
-  border-radius: 22px; padding: 36px 32px;
-  box-shadow: var(--shadow-md);
-}
-.c-form-box::before {
-  content: ''; display: block; margin: -36px -32px 30px;
-  height: 2px; border-radius: 22px 22px 0 0;
-  background: linear-gradient(90deg, transparent, var(--blue), var(--rose), transparent);
-}
-.cf-head {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 20px; font-weight: 700; color: var(--white); margin-bottom: 6px;
-}
-.cf-sub { font-size: 13px; color: var(--text); margin-bottom: 28px; }
-.fg { margin-bottom: 14px; }
-.fg label {
-  display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.6px;
-  text-transform: uppercase; color: var(--text-2); margin-bottom: 7px;
-}
+.c-form-box { background: var(--ink); border-radius: 8px; padding: 40px; }
+.cf-head { font-family: var(--serif); font-weight: 400; font-size: 1.5rem; color: var(--paper); }
+.cf-sub { color: var(--dim); font-size: 0.98rem; margin: 8px 0 26px; }
+.fg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.fg { margin-bottom: 16px; }
+.fg label { display: block; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--faint); margin-bottom: 8px; }
 .fg input, .fg select, .fg textarea {
-  width: 100%; background: rgba(6,13,26,0.75); border: 1px solid rgba(255,255,255,0.09);
-  border-radius: 10px; padding: 12px 16px; font-size: 14px; color: var(--white);
-  font-family: 'Inter', sans-serif; outline: none; resize: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 100%; background: var(--ink-3); border: 1px solid var(--line); border-radius: 3px;
+  padding: 13px 14px; color: var(--paper); font-family: var(--sans); font-size: 0.98rem; transition: border-color 0.2s;
 }
-.fg input:focus, .fg select:focus, .fg textarea:focus {
-  border-color: rgba(241,198,211,0.45);
-  box-shadow: 0 0 0 3px rgba(241,198,211,0.08);
-}
-.fg input::placeholder, .fg textarea::placeholder { color: rgba(148,163,184,0.5); }
-.fg select option { background: var(--navy-2); color: var(--white); }
-.fg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.fg input:focus, .fg select:focus, .fg textarea:focus { outline: none; border-color: var(--signal); }
+.fg textarea { resize: vertical; }
+.fg select { appearance: none; cursor: pointer; }
 .cf-submit {
-  width: 100%; background: linear-gradient(135deg, var(--blue), var(--rose));
-  color: #060D1A; border: none; border-radius: 10px; padding: 14px;
-  font-size: 15px; font-weight: 700; cursor: pointer;
-  font-family: 'Inter', sans-serif; transition: all 0.3s;
-  box-shadow: var(--shadow-glow); margin-top: 6px; letter-spacing: 0.2px;
+  width: 100%; background: var(--signal); color: var(--ink); border: 0; border-radius: 3px;
+  padding: 16px; font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em;
+  font-weight: 500; cursor: pointer; transition: background 0.25s; margin-top: 6px;
 }
-.cf-submit:hover { transform: translateY(-2px); box-shadow: 0 10px 38px rgba(241,198,211,0.44); }
-.cf-submit:active { transform: none; }
-.form-success {
-  display: none; text-align: center; padding: 28px 20px;
-}
-.form-success-icon { font-size: 44px; margin-bottom: 14px; }
-.form-success h3 {
-  font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700;
-  color: var(--white); margin-bottom: 10px;
-}
-.form-success p { font-size: 14px; color: var(--text-2); }
+.cf-submit:hover { background: var(--signal-2); }
+.cf-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+.form-success { display: none; text-align: center; padding: 40px 0; }
+.form-success-icon { width: 60px; height: 60px; margin: 0 auto 20px; border-radius: 50%; background: var(--signal-soft); color: var(--signal); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; }
+.form-success h3 { font-family: var(--serif); font-weight: 400; font-size: 1.5rem; color: var(--paper); }
+.form-success p { color: var(--dim); margin-top: 10px; }
 
 /* ============================================================
    FOOTER
    ============================================================ */
-.footer {
-  background: var(--navy);
-  border-top: 1px solid var(--border-2);
-  padding: 60px 32px 32px;
-}
-.footer-top {
-  max-width: 1200px; margin: 0 auto;
-  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 48px; margin-bottom: 48px;
-}
-.f-brand { }
-.f-brand-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
-.f-brand-row img { height: 30px; }
-.f-brand-name {
-  font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; color: var(--white);
-}
-.f-brand-desc { font-size: 13px; color: var(--text); line-height: 1.7; max-width: 280px; margin-bottom: 20px; }
-.f-social { display: flex; gap: 10px; }
-.f-social-link {
-  width: 36px; height: 36px; border-radius: 9px;
-  border: 1px solid var(--border-2); background: rgba(255,255,255,0.04);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 15px; text-decoration: none; transition: all 0.2s; color: var(--text);
-}
-.f-social-link:hover { border-color: var(--border); color: var(--white); background: rgba(241,198,211,0.08); }
-.f-col h5 {
-  font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
-  text-transform: uppercase; color: var(--text); margin-bottom: 18px;
-}
-.f-col ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
-.f-col ul a { font-size: 13px; color: var(--text-2); text-decoration: none; transition: color 0.2s; }
-.f-col ul a:hover { color: var(--white); }
-.footer-bottom {
-  max-width: 1200px; margin: 0 auto;
-  display: flex; align-items: center; justify-content: space-between;
-  flex-wrap: wrap; gap: 16px;
-  padding-top: 28px; border-top: 1px solid var(--border-2);
-}
-.f-copy { font-size: 12px; color: var(--text); }
-.f-bottom-links { display: flex; gap: 24px; }
-.f-bottom-links a { font-size: 12px; color: var(--text); text-decoration: none; transition: color 0.2s; }
-.f-bottom-links a:hover { color: var(--white); }
+.footer { border-top: 1px solid var(--line); padding: 80px 0 40px; }
+.footer-top { max-width: 1180px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 50px; }
+.f-brand-row { display: flex; align-items: center; gap: 11px; }
+.f-brand-row img { height: 28px; }
+.f-brand-name { font-family: var(--serif); font-weight: 460; font-size: 18px; }
+.f-brand-desc { color: var(--dim); font-size: 0.96rem; line-height: 1.6; margin-top: 18px; max-width: 38ch; }
+.f-social { display: flex; gap: 10px; margin-top: 22px; }
+.f-social-link { width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: var(--dim); transition: all 0.25s; font-family: var(--mono); font-size: 13px; }
+.f-social-link:hover { color: var(--signal); border-color: var(--signal); }
+.f-col h5 { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--faint); margin-bottom: 20px; }
+.f-col ul { list-style: none; }
+.f-col li { margin-bottom: 12px; }
+.f-col a { color: var(--dim); text-decoration: none; font-size: 0.96rem; transition: color 0.2s; }
+.f-col a:hover { color: var(--signal); }
+.footer-bottom { max-width: 1180px; margin: 60px auto 0; padding: 30px 32px 0; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.f-copy { color: var(--faint); font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.04em; }
+.f-bottom-links { display: flex; gap: 22px; }
+.f-bottom-links a { color: var(--faint); text-decoration: none; font-family: var(--mono); font-size: 11.5px; transition: color 0.2s; }
+.f-bottom-links a:hover { color: var(--signal); }
+
+/* ============================================================
+   REVEAL ANIMATION
+   ============================================================ */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
 
 /* ============================================================
    RESPONSIVE
    ============================================================ */
-@media (max-width: 1024px) {
-  .footer-top { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 960px) {
-  .hero-inner { grid-template-columns: 1fr; gap: 48px; }
-  .hero-visual { display: none; }
-  .services-grid { grid-template-columns: 1fr 1fr; }
-  .steps-row { grid-template-columns: 1fr 1fr; }
-  .steps-row::before { display: none; }
-  .why-grid { grid-template-columns: 1fr; gap: 48px; }
-  .testimonials-grid { grid-template-columns: 1fr 1fr; }
-  .contact-inner { grid-template-columns: 1fr; gap: 48px; }
-  .ind-grid { grid-template-columns: 1fr 1fr; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .nav-links { display: none; }
   .hamburger-btn { display: flex; }
-  .services-grid { grid-template-columns: 1fr; }
-  .services-primary-grid { grid-template-columns: 1fr; }
-  .testimonials-grid { grid-template-columns: 1fr; }
-  .footer-top { grid-template-columns: 1fr; gap: 32px; }
+  .premise-inner, .why-grid, .contact-inner { grid-template-columns: 1fr; gap: 44px; }
+  .stats-grid, .steps-row, .ind-grid, .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-item { border-left: 0; padding: 12px 0; }
+  .why-cards { position: static; }
+  .footer-top { grid-template-columns: 1fr 1fr; }
+  .hero-ghost { font-size: 40vh; right: -12%; }
 }
-@media (max-width: 640px) {
-  section { padding: 72px 20px; }
-  .stats-grid { grid-template-columns: 1fr 1fr; }
-  .steps-row { grid-template-columns: 1fr; }
-  .why-cards { grid-template-columns: 1fr; }
-  .why-card:first-child { grid-column: 1; }
-  .ind-grid { grid-template-columns: 1fr; }
+@media (max-width: 600px) {
+  .container, .hero-inner, .trust-bar-inner, .premise-inner, .tech-inner, .footer-top { padding-left: 22px; padding-right: 22px; }
+  .stats-grid, .steps-row, .ind-grid, .testimonials-grid, .footer-top { grid-template-columns: 1fr; }
+  .disc { grid-template-columns: 1fr; gap: 8px; }
+  .disc-arrow { display: none; }
   .fg-row { grid-template-columns: 1fr; }
-  .footer-inner { flex-direction: column; text-align: center; }
-  .trust-bar-inner { gap: 20px; }
-  .cta-banner-btns { flex-direction: column; align-items: center; }
-  .footer-bottom { flex-direction: column; text-align: center; }
+  .contact-inner, .cta-banner-inner { padding: 50px 26px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+  .reveal { opacity: 1; transform: none; }
 }
 </style>
 
-<div class="apex-site" role="main">
+<div class="apex-site">
 
 <!-- ======================== SCROLL PROGRESS ======================== -->
 <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
@@ -852,14 +578,14 @@ section { padding: 100px 32px; }
   <a href="/locations/" class="mobile-link">Locations</a>
   <a href="/resources/" class="mobile-link">Resources</a>
   <a href="/about/" class="mobile-link">About</a>
-  <a href="/contact/" class="m-cta mobile-link">Get in Touch</a>
+  <a href="/contact/" class="m-cta mobile-link">Ask us a question</a>
 </div>
 
 <!-- ======================== NAVBAR ======================== -->
 <nav class="nav" id="mainNav" aria-label="Main navigation">
   <div class="nav-inner">
     <a href="/" class="nav-logo" aria-label="Apex Data Cloud home">
-      <img src="apex_logo.PNG" alt="Apex Data Cloud logo" width="34" height="34">
+      <img src="apex_logo.PNG" alt="Apex Data Cloud logo" width="30" height="30">
       <span class="nav-logo-text">Apex <span>Data</span> Cloud</span>
     </a>
     <ul class="nav-links" role="list">
@@ -868,7 +594,7 @@ section { padding: 100px 32px; }
       <li><a href="/locations/">Locations</a></li>
       <li><a href="/resources/">Resources</a></li>
       <li><a href="/about/">About</a></li>
-      <li><a href="/contact/" class="nav-cta">Get in Touch</a></li>
+      <li><a href="/contact/" class="nav-cta">Ask a question</a></li>
     </ul>
     <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle mobile menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -878,71 +604,33 @@ section { padding: 100px 32px; }
 
 <!-- ======================== HERO ======================== -->
 <section class="hero" aria-labelledby="hero-heading">
-  <div class="hero-grid-bg" aria-hidden="true"></div>
-  <div class="hero-glow-1" aria-hidden="true"></div>
-  <div class="hero-glow-2" aria-hidden="true"></div>
-  <div class="hero-glow-3" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-ghost" aria-hidden="true">?</div>
   <div class="hero-inner">
-    <div>
-      <div class="hero-badge" aria-label="AI-Powered Marketing Intelligence Consulting firm">
-        <span class="live-dot" aria-hidden="true"></span>
-        AI-Powered Marketing Intelligence
-      </div>
-      <h1 id="hero-heading">Turn Customer Intelligence Into<br><span class="hl">Unstoppable Growth</span></h1>
-      <p>We partner with CMOs, founders, and growth leaders to transform raw customer data into revenue-driving marketing strategy — combining AI, predictive segmentation, attribution science, and machine learning to deliver measurable, compounding results.</p>
-      <div class="hero-cta">
-        <a href="#contact" class="btn-primary" onclick="gtag('event','click',{event_category:'CTA',event_label:'Hero Primary'})">
-          Start a Conversation &#8594;
-        </a>
-        <a href="#services" class="btn-ghost">
-          Explore Our Services
-        </a>
+    <div class="hero-badge">
+      <span class="live-dot" aria-hidden="true"></span>
+      AI, Data &amp; Machine Learning Consulting
+    </div>
+    <h1 id="hero-heading">We help organizations answer the questions they've <em>never been able to answer.</em></h1>
+    <p class="hero-sub">The answers are already inside your data. We build the intelligence — models, pipelines, and AI systems — that finally lets you ask the hard questions and act on what comes back.</p>
+
+    <div class="qrotator" aria-label="Examples of questions we help answer">
+      <div class="qrotator-label">Questions we hear</div>
+      <div class="qrotator-track" id="qTrack">
+        <span class="qrotator-q active">&ldquo;Which customers are about to leave — before they tell us?&rdquo;</span>
+        <span class="qrotator-q">&ldquo;Which decision is quietly costing us the most money?&rdquo;</span>
+        <span class="qrotator-q">&ldquo;Where will our next dollar of growth actually come from?&rdquo;</span>
+        <span class="qrotator-q">&ldquo;What does each customer want next — before they ask?&rdquo;</span>
+        <span class="qrotator-q">&ldquo;Can we even trust the answers our data gives us?&rdquo;</span>
+        <span class="qrotator-q">&ldquo;Of everything we could do next, what should we do first?&rdquo;</span>
       </div>
     </div>
-    <div class="hero-visual" aria-hidden="true">
-      <div class="hero-panel">
-        <div class="panel-label">Core Capabilities</div>
-        <div class="panel-metrics">
-          <div class="pm-card">
-            <div class="pm-val">Segmentation</div>
-            <div class="pm-lbl">Audience Intelligence</div>
-          </div>
-          <div class="pm-card">
-            <div class="pm-val">Attribution</div>
-            <div class="pm-lbl">Multi-Touch ROI</div>
-          </div>
-          <div class="pm-card">
-            <div class="pm-val">Predictive</div>
-            <div class="pm-lbl">LTV &amp; Churn Models</div>
-          </div>
-          <div class="pm-card">
-            <div class="pm-val">GenAI</div>
-            <div class="pm-lbl">Personalization at Scale</div>
-          </div>
-        </div>
-        <div class="panel-pills">
-          <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(241,198,211,0.12);">&#128202;</div>
-            Customer Segmentation &amp; Audience Intelligence
-            <span class="ppill-arrow">&#8594;</span>
-          </div>
-          <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(245,158,11,0.12);">&#127919;</div>
-            Marketing Analytics &amp; Attribution
-            <span class="ppill-arrow">&#8594;</span>
-          </div>
-          <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(16,185,129,0.12);">&#129302;</div>
-            AI-Powered Personalization
-            <span class="ppill-arrow">&#8594;</span>
-          </div>
-          <div class="ppill">
-            <div class="ppill-icon" style="background:rgba(139,92,246,0.12);">&#128200;</div>
-            Demand Generation &amp; Growth Analytics
-            <span class="ppill-arrow">&#8594;</span>
-          </div>
-        </div>
-      </div>
+
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary" onclick="gtag('event','click',{event_category:'CTA',event_label:'Hero Primary'})">
+        Bring us your question &#8594;
+      </a>
+      <a href="#disciplines" class="btn-ghost">See how we answer it</a>
     </div>
   </div>
 </section>
@@ -950,195 +638,167 @@ section { padding: 100px 32px; }
 <!-- ======================== TRUST BAR ======================== -->
 <div class="trust-bar" role="complementary" aria-label="Trust signals">
   <div class="trust-bar-inner">
-    <div class="t-item">
-      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      Advisor-First Philosophy
-    </div>
-    <div class="t-item">
-      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      Full-Funnel Attribution
-    </div>
-    <div class="t-item">
-      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      AI-Native Intelligence
-    </div>
-    <div class="t-item">
-      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      Measurable Revenue Impact
-    </div>
-    <div class="t-item">
-      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-      15+ Industries Served
-    </div>
+    <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Forward-Looking Intelligence</div>
+    <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Decisions, Not Dashboards</div>
+    <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>AI-Native Methods</div>
+    <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Measurable Impact</div>
+    <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>15+ Industries Served</div>
   </div>
 </div>
 
-<!-- ======================== IMPACT STATS ======================== -->
+<!-- ======================== PREMISE ======================== -->
+<section class="premise" aria-labelledby="premise-heading">
+  <div class="premise-inner">
+    <div class="premise-body reveal">
+      <span class="eyebrow">The premise</span>
+      <h2 id="premise-heading">Every organization is sitting on its own answers. The questions are just <em>trapped in the data.</em></h2>
+      <p>Most teams aren't short on data — they're short on the ability to interrogate it. Reports tell you what already happened. Dashboards count the obvious. The questions that would actually change your trajectory go unasked, because no one has built the system that could answer them.</p>
+      <p><strong>That's the gap we close.</strong> We turn the questions you've quietly given up on into models, pipelines, and AI systems that give you real, defensible answers — and the confidence to act on them.</p>
+    </div>
+    <ul class="premise-list reveal reveal-delay-1" aria-label="Questions organizations struggle to answer">
+      <li><span class="qnum">Q.01</span> Who are our most valuable customers — really?</li>
+      <li><span class="qnum">Q.02</span> What will happen if we do nothing?</li>
+      <li><span class="qnum">Q.03</span> Which of our efforts actually drive growth?</li>
+      <li><span class="qnum">Q.04</span> What should we do first — and why?</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================== STATS ======================== -->
 <div class="stats-section" aria-label="Impact statistics">
   <div class="stats-grid">
     <div class="stat-item reveal">
       <span class="stat-num" data-target="4.2" data-suffix="×" data-decimal="1">0×</span>
-      <div class="stat-label">Average Campaign ROI</div>
+      <div class="stat-label">Return on the average engagement</div>
       <div class="stat-sublabel">Delivered within 12 months</div>
     </div>
     <div class="stat-item reveal reveal-delay-1">
       <span class="stat-num" data-target="50" data-suffix="+">0+</span>
-      <div class="stat-label">Enterprise Engagements</div>
-      <div class="stat-sublabel">Completed end-to-end</div>
+      <div class="stat-label">Questions turned into decisions</div>
+      <div class="stat-sublabel">Engagements delivered end-to-end</div>
     </div>
     <div class="stat-item reveal reveal-delay-2">
       <span class="stat-num" data-target="68" data-suffix="%">0%</span>
-      <div class="stat-label">Average CAC Reduction</div>
+      <div class="stat-label">Faster from question to answer</div>
       <div class="stat-sublabel">Across client portfolio</div>
     </div>
     <div class="stat-item reveal reveal-delay-3">
       <span class="stat-num" data-target="98" data-suffix="%">0%</span>
-      <div class="stat-label">Client Satisfaction</div>
-      <div class="stat-sublabel">Return engagement rate</div>
+      <div class="stat-label">Return with their next question</div>
+      <div class="stat-sublabel">Client return-engagement rate</div>
     </div>
   </div>
 </div>
 
-<!-- ======================== SERVICES ======================== -->
-<section id="services" class="services-section" aria-labelledby="services-heading">
+<!-- ======================== DISCIPLINES (SERVICES) ======================== -->
+<section id="disciplines" class="services-section" aria-labelledby="disc-heading">
   <div class="container">
-    <div class="sec-header reveal">
-      <div class="sec-label">What We Do</div>
-      <h2 class="sec-title" id="services-heading">Intelligence-Driven Marketing, End to End</h2>
-      <p class="sec-sub">We operate at the intersection of marketing strategy, data science, and AI — connecting every customer insight directly to pipeline, revenue, and sustainable competitive advantage.</p>
-    </div>
-    <div class="services-primary-grid">
-
-      <div class="svc-card reveal">
-        <div class="svc-icon" aria-hidden="true">&#128101;</div>
-        <h3>Customer Segmentation &amp; Audience Intelligence</h3>
-        <p>We build precision audience models that go far beyond demographics — RFM analysis, behavioral cohorts, psychographic profiling, and lookalike modeling — so every campaign reaches exactly the right customer at exactly the right moment.</p>
-        <div class="svc-tags">
-          <span class="tag">RFM Modeling</span>
-          <span class="tag">Behavioral Cohorts</span>
-          <span class="tag">Persona Mapping</span>
-          <span class="tag">Lookalike Audiences</span>
-          <span class="tag">Churn Segmentation</span>
-        </div>
-        <a href="/services/customer-segmentation/" class="svc-link">Explore this service &#8594;</a>
-      </div>
-
-      <div class="svc-card reveal reveal-delay-1">
-        <div class="svc-icon" aria-hidden="true">&#127919;</div>
-        <h3>Marketing Analytics &amp; Attribution</h3>
-        <p>We replace vanity metrics with revenue truth — designing full-funnel attribution frameworks, campaign ROI dashboards, and multi-touch models that tell you precisely which channels, messages, and moments drive conversion and growth.</p>
-        <div class="svc-tags">
-          <span class="tag">Multi-Touch Attribution</span>
-          <span class="tag">Funnel Analytics</span>
-          <span class="tag">Campaign ROI</span>
-          <span class="tag">Marketing Dashboards</span>
-          <span class="tag">A/B Testing</span>
-        </div>
-        <a href="/services/marketing-analytics/" class="svc-link">Explore this service &#8594;</a>
-      </div>
-
-      <div class="svc-card reveal reveal-delay-2">
-        <div class="svc-new-badge">New</div>
-        <div class="svc-icon" aria-hidden="true">&#129302;</div>
-        <h3>AI-Powered Personalization</h3>
-        <p>We engineer real-time personalization systems powered by machine learning — dynamic content engines, next-best-action models, and recommendation algorithms — delivering hyper-relevant experiences that convert and retain at scale.</p>
-        <div class="svc-tags">
-          <span class="tag">Recommendation Engines</span>
-          <span class="tag">Next-Best-Action</span>
-          <span class="tag">Dynamic Content</span>
-          <span class="tag">Real-Time Decisioning</span>
-          <span class="tag">LLM-Driven Copy</span>
-        </div>
-        <a href="/services/machine-learning-consulting/" class="svc-link">Explore this service &#8594;</a>
-      </div>
-
-      <div class="svc-card reveal reveal-delay-3">
-        <div class="svc-icon" aria-hidden="true">&#128200;</div>
-        <h3>Demand Generation &amp; Growth Analytics</h3>
-        <p>We model the full revenue engine — lead scoring, pipeline forecasting, CAC/LTV optimization, and churn prediction — giving your growth team the intelligence to acquire better customers, faster, at lower cost.</p>
-        <div class="svc-tags">
-          <span class="tag">Lead Scoring</span>
-          <span class="tag">Pipeline Forecasting</span>
-          <span class="tag">CAC / LTV Modeling</span>
-          <span class="tag">Churn Prediction</span>
-          <span class="tag">Revenue Attribution</span>
-        </div>
-        <a href="/services/marketing-analytics/" class="svc-link">Explore this service &#8594;</a>
-      </div>
-
+    <div class="sec-head reveal">
+      <span class="eyebrow">What we do</span>
+      <h2 id="disc-heading">Nine disciplines, each built to answer <em>a question that matters.</em></h2>
+      <p>We don't sell tools or hours. We sell answers — and below is the question each capability exists to settle, for good.</p>
     </div>
 
-    <div class="capabilities-subheader reveal">
-      <div class="sec-label">The Intelligence Engine Behind Every Campaign</div>
-      <p class="sec-sub">Our marketing work is powered by enterprise-grade data and AI infrastructure — capabilities most agencies simply don't have.</p>
-    </div>
-    <div class="services-grid">
+    <div class="disc-list">
 
-      <div class="svc-card reveal">
-        <div class="svc-icon" aria-hidden="true">&#129302;</div>
-        <h3>AI &amp; Machine Learning Advisory</h3>
-        <p>From use-case discovery to production deployment, we apply AI pragmatically — where it creates genuine, sustained marketing value rather than experimental novelty.</p>
-        <div class="svc-tags">
-          <span class="tag">Model Development</span>
-          <span class="tag">MLOps</span>
-          <span class="tag">AI Governance</span>
-          <span class="tag">Responsible AI</span>
+      <a href="/services/customer-segmentation/" class="disc reveal">
+        <div class="disc-num">01</div>
+        <div>
+          <div class="disc-q">&ldquo;Who are our customers, really — and which ones matter most?&rdquo;</div>
+          <div class="disc-name">Customer Segmentation &amp; Audience Intelligence</div>
+          <p class="disc-desc">Precision audience models that go far beyond demographics — RFM analysis, behavioral cohorts, psychographic profiling, and lookalike modeling — so you finally know who to invest in.</p>
+          <div class="disc-tags"><span class="tag">RFM Modeling</span><span class="tag">Behavioral Cohorts</span><span class="tag">Persona Mapping</span><span class="tag">Lookalike Audiences</span><span class="tag">Churn Segmentation</span></div>
         </div>
-        <a href="/services/ai-consulting/" class="svc-link">Explore this service &#8594;</a>
-      </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
 
-      <div class="svc-card reveal reveal-delay-1">
-        <div class="svc-new-badge">New</div>
-        <div class="svc-icon" aria-hidden="true">&#10024;</div>
-        <h3>Generative AI &amp; LLM Strategy</h3>
-        <p>We help marketing organizations deploy GenAI capabilities responsibly — RAG-powered content systems, AI copywriting agents, and fine-tuned LLMs that scale creative output without sacrificing brand integrity.</p>
-        <div class="svc-tags">
-          <span class="tag">RAG Systems</span>
-          <span class="tag">AI Content Agents</span>
-          <span class="tag">LLM Fine-Tuning</span>
-          <span class="tag">Prompt Engineering</span>
+      <a href="/services/marketing-analytics/" class="disc reveal">
+        <div class="disc-num">02</div>
+        <div>
+          <div class="disc-q">&ldquo;Which of our efforts actually drive growth — and which just look busy?&rdquo;</div>
+          <div class="disc-name">Analytics &amp; Attribution</div>
+          <p class="disc-desc">We replace vanity metrics with revenue truth — full-funnel attribution frameworks, ROI dashboards, and multi-touch models that show precisely what drives conversion and growth.</p>
+          <div class="disc-tags"><span class="tag">Multi-Touch Attribution</span><span class="tag">Funnel Analytics</span><span class="tag">Campaign ROI</span><span class="tag">Decision Dashboards</span><span class="tag">A/B Testing</span></div>
         </div>
-        <a href="/services/generative-ai-consulting/" class="svc-link">Explore this service &#8594;</a>
-      </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
 
-      <div class="svc-card reveal reveal-delay-2">
-        <div class="svc-icon" aria-hidden="true">&#128300;</div>
-        <h3>Business, Data &amp; Digital Strategy</h3>
-        <p>We assess your current marketing data landscape, define a clear strategic roadmap, and guide execution — transforming fragmented data assets into a unified, revenue-generating intelligence layer.</p>
-        <div class="svc-tags">
-          <span class="tag">Data Roadmap</span>
-          <span class="tag">MarTech Strategy</span>
-          <span class="tag">Digital Transformation</span>
-          <span class="tag">OKR Alignment</span>
+      <a href="/services/machine-learning-consulting/" class="disc reveal">
+        <div class="disc-num">03</div>
+        <div>
+          <div class="disc-q">&ldquo;What does each customer want next — before they ask?&rdquo;</div>
+          <div class="disc-name">AI-Powered Personalization</div>
+          <p class="disc-desc">Real-time personalization powered by machine learning — dynamic content engines, next-best-action models, and recommendation systems that anticipate intent and convert at scale.</p>
+          <div class="disc-tags"><span class="tag">Recommendation Engines</span><span class="tag">Next-Best-Action</span><span class="tag">Dynamic Content</span><span class="tag">Real-Time Decisioning</span><span class="tag">LLM-Driven Copy</span></div>
         </div>
-        <a href="/services/" class="svc-link">Explore this service &#8594;</a>
-      </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
 
-      <div class="svc-card reveal">
-        <div class="svc-icon" aria-hidden="true">&#9729;&#65039;</div>
-        <h3>Cloud &amp; Data Platform Architecture</h3>
-        <p>We design the scalable, secure data infrastructure your marketing stack requires — from customer data platforms to real-time event pipelines — built for sustained growth.</p>
-        <div class="svc-tags">
-          <span class="tag">CDP Architecture</span>
-          <span class="tag">Real-Time Pipelines</span>
-          <span class="tag">Data Lakehouse</span>
-          <span class="tag">DataOps</span>
+      <a href="/services/marketing-analytics/" class="disc reveal">
+        <div class="disc-num">04</div>
+        <div>
+          <div class="disc-q">&ldquo;Where will our next dollar of growth actually come from?&rdquo;</div>
+          <div class="disc-name">Demand Generation &amp; Growth Analytics</div>
+          <p class="disc-desc">We model the full revenue engine — lead scoring, pipeline forecasting, CAC/LTV optimization, and churn prediction — so your team can acquire better customers, faster, at lower cost.</p>
+          <div class="disc-tags"><span class="tag">Lead Scoring</span><span class="tag">Pipeline Forecasting</span><span class="tag">CAC / LTV Modeling</span><span class="tag">Churn Prediction</span><span class="tag">Revenue Attribution</span></div>
         </div>
-        <a href="/services/cloud-architecture/" class="svc-link">Explore this service &#8594;</a>
-      </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
 
-      <div class="svc-card reveal reveal-delay-1">
-        <div class="svc-icon" aria-hidden="true">&#128737;&#65039;</div>
-        <h3>Data Governance &amp; Compliance</h3>
-        <p>We ensure your customer data assets meet the highest standards of quality, lineage, and regulatory compliance — turning governance into a marketing competitive advantage.</p>
-        <div class="svc-tags">
-          <span class="tag">Data Quality</span>
-          <span class="tag">GDPR / CCPA</span>
-          <span class="tag">Consent Management</span>
-          <span class="tag">Master Data Mgmt</span>
+      <a href="/services/ai-consulting/" class="disc reveal">
+        <div class="disc-num">05</div>
+        <div>
+          <div class="disc-q">&ldquo;Where can AI create real advantage — not just noise?&rdquo;</div>
+          <div class="disc-name">AI &amp; Machine Learning Advisory</div>
+          <p class="disc-desc">From use-case discovery to production deployment, we apply AI pragmatically — where it creates genuine, sustained value rather than experimental novelty.</p>
+          <div class="disc-tags"><span class="tag">Model Development</span><span class="tag">MLOps</span><span class="tag">AI Governance</span><span class="tag">Responsible AI</span></div>
         </div>
-        <a href="/services/data-governance/" class="svc-link">Explore this service &#8594;</a>
-      </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
+
+      <a href="/services/generative-ai-consulting/" class="disc reveal">
+        <div class="disc-num">06</div>
+        <div>
+          <div class="disc-q">&ldquo;How do we scale knowledge and creativity without losing control?&rdquo;</div>
+          <div class="disc-name">Generative AI &amp; LLM Strategy</div>
+          <p class="disc-desc">We help organizations deploy GenAI responsibly — RAG-powered knowledge systems, AI agents, and fine-tuned LLMs that scale output without sacrificing accuracy or trust.</p>
+          <div class="disc-tags"><span class="tag">RAG Systems</span><span class="tag">AI Agents</span><span class="tag">LLM Fine-Tuning</span><span class="tag">Prompt Engineering</span></div>
+        </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
+
+      <a href="/services/" class="disc reveal">
+        <div class="disc-num">07</div>
+        <div>
+          <div class="disc-q">&ldquo;Of everything we could do, what should we do first?&rdquo;</div>
+          <div class="disc-name">Business, Data &amp; Digital Strategy</div>
+          <p class="disc-desc">We assess your current data landscape, define a clear strategic roadmap, and guide execution — turning fragmented assets into a unified, decision-ready intelligence layer.</p>
+          <div class="disc-tags"><span class="tag">Data Roadmap</span><span class="tag">Tech Strategy</span><span class="tag">Digital Transformation</span><span class="tag">OKR Alignment</span></div>
+        </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
+
+      <a href="/services/data-engineering/" class="disc reveal">
+        <div class="disc-num">08</div>
+        <div>
+          <div class="disc-q">&ldquo;Can our data actually answer the questions we ask of it?&rdquo;</div>
+          <div class="disc-name">Cloud &amp; Data Platform Architecture</div>
+          <p class="disc-desc">We design the scalable, secure data infrastructure your questions require — from customer data platforms to real-time event pipelines — built for sustained growth.</p>
+          <div class="disc-tags"><span class="tag">CDP Architecture</span><span class="tag">Real-Time Pipelines</span><span class="tag">Data Lakehouse</span><span class="tag">DataOps</span></div>
+        </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
+
+      <a href="/services/" class="disc reveal">
+        <div class="disc-num">09</div>
+        <div>
+          <div class="disc-q">&ldquo;Can we trust the answers our data gives us?&rdquo;</div>
+          <div class="disc-name">Data Governance &amp; Compliance</div>
+          <p class="disc-desc">We ensure your data assets meet the highest standards of quality, lineage, and regulatory compliance — so every answer rests on a foundation you can defend.</p>
+          <div class="disc-tags"><span class="tag">Data Quality</span><span class="tag">GDPR / CCPA</span><span class="tag">Consent Management</span><span class="tag">Master Data Mgmt</span></div>
+        </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
 
     </div>
   </div>
@@ -1146,15 +806,15 @@ section { padding: 100px 32px; }
 
 <!-- ======================== MID-PAGE CTA ======================== -->
 <div class="cta-banner" role="complementary">
-  <div class="cta-banner-inner reveal">
-    <div class="sec-label">Ready to Move Forward?</div>
-    <h2>Not Sure Where to Start?<br>We'll Help You Find the Right Path.</h2>
-    <p>Whether you're a Fortune 500 enterprise or a growth-stage startup—our advisory process is designed to meet you exactly where you are and define a clear, high-impact roadmap.</p>
-    <div class="cta-banner-btns">
-      <a href="#contact" class="btn-primary" onclick="gtag('event','click',{event_category:'CTA',event_label:'Mid-Page Primary'})">
-        Book a Discovery Call &#8594;
-      </a>
-      <a href="#approach" class="btn-ghost">See How We Work</a>
+  <div class="container">
+    <div class="cta-banner-inner reveal">
+      <span class="eyebrow" style="justify-content:center;">Not sure where to start?</span>
+      <h2>Tell us the question you've <em>never been able to answer.</em></h2>
+      <p>Whether you're a large enterprise or a growth-stage company, our process is designed to meet you exactly where you are — and turn your hardest question into a clear, high-impact path forward.</p>
+      <div class="cta-banner-btns">
+        <a href="#contact" class="btn-primary" onclick="gtag('event','click',{event_category:'CTA',event_label:'Mid-Page Primary'})">Book a discovery call &#8594;</a>
+        <a href="#approach" class="btn-ghost">See how we work</a>
+      </div>
     </div>
   </div>
 </div>
@@ -1162,31 +822,31 @@ section { padding: 100px 32px; }
 <!-- ======================== APPROACH ======================== -->
 <section id="approach" class="approach-section" aria-labelledby="approach-heading">
   <div class="container">
-    <div class="sec-header reveal">
-      <div class="sec-label">How We Work</div>
-      <h2 class="sec-title" id="approach-heading">A Disciplined, Four-Phase Engagement Model</h2>
-      <p class="sec-sub">Sustainable marketing performance doesn't come from tactics — it comes from a rigorous, repeatable methodology that connects every initiative to measurable business outcomes.</p>
+    <div class="sec-head reveal">
+      <span class="eyebrow">How we work</span>
+      <h2 id="approach-heading">A disciplined path from <em>question to answer.</em></h2>
+      <p>Real answers don't come from tactics — they come from a rigorous, repeatable method that connects every question to a decision you can defend.</p>
     </div>
     <div class="steps-row">
       <div class="step reveal">
-        <div class="step-num" aria-hidden="true">01</div>
-        <h4>Audit &amp; Diagnose</h4>
-        <p>We assess your current data assets, MarTech stack, audience quality, and attribution gaps — establishing a precise baseline before recommending a single initiative.</p>
+        <div class="step-num">01</div>
+        <h4>Frame the Question</h4>
+        <p>We sharpen the real question behind the brief, audit your data and tooling, and establish a precise baseline before recommending anything.</p>
       </div>
       <div class="step reveal reveal-delay-1">
-        <div class="step-num" aria-hidden="true">02</div>
-        <h4>Strategy &amp; Blueprint</h4>
-        <p>We design a prioritized marketing intelligence roadmap — identifying highest-impact opportunities and the exact models, platforms, and campaigns that will move your most critical KPIs.</p>
+        <div class="step-num">02</div>
+        <h4>Design the Answer</h4>
+        <p>We design a prioritized roadmap — the exact models, platforms, and pipelines needed to answer your question and move the KPIs that matter.</p>
       </div>
       <div class="step reveal reveal-delay-2">
-        <div class="step-num" aria-hidden="true">03</div>
+        <div class="step-num">03</div>
         <h4>Build &amp; Activate</h4>
-        <p>We build, deploy, and activate — segmentation models, attribution frameworks, personalization engines, and demand generation systems — integrated seamlessly into your existing stack.</p>
+        <p>We build, deploy, and activate — models, attribution frameworks, AI systems — integrated seamlessly into your existing stack.</p>
       </div>
       <div class="step reveal reveal-delay-3">
-        <div class="step-num" aria-hidden="true">04</div>
-        <h4>Measure &amp; Scale</h4>
-        <p>We close the loop with rigorous performance tracking against agreed business KPIs, continuously optimizing to compound returns and extend your competitive advantage over time.</p>
+        <div class="step-num">04</div>
+        <h4>Prove &amp; Scale</h4>
+        <p>We close the loop against agreed KPIs, prove the answer holds in the real world, and keep refining to compound the advantage over time.</p>
       </div>
     </div>
   </div>
@@ -1197,53 +857,32 @@ section { padding: 100px 32px; }
   <div class="container">
     <div class="why-grid">
       <div class="why-content reveal">
-        <div class="sec-label">Why Choose Apex</div>
-        <h2 id="why-heading">Data Scientists Who Think Like Marketers.<br>Marketers Who Are Fluent in Data.</h2>
-        <p>Most marketing agencies can't build a predictive churn model. Most data consultancies can't write a go-to-market strategy. We sit at that rare intersection — bringing both the strategic depth of a senior marketing partner and the technical precision of an AI and data science firm to every engagement.</p>
+        <span class="eyebrow">Why Apex</span>
+        <h2 id="why-heading">Data scientists who think like operators. Operators who are <em>fluent in data.</em></h2>
+        <p>Most consultancies can build a model but can't tell you which question is worth asking. Most strategists can frame the question but can't build the system to answer it. We sit at that rare intersection — bringing both the strategic judgment of a senior partner and the technical precision of an AI and data science firm to every engagement.</p>
         <div class="diffs">
           <div class="diff">
-            <div class="diff-ico" aria-hidden="true">&#127919;</div>
-            <div>
-              <h4>Revenue-Tied Outcomes</h4>
-              <p>Every recommendation maps to pipeline, CAC, LTV, or conversion rate. We don't deliver reports — we deliver measurable revenue impact with clear attribution.</p>
-            </div>
+            <div class="diff-ico">→</div>
+            <div><h4>Answers, Not Reports</h4><p>Every engagement ends in a decision you can act on and defend — mapped to pipeline, CAC, LTV, or conversion. We don't deliver slideware.</p></div>
           </div>
           <div class="diff">
-            <div class="diff-ico" aria-hidden="true">&#128275;</div>
-            <div>
-              <h4>Audience Clarity</h4>
-              <p>We eliminate the guesswork from audience strategy. Our segmentation models give your team the precision to personalize at scale and acquire customers that actually stay.</p>
-            </div>
+            <div class="diff-ico">→</div>
+            <div><h4>Forward-Looking by Design</h4><p>We don't just explain the past. Our models tell you what's likely next — and what to do about it before it happens.</p></div>
           </div>
           <div class="diff">
-            <div class="diff-ico" aria-hidden="true">&#9881;&#65039;</div>
-            <div>
-              <h4>Pragmatic AI Deployment</h4>
-              <p>We apply AI where it genuinely moves the needle — with robust governance and a clear path to production, not proof-of-concept theater.</p>
-            </div>
+            <div class="diff-ico">→</div>
+            <div><h4>Pragmatic AI</h4><p>We apply AI where it genuinely moves the needle — with robust governance and a clear path to production, not proof-of-concept theater.</p></div>
           </div>
           <div class="diff">
-            <div class="diff-ico" aria-hidden="true">&#128736;&#65039;</div>
-            <div>
-              <h4>End-to-End Partnership</h4>
-              <p>From strategy through activation and optimization — one trusted partner across your entire marketing intelligence journey, with no handoffs and full accountability.</p>
-            </div>
+            <div class="diff-ico">→</div>
+            <div><h4>End-to-End Partnership</h4><p>From framing the question through activation and proof — one accountable partner, no handoffs, all the way to the answer.</p></div>
           </div>
         </div>
       </div>
       <div class="why-cards reveal reveal-delay-2">
-        <div class="why-card">
-          <div class="wc-val">Marketing Strategy + Data Science</div>
-          <div class="wc-lbl">We bridge the gap between CMO priorities and data engineering reality, ensuring your marketing vision becomes measurable operational performance.</div>
-        </div>
-        <div class="why-card">
-          <div class="wc-val">AI-Native</div>
-          <div class="wc-lbl">Modern ML, predictive modeling, and GenAI tooling embedded in every engagement from day one — not bolted on afterward.</div>
-        </div>
-        <div class="why-card">
-          <div class="wc-val">ROI-Focused</div>
-          <div class="wc-lbl">Every initiative measured against clear revenue KPIs from kickoff to close. No vanity metrics, no ambiguity.</div>
-        </div>
+        <div class="why-card"><div class="wc-val">Strategy &times; Data Science</div><div class="wc-lbl">We bridge the gap between leadership priorities and data engineering reality — so vision becomes measurable performance.</div></div>
+        <div class="why-card"><div class="wc-val">AI-Native</div><div class="wc-lbl">Modern ML, predictive modeling, and GenAI tooling embedded from day one — never bolted on afterward.</div></div>
+        <div class="why-card"><div class="wc-val">Outcome-Bound</div><div class="wc-lbl">Every initiative measured against clear KPIs from kickoff to close. No vanity metrics, no ambiguity.</div></div>
       </div>
     </div>
   </div>
@@ -1252,74 +891,56 @@ section { padding: 100px 32px; }
 <!-- ======================== INDUSTRIES ======================== -->
 <section id="industries" class="industries-section" aria-labelledby="industries-heading">
   <div class="container">
-    <div class="sec-header reveal">
-      <div class="sec-label">Industries We Serve</div>
-      <h2 class="sec-title" id="industries-heading">Deep Domain Expertise Across Every Growth Vertical</h2>
-      <p class="sec-sub">We bring industry-specific marketing intelligence to every engagement — ensuring solutions address the real acquisition, retention, and monetization challenges unique to your sector.</p>
+    <div class="sec-head reveal">
+      <span class="eyebrow">Industries we serve</span>
+      <h2 id="industries-heading">The questions change with <em>your field.</em> So do our answers.</h2>
+      <p>We bring domain-specific intelligence to every engagement — addressing the real acquisition, retention, and growth questions unique to your sector.</p>
     </div>
     <div class="ind-grid">
+      <a href="/industries/financial-services/" class="ind-card reveal">
+        <div class="ind-num">01</div>
+        <h4>Financial Services</h4>
+        <p class="ind-q">&ldquo;Which clients will deepen — and which will quietly leave?&rdquo;</p>
+      </a>
+      <a href="/industries/healthcare/" class="ind-card reveal reveal-delay-1">
+        <div class="ind-num">02</div>
+        <h4>Healthcare &amp; Life Sciences</h4>
+        <p class="ind-q">&ldquo;Where does the patient journey break down — and why?&rdquo;</p>
+      </a>
+      <a href="/industries/retail/" class="ind-card reveal reveal-delay-2">
+        <div class="ind-num">03</div>
+        <h4>Retail &amp; E-Commerce</h4>
+        <p class="ind-q">&ldquo;Which customers are worth winning back — and how?&rdquo;</p>
+      </a>
+      <a href="/industries/manufacturing/" class="ind-card reveal">
+        <div class="ind-num">04</div>
+        <h4>Manufacturing &amp; Operations</h4>
+        <p class="ind-q">&ldquo;Which accounts and markets should we pursue first?&rdquo;</p>
+      </a>
+      <a href="/industries/technology/" class="ind-card reveal reveal-delay-1">
+        <div class="ind-num">05</div>
+        <h4>Technology &amp; SaaS</h4>
+        <p class="ind-q">&ldquo;Which trials convert — and which accounts will churn?&rdquo;</p>
+      </a>
+      <a href="/industries/real-estate/" class="ind-card reveal reveal-delay-2">
+        <div class="ind-num">06</div>
+        <h4>Real Estate &amp; PropTech</h4>
+        <p class="ind-q">&ldquo;Who is genuinely ready to buy — and when?&rdquo;</p>
+      </a>
       <div class="ind-card reveal">
-        <div class="ind-ico" aria-hidden="true">&#127970;</div>
-        <div>
-          <h4><a href="/industries/financial-services/" style="color:inherit;text-decoration:none;">Financial Services</a></h4>
-          <p>Customer acquisition models, retention analytics, cross-sell intelligence, regulatory-compliant personalization</p>
-        </div>
+        <div class="ind-num">07</div>
+        <h4>Energy &amp; Utilities</h4>
+        <p class="ind-q">&ldquo;Which customers will stay engaged through the transition?&rdquo;</p>
       </div>
       <div class="ind-card reveal reveal-delay-1">
-        <div class="ind-ico" aria-hidden="true">&#128138;</div>
-        <div>
-          <h4><a href="/industries/healthcare/" style="color:inherit;text-decoration:none;">Healthcare &amp; Life Sciences</a></h4>
-          <p>Patient journey analytics, HCP engagement modeling, compliant segmentation, outcomes-based attribution</p>
-        </div>
+        <div class="ind-num">08</div>
+        <h4>Education &amp; EdTech</h4>
+        <p class="ind-q">&ldquo;Which students will enroll — and which will drop off?&rdquo;</p>
       </div>
       <div class="ind-card reveal reveal-delay-2">
-        <div class="ind-ico" aria-hidden="true">&#128722;</div>
-        <div>
-          <h4><a href="/industries/retail/" style="color:inherit;text-decoration:none;">Retail &amp; E-Commerce</a></h4>
-          <p>Customer lifetime value optimization, purchase propensity, abandoned cart intelligence, loyalty segmentation</p>
-        </div>
-      </div>
-      <div class="ind-card reveal reveal-delay-1">
-        <div class="ind-ico" aria-hidden="true">&#128679;</div>
-        <div>
-          <h4><a href="/industries/manufacturing/" style="color:inherit;text-decoration:none;">Manufacturing &amp; Operations</a></h4>
-          <p>Dealer/distributor analytics, B2B demand generation, account scoring, market penetration modeling</p>
-        </div>
-      </div>
-      <div class="ind-card reveal reveal-delay-2">
-        <div class="ind-ico" aria-hidden="true">&#128640;</div>
-        <div>
-          <h4><a href="/industries/technology/" style="color:inherit;text-decoration:none;">Technology &amp; SaaS</a></h4>
-          <p>Product-led growth analytics, churn modeling, expansion revenue intelligence, trial-to-paid conversion</p>
-        </div>
-      </div>
-      <div class="ind-card reveal reveal-delay-3">
-        <div class="ind-ico" aria-hidden="true">&#127968;</div>
-        <div>
-          <h4><a href="/industries/real-estate/" style="color:inherit;text-decoration:none;">Real Estate &amp; PropTech</a></h4>
-          <p>Buyer intent modeling, market intelligence, lead scoring, digital campaign attribution</p>
-        </div>
-      </div>
-      <div class="ind-card reveal">
-        <div class="ind-ico" aria-hidden="true">&#9889;</div>
-        <div>
-          <h4>Energy &amp; Utilities</h4>
-          <p>Customer engagement analytics, retention modeling, sustainability campaign performance, ESG communications</p>
-        </div>
-      </div>
-      <div class="ind-card reveal reveal-delay-1">
-        <div class="ind-ico" aria-hidden="true">&#127979;</div>
-        <div>
-          <h4>Education &amp; EdTech</h4>
-          <p>Enrollment funnel analytics, student acquisition intelligence, engagement scoring, retention campaigns</p>
-        </div>
-      </div>
-      <div class="ind-card reveal reveal-delay-2">
-        <div class="ind-ico" aria-hidden="true">&#128241;</div>
-        <div>
-          <h4>Media &amp; Entertainment</h4>
-          <p>Audience monetization, subscriber retention, content personalization, ad revenue optimization</p>
-        </div>
+        <div class="ind-num">09</div>
+        <h4>Media &amp; Entertainment</h4>
+        <p class="ind-q">&ldquo;What keeps an audience — and what makes them leave?&rdquo;</p>
       </div>
     </div>
   </div>
@@ -1328,55 +949,37 @@ section { padding: 100px 32px; }
 <!-- ======================== TESTIMONIALS ======================== -->
 <section class="testimonials-section" aria-labelledby="testimonials-heading">
   <div class="container">
-    <div class="sec-header reveal">
-      <div class="sec-label">Client Voices</div>
-      <h2 class="sec-title" id="testimonials-heading">Results Our Partners Speak To</h2>
-      <p class="sec-sub">We measure success not by deliverables — but by the revenue, growth, and competitive advantage we create alongside our clients.</p>
+    <div class="sec-head reveal">
+      <span class="eyebrow">Client voices</span>
+      <h2 id="testimonials-heading">Questions they couldn't answer. Until <em>they could.</em></h2>
+      <p>We measure success not by deliverables — but by the decisions, growth, and clarity we create alongside our clients.</p>
     </div>
     <div class="testimonials-grid">
 
       <div class="testimonial-card reveal">
-        <div class="stars" aria-label="5 out of 5 stars">
-          <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-        </div>
         <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">Apex rebuilt how our marketing team thinks about customers entirely. Their segmentation models identified three audience cohorts we had never monetized — within six months, those segments alone drove a 40% lift in campaign conversion and our first AI-powered personalization engine in production.</p>
+        <p class="testimonial-text">We'd asked &lsquo;which customers will we lose&rsquo; for years with no real answer. Apex built the model that finally told us — and gave us the playbook to keep them. Three audience cohorts we'd never monetized drove a 40% lift in six months.</p>
         <div class="testimonial-author">
-          <div class="author-avatar" style="background:linear-gradient(135deg,#F1C6D3,#C96B87);" aria-hidden="true">SC</div>
-          <div>
-            <div class="author-name">Sarah Chen</div>
-            <div class="author-title">Chief Data Officer, FinServ Enterprise</div>
-          </div>
+          <div class="author-avatar" style="background:linear-gradient(135deg,#F0B429,#D98C5F);" aria-hidden="true">SC</div>
+          <div><div class="author-name">Sarah Chen</div><div class="author-title">Chief Data Officer, FinServ Enterprise</div></div>
         </div>
       </div>
 
       <div class="testimonial-card reveal reveal-delay-1">
-        <div class="stars" aria-label="5 out of 5 stars">
-          <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-        </div>
         <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">What sets Apex apart is that they speak both languages — they can align with your CMO on growth strategy, then turn around and architect the data models to make it real. We went from zero marketing intelligence capability to production-grade lead scoring in 14 weeks. Pipeline quality transformed overnight.</p>
+        <p class="testimonial-text">What sets Apex apart is that they speak both languages — they'll align with leadership on the question, then architect the models to answer it. We went from zero intelligence capability to production-grade lead scoring in 14 weeks. Pipeline quality transformed overnight.</p>
         <div class="testimonial-author">
-          <div class="author-avatar" style="background:linear-gradient(135deg,#F59E0B,#D97706);" aria-hidden="true">MR</div>
-          <div>
-            <div class="author-name">Marcus Rivera</div>
-            <div class="author-title">VP Growth, HealthTech Scale-Up</div>
-          </div>
+          <div class="author-avatar" style="background:linear-gradient(135deg,#D98C5F,#C8674E);" aria-hidden="true">MR</div>
+          <div><div class="author-name">Marcus Rivera</div><div class="author-title">VP Growth, HealthTech Scale-Up</div></div>
         </div>
       </div>
 
       <div class="testimonial-card reveal reveal-delay-2">
-        <div class="stars" aria-label="5 out of 5 stars">
-          <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-        </div>
         <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">We engaged Apex to overhaul our customer segmentation and attribution. They delivered a comprehensive roadmap, built our first RFM model, and stayed with us through full deployment. Three months later, CAC was down 31% and our best-fit customer cohort had doubled in size.</p>
+        <p class="testimonial-text">Our biggest question was simply &lsquo;where do we even start?&rsquo; Apex delivered a clear roadmap, built our first RFM model, and stayed through full deployment. Three months later, CAC was down 31% and our best-fit cohort had doubled in size.</p>
         <div class="testimonial-author">
-          <div class="author-avatar" style="background:linear-gradient(135deg,#10B981,#059669);" aria-hidden="true">AB</div>
-          <div>
-            <div class="author-name">Alexandra Brooks</div>
-            <div class="author-title">CEO, Retail Analytics Company</div>
-          </div>
+          <div class="author-avatar" style="background:linear-gradient(135deg,#F8CD5C,#F0B429);" aria-hidden="true">AB</div>
+          <div><div class="author-name">Alexandra Brooks</div><div class="author-title">CEO, Retail Analytics Company</div></div>
         </div>
       </div>
 
@@ -1386,8 +989,8 @@ section { padding: 100px 32px; }
 
 <!-- ======================== TECH STACK ======================== -->
 <div class="tech-section" role="complementary" aria-label="Technology ecosystem">
-  <div class="tech-inner">
-    <span class="sec-label">Technology Ecosystem</span>
+  <div class="tech-inner reveal">
+    <span class="eyebrow" style="justify-content:center;">Technology ecosystem</span>
     <div class="tech-badges" role="list">
       <span class="tbadge" role="listitem">Python</span>
       <span class="tbadge" role="listitem">R</span>
@@ -1401,26 +1004,19 @@ section { padding: 100px 32px; }
       <span class="tbadge" role="listitem">Azure</span>
       <span class="tbadge" role="listitem">Salesforce</span>
       <span class="tbadge" role="listitem">HubSpot</span>
-      <span class="tbadge" role="listitem">Marketo</span>
       <span class="tbadge" role="listitem">Segment</span>
-      <span class="tbadge" role="listitem">mParticle</span>
       <span class="tbadge" role="listitem">Amplitude</span>
-      <span class="tbadge" role="listitem">Mixpanel</span>
-      <span class="tbadge" role="listitem">Braze</span>
-      <span class="tbadge" role="listitem">Klaviyo</span>
       <span class="tbadge" role="listitem">GA4</span>
       <span class="tbadge" role="listitem">Tableau</span>
       <span class="tbadge" role="listitem">Power BI</span>
       <span class="tbadge" role="listitem">Looker</span>
       <span class="tbadge" role="listitem">TensorFlow</span>
       <span class="tbadge" role="listitem">PyTorch</span>
-      <span class="tbadge" role="listitem">OpenAI / GPT-4</span>
+      <span class="tbadge" role="listitem">OpenAI / GPT</span>
       <span class="tbadge" role="listitem">LangChain</span>
       <span class="tbadge" role="listitem">Apache Airflow</span>
       <span class="tbadge" role="listitem">Kafka</span>
       <span class="tbadge" role="listitem">Vertex AI</span>
-      <span class="tbadge" role="listitem">Meta Ads API</span>
-      <span class="tbadge" role="listitem">Google Ads API</span>
     </div>
   </div>
 </div>
@@ -1428,71 +1024,41 @@ section { padding: 100px 32px; }
 <!-- ======================== FAQ ======================== -->
 <section class="faq-section" aria-labelledby="faq-heading">
   <div class="container">
-    <div class="sec-header reveal">
-      <div class="sec-label">Common Questions</div>
-      <h2 class="sec-title" id="faq-heading">Frequently Asked Questions</h2>
-      <p class="sec-sub">Have a question not answered here? <a href="#contact" style="color:var(--blue-2);">Reach out directly</a> and we'll respond within one business day.</p>
+    <div class="sec-head reveal">
+      <span class="eyebrow">Common questions</span>
+      <h2 id="faq-heading">Questions about our <em>questions.</em></h2>
+      <p>Have one not answered here? <a href="#contact" style="color:var(--signal);">Reach out directly</a> and we'll respond within one business day.</p>
     </div>
     <div class="faq-list" role="list">
 
       <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          What types of organizations do you work with?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>We partner with CMOs, marketing directors, founders, and growth leaders across a broad range of organizations — from mid-to-large enterprises optimizing marketing spend at scale, to growth-stage startups building their first customer intelligence infrastructure. If your challenge involves customers, data, or growth, we can help.</p>
-        </div>
+        <button class="faq-question" aria-expanded="false">What kinds of questions do you help organizations answer?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><p>The ones buried in your data that no report has ever surfaced: which customers you're about to lose, which decisions are quietly costing you the most, where your next dollar of growth will actually come from, and what to do first. If the answer should exist in your data but doesn't yet, that's our work.</p></div>
       </div>
 
       <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          How is this different from a traditional marketing agency?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Traditional agencies focus on creative execution and media buying. We focus on the intelligence layer underneath — the segmentation models, attribution frameworks, and predictive systems that make every campaign smarter and every dollar more accountable. We make your existing agency more effective, or replace the need for one entirely.</p>
-        </div>
+        <button class="faq-question" aria-expanded="false">How is this different from an agency or a BI tool?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><p>Dashboards and agencies tell you what already happened. We build the intelligence layer underneath — the data pipelines, models, and AI systems that answer forward-looking questions and turn them into decisions you can act on.</p></div>
       </div>
 
       <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          How long does a typical engagement take?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Marketing audits and segmentation assessments typically run 4–6 weeks. Full attribution framework builds and AI personalization deployments range from 10–20 weeks. We also offer ongoing advisory retainers for organizations that want continuous marketing intelligence support. We'll scope accurately on our discovery call.</p>
-        </div>
+        <button class="faq-question" aria-expanded="false">How long does a typical engagement take?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><p>Diagnostic assessments typically run 4–6 weeks. Model builds, attribution frameworks, RAG systems, and AI deployments range from 10–20 weeks. We also offer ongoing advisory retainers, and we scope accurately on our first call.</p></div>
       </div>
 
       <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          Do you integrate with our existing MarTech stack?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Yes — always. We work within and around your existing platforms (Salesforce, HubSpot, Segment, GA4, and more) rather than replacing them. Our role is to extract maximum intelligence from the tools you already have, and recommend additions only when the ROI is clear and justified.</p>
-        </div>
+        <button class="faq-question" aria-expanded="false">Do you work within our existing data and tech stack?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><p>Yes — always. We work within and around your existing platforms (Salesforce, HubSpot, Segment, GA4, Snowflake, BigQuery, and more) rather than replacing them. We extract maximum value from what you already have, and recommend additions only when the ROI is clear.</p></div>
       </div>
 
       <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          How do you measure success?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Against pre-agreed, financial business KPIs — not impressions, clicks, or vanity metrics. Before any engagement begins, we align on what success looks like in measurable terms: pipeline growth, CAC reduction, LTV improvement, conversion rate uplift. We track and report transparently throughout.</p>
-        </div>
+        <button class="faq-question" aria-expanded="false">How do you measure success?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><p>By the quality of the decisions you can now make. We align on measurable outcomes before any engagement begins — pipeline growth, CAC reduction, LTV improvement, faster time-to-answer — and report transparently throughout.</p></div>
       </div>
 
       <div class="faq-item" role="listitem">
-        <button class="faq-question" aria-expanded="false">
-          Can you work alongside our internal marketing team?
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Yes — and this is often our most effective model. We integrate as a senior extension of your team: setting intelligence strategy, building the models, and upskilling your marketers in the process. We're not here to replace internal capability — we're here to give it an unfair advantage.</p>
-        </div>
+        <button class="faq-question" aria-expanded="false">Can you work alongside our internal team?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><p>Yes — and it's often our most effective model. We integrate as a senior extension of your team: framing the questions, building the models, and upskilling your people in the process. We're not here to replace internal capability — we're here to give it an unfair advantage.</p></div>
       </div>
 
     </div>
@@ -1503,73 +1069,55 @@ section { padding: 100px 32px; }
 <section id="contact" class="contact-section" aria-labelledby="contact-heading">
   <div class="contact-inner">
     <div class="contact-info reveal">
-      <div class="sec-label">Get in Touch</div>
-      <h2 id="contact-heading">Let's Build Your Marketing Intelligence Advantage</h2>
-      <p>Whether you're looking to understand your customers more precisely, attribute marketing spend more accurately, deploy AI-powered personalization, or simply clarify your growth strategy — we're ready to help you move forward with confidence.</p>
+      <span class="eyebrow">Get in touch</span>
+      <h2 id="contact-heading">What's the question you've <em>never been able to answer?</em></h2>
+      <p>Bring us the thing you've quietly given up on knowing. Whether it's about your customers, your growth, or your data itself — tell us, and we'll show you how we'd get to a real answer.</p>
       <div class="c-methods">
         <a href="mailto:ezequiel@apexdata.cloud" class="c-method" onclick="gtag('event','click',{event_category:'Contact',event_label:'Email'})">
           <div class="c-ico" aria-hidden="true">&#9993;&#65039;</div>
-          <div>
-            <div class="c-lbl">Email</div>
-            <div class="c-val">ezequiel@apexdata.cloud</div>
-          </div>
+          <div><div class="c-lbl">Email</div><div class="c-val">ezequiel@apexdata.cloud</div></div>
         </a>
       </div>
       <div class="c-guarantee">
-        <div class="c-guarantee-ico" aria-hidden="true">&#9989;</div>
+        <div class="c-guarantee-ico" aria-hidden="true">&#10003;</div>
         <p><strong>We respond within one business day.</strong> Every inquiry is reviewed personally — no automated responses, no sales handoffs. You'll speak directly with a senior advisor.</p>
       </div>
     </div>
 
     <div class="c-form-box reveal reveal-delay-2">
       <div id="formContent">
-        <div class="cf-head">Start a Conversation</div>
-        <div class="cf-sub">Tell us about your challenge. We'll respond within one business day.</div>
+        <div class="cf-head">Ask us your question</div>
+        <div class="cf-sub">Tell us what you're trying to figure out. We'll respond within one business day.</div>
         <form action="https://formspree.io/f/xqedrddj" method="POST" id="contactForm" novalidate>
           <div class="fg-row">
-            <div class="fg">
-              <label for="first_name">First Name</label>
-              <input type="text" id="first_name" name="first_name" placeholder="Jane" required autocomplete="given-name">
-            </div>
-            <div class="fg">
-              <label for="last_name">Last Name</label>
-              <input type="text" id="last_name" name="last_name" placeholder="Smith" required autocomplete="family-name">
-            </div>
+            <div class="fg"><label for="first_name">First Name</label><input type="text" id="first_name" name="first_name" placeholder="Jane" required autocomplete="given-name"></div>
+            <div class="fg"><label for="last_name">Last Name</label><input type="text" id="last_name" name="last_name" placeholder="Smith" required autocomplete="family-name"></div>
           </div>
-          <div class="fg">
-            <label for="email">Work Email</label>
-            <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email">
-          </div>
-          <div class="fg">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" placeholder="Company name" autocomplete="organization">
-          </div>
+          <div class="fg"><label for="email">Work Email</label><input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email"></div>
+          <div class="fg"><label for="company">Company</label><input type="text" id="company" name="company" placeholder="Company name" autocomplete="organization"></div>
           <div class="fg">
             <label for="interest">Area of Interest</label>
             <select id="interest" name="interest">
-              <option value="" disabled selected>Select a service...</option>
+              <option value="" disabled selected>Select a discipline...</option>
               <option>Customer Segmentation &amp; Audience Intelligence</option>
-              <option>Marketing Analytics &amp; Attribution</option>
+              <option>Analytics &amp; Attribution</option>
               <option>AI-Powered Personalization</option>
               <option>Demand Generation &amp; Growth Analytics</option>
               <option>AI &amp; Machine Learning Advisory</option>
               <option>Generative AI &amp; LLM Strategy</option>
-              <option>Data &amp; MarTech Strategy</option>
+              <option>Business, Data &amp; Digital Strategy</option>
               <option>Cloud &amp; Data Platform Architecture</option>
               <option>Data Governance &amp; Compliance</option>
               <option>General Inquiry</option>
             </select>
           </div>
-          <div class="fg">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Briefly describe your challenge or objective..."></textarea>
-          </div>
-          <button type="submit" class="cf-submit" id="submitBtn">Send Message &#8594;</button>
+          <div class="fg"><label for="message">Your Question</label><textarea id="message" name="message" rows="4" placeholder="What's the question you've never been able to answer?"></textarea></div>
+          <button type="submit" class="cf-submit" id="submitBtn">Send it over &#8594;</button>
         </form>
       </div>
       <div class="form-success" id="formSuccess">
         <div class="form-success-icon" aria-hidden="true">&#10003;</div>
-        <h3>Message Received</h3>
+        <h3>Question received</h3>
         <p>Thank you for reaching out. A senior advisor will be in touch within one business day.</p>
       </div>
     </div>
@@ -1581,10 +1129,10 @@ section { padding: 100px 32px; }
   <div class="footer-top">
     <div class="f-brand">
       <div class="f-brand-row">
-        <img src="apex_logo.PNG" alt="Apex Data Cloud" width="30" height="30">
+        <img src="apex_logo.PNG" alt="Apex Data Cloud" width="28" height="28">
         <span class="f-brand-name">Apex Data Cloud</span>
       </div>
-      <p class="f-brand-desc">AI, data analytics, and machine learning consulting — helping companies in Orlando, Central Florida, and nationwide turn data into measurable revenue and durable competitive advantage.</p>
+      <p class="f-brand-desc">AI, data analytics, and machine learning consulting — helping organizations in Orlando, Central Florida, and nationwide answer the questions they've never been able to answer.</p>
       <div class="f-social" aria-label="Contact">
         <a href="mailto:ezequiel@apexdata.cloud" class="f-social-link" aria-label="Email Apex Data Cloud">&#9993;</a>
         <a href="https://www.linkedin.com/company/apex-data-cloud" class="f-social-link" aria-label="Apex Data Cloud on LinkedIn" rel="noopener" target="_blank">in</a>
@@ -1652,11 +1200,8 @@ section { padding: 100px 32px; }
   // ── Navbar scroll state ─────────────────────────────────────────
   var nav = document.getElementById('mainNav');
   function updateNav() {
-    if (window.pageYOffset > 60) {
-      nav.classList.add('scrolled');
-    } else {
-      nav.classList.remove('scrolled');
-    }
+    if (window.pageYOffset > 40) { nav.classList.add('scrolled'); }
+    else { nav.classList.remove('scrolled'); }
   }
 
   // ── Mobile Menu ─────────────────────────────────────────────────
@@ -1676,18 +1221,21 @@ section { padding: 100px 32px; }
     hamburgerBtn.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
   }
-
   hamburgerBtn.addEventListener('click', function() {
-    if (mobileMenu.classList.contains('active')) {
-      closeMenu();
-    } else {
-      openMenu();
-    }
+    if (mobileMenu.classList.contains('active')) { closeMenu(); } else { openMenu(); }
   });
+  mobileLinks.forEach(function(link) { link.addEventListener('click', closeMenu); });
 
-  mobileLinks.forEach(function(link) {
-    link.addEventListener('click', closeMenu);
-  });
+  // ── Rotating Hero Questions ─────────────────────────────────────
+  var qs = document.querySelectorAll('.qrotator-q');
+  if (qs.length > 1 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var qi = 0;
+    setInterval(function() {
+      qs[qi].classList.remove('active');
+      qi = (qi + 1) % qs.length;
+      qs[qi].classList.add('active');
+    }, 3400);
+  }
 
   // ── Scroll Reveal (Intersection Observer) ───────────────────────
   var revealEls = document.querySelectorAll('.reveal');
@@ -1700,7 +1248,6 @@ section { padding: 100px 32px; }
         }
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-
     revealEls.forEach(function(el) { observer.observe(el); });
   } else {
     revealEls.forEach(function(el) { el.classList.add('visible'); });
@@ -1709,14 +1256,12 @@ section { padding: 100px 32px; }
   // ── Animated Counters ───────────────────────────────────────────
   var counters = document.querySelectorAll('.stat-num[data-target]');
   var countersAnimated = false;
-
   function animateCounter(el) {
     var target = parseFloat(el.getAttribute('data-target'));
     var suffix = el.getAttribute('data-suffix') || '';
     var decimals = parseInt(el.getAttribute('data-decimal') || '0', 10);
     var duration = 1800;
     var start = performance.now();
-
     function update(now) {
       var elapsed = now - start;
       var progress = Math.min(elapsed / duration, 1);
@@ -1727,7 +1272,6 @@ section { padding: 100px 32px; }
     }
     requestAnimationFrame(update);
   }
-
   if ('IntersectionObserver' in window && counters.length) {
     var counterObserver = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
@@ -1763,35 +1307,28 @@ section { padding: 100px 32px; }
   var formContent = document.getElementById('formContent');
   var formSuccess = document.getElementById('formSuccess');
   var submitBtn = document.getElementById('submitBtn');
-
   if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
       e.preventDefault();
       submitBtn.textContent = 'Sending...';
       submitBtn.disabled = true;
-
       var data = new FormData(contactForm);
       fetch(contactForm.action, {
-        method: 'POST',
-        body: data,
-        headers: { 'Accept': 'application/json' }
+        method: 'POST', body: data, headers: { 'Accept': 'application/json' }
       }).then(function(res) {
         if (res.ok) {
           formContent.style.display = 'none';
           formSuccess.style.display = 'block';
           if (typeof gtag !== 'undefined') {
-            gtag('event', 'form_submit', {
-              event_category: 'Contact',
-              event_label: 'Contact Form'
-            });
+            gtag('event', 'form_submit', { event_category: 'Contact', event_label: 'Contact Form' });
           }
         } else {
-          submitBtn.textContent = 'Send Message →';
+          submitBtn.textContent = 'Send it over →';
           submitBtn.disabled = false;
           alert('There was an error. Please email us directly at ezequiel@apexdata.cloud');
         }
       }).catch(function() {
-        submitBtn.textContent = 'Send Message →';
+        submitBtn.textContent = 'Send it over →';
         submitBtn.disabled = false;
         alert('There was an error. Please email us directly at ezequiel@apexdata.cloud');
       });
@@ -1802,15 +1339,10 @@ section { padding: 100px 32px; }
   var ticking = false;
   window.addEventListener('scroll', function() {
     if (!ticking) {
-      requestAnimationFrame(function() {
-        updateProgress();
-        updateNav();
-        ticking = false;
-      });
+      requestAnimationFrame(function() { updateProgress(); updateNav(); ticking = false; });
       ticking = true;
     }
   }, { passive: true });
-
   updateNav();
 
 })();
