@@ -2,8 +2,8 @@
 #  Apex Data Cloud — Jekyll configuration
 # ============================================================
 title: "Apex Data Cloud"
-tagline: "AI, Data Analytics & Machine Learning Consulting"
-description: "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm. We help companies turn data into measurable revenue with generative AI, RAG systems, AI agents, data engineering, and marketing analytics."
+tagline: "AI, Data & Machine Learning Consulting"
+description: "Apex Data Cloud helps organizations answer the questions they've never been able to answer — turning data into decisions with AI, machine learning, predictive analytics, RAG systems, AI agents, and data engineering."
 url: "https://apexdata.cloud"
 baseurl: ""
 author: "Apex Data Cloud"

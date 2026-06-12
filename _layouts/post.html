@@ -21,7 +21,7 @@
           {% if page.category %}<span class="eyebrow">{{ page.category }}</span>{% endif %}
           <h1>{{ page.title }}</h1>
           <p class="lede">{{ page.description }}</p>
-          <p style="font-size:13px;color:var(--text);margin-top:8px;">
+          <p style="font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--faint);margin-top:12px;">
             By {{ page.author | default: site.author }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.read_time %} · {{ page.read_time }} min read{% endif %}
           </p>
         </div>

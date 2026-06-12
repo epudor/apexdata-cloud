@@ -2,7 +2,7 @@
   {% for item in site.data.navigation.main %}
   <a href="{{ item.url }}" class="mobile-link">{{ item.title }}</a>
   {% endfor %}
-  <a href="/contact/" class="m-cta mobile-link">Get in Touch</a>
+  <a href="/contact/" class="m-cta mobile-link">Ask a question</a>
 </div>
 
 <nav class="nav" id="mainNav" aria-label="Main navigation">
@@ -15,7 +15,7 @@
       {% for item in site.data.navigation.main %}
       <li><a href="{{ item.url }}"{% if page.url contains item.url and item.url != "/" %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
       {% endfor %}
-      <li><a href="/contact/" class="nav-cta">Get in Touch</a></li>
+      <li><a href="/contact/" class="nav-cta">Ask a question</a></li>
     </ul>
     <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle mobile menu" aria-expanded="false">
       <span></span><span></span><span></span>
