@@ -21,6 +21,83 @@
           {% if page.category %}<span class="eyebrow">{{ page.category }}</span>{% endif %}
           <h1>{{ page.title }}</h1>
           <p class="lede">{{ page.description }}</p>
+          <p style="font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--faint);margin-top:12px;">
+            By {{ page.author | default: site.author }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.read_time %} · {{ page.read_time }} min read{% endif %}
+          </p>
+        </div>
+      </header>
+      <div class="content-wrap">
+        <div class="content-grid">
+          <div class="prose">
+            {% if page.tldr %}<div class="tldr"><h2>Key Takeaways</h2><p>{{ page.tldr }}</p></div>{% endif %}
+            {{ content }}
+          </div>
+          <aside class="sidebar">
+            <div class="side-card">
+              <h4>Work with Apex Data Cloud</h4>
+              <p>Turn these ideas into results. Book a free consultation with our AI & data team.</p>
+              <a href="/contact/" class="btn-primary" style="width:100%;justify-content:center;">Book a Call &#8594;</a>
+            </div>
+            <div class="side-card">
+              <h4>Explore Services</h4>
+              <ul>
+                <li><a href="/services/generative-ai-consulting/">Generative AI Consulting</a></li>
+                <li><a href="/services/rag-development/">RAG Development</a></li>
+                <li><a href="/services/ai-agent-development/">AI Agent Development</a></li>
+                <li><a href="/services/data-engineering/">Data Engineering</a></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+      {% if page.faqs %}
+      <section class="band alt">
+        <div class="container">
+          <div class="sec-header"><span class="sec-label">FAQ</span><h2 class="sec-title">Frequently Asked Questions</h2></div>
+          <div class="faq-list">
+            {% for f in page.faqs %}
+            <div class="faq-item"><button class="faq-question" aria-expanded="false">{{ f.q }}</button><div class="faq-answer"><div class="faq-answer-inner">{{ f.a | markdownify }}</div></div></div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      {% endif %}
+      <section class="cta-band">
+        <div class="cta-band-inner">
+          <h2>Have a project like this in mind?</h2>
+          <p>Apex Data Cloud helps companies in Orlando, Central Florida, and nationwide put AI and data to work.</p>
+          <div class="cta-band-btns"><a href="/contact/" class="btn-primary">Book a Free Consultation &#8594;</a><a href="/resources/blog/" class="btn-ghost">More Insights</a></div>
+        </div>
+      </section>
+    </article>
+  </main>
+  {% include footer.html %}
+  {% include site-js.html %}
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="/assets/css/apex.css">
+</head>
+<body>
+  {% include nav.html %}
+  <main id="main" role="main">
+    <article class="page">
+      <header class="page-hero">
+        <div class="page-hero-inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><a href="/">Home</a></li>
+              <li><a href="/resources/">Resources</a></li>
+              <li><a href="/resources/blog/">Blog</a></li>
+              <li aria-current="page">{{ page.title | truncate: 48 }}</li>
+            </ol>
+          </nav>
+          {% if page.category %}<span class="eyebrow">{{ page.category }}</span>{% endif %}
+          <h1>{{ page.title }}</h1>
+          <p class="lede">{{ page.description }}</p>
           <p style="font-size:13px;color:var(--text);margin-top:8px;">
             By {{ page.author | default: site.author }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.read_time %} · {{ page.read_time }} min read{% endif %}
           </p>
