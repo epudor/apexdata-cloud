@@ -550,6 +550,26 @@ a { color: inherit; }
   *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ---------------- OPTICAL SIZE CAP ----------------
+   Fraunces' variable `opsz` axis (9-144) tracks font-size under the default
+   `font-optical-sizing:auto`. At desktop widths .hero h1 resolves to ~123px
+   (6.4vw at 1920px), driving opsz near its 144 maximum — Fraunces' display
+   cut, whose horizontal hairlines are razor thin. At weight 320-340 on the
+   dark canvas the crossbar of "e" drops out under anti-aliasing and the
+   letter reads as "c". Mobile was unaffected because clamp() min sizes keep
+   opsz low. Pinning opsz preserves the light weights and large sizes while
+   restoring sturdy crossbars; font-weight still drives `wght`. */
+.hero h1,
+.hero h1 em,
+.qrotator-q,
+.premise h2,
+.stat-num,
+.disc-q,
+.cta-banner h2,
+.why-content h2,
+.contact-info h2,
+.faq-question { font-optical-sizing: none; font-variation-settings: 'opsz' 32; }
 </style>
 
 <div class="apex-site">
