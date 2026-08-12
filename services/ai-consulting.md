@@ -32,7 +32,11 @@ faqs:
 cta_title: "Ready to find your highest-ROI AI use case?"
 ---
 
-Most companies don't have an "AI problem" — they have an AI *prioritization* problem. There are dozens of things AI *could* do and only a few that are worth funding this quarter. Apex Data Cloud's AI consulting exists to find those few, prove them, and put them into production.
+> "Where can AI create real advantage — not just noise?"
+
+Most companies don't have an AI problem. They have an AI *prioritization* problem: dozens of things AI could plausibly do, and only a few worth funding this quarter — with no reliable way to tell which are which before the money is spent.
+
+Apex Data Cloud's AI consulting exists to answer that question. We find the few that matter, prove them, and put them into production.
 
 ## What our AI consulting includes
 

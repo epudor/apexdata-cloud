@@ -22,7 +22,11 @@ faqs:
 cta_title: "Ready to grow revenue with retail AI?"
 ---
 
-Retail and e-commerce generate enormous behavioral data and operate on thin margins — a combination where AI pays off quickly. Apex Data Cloud helps brands turn that data into higher conversion, retention, and margin.
+> "Which customers are worth winning back — and how?"
+
+Retail generates more behavioral data than almost any other sector and operates on some of the thinnest margins. That combination means the cost of guessing is high and the payoff for actually knowing is immediate — yet most win-back spend still goes out undifferentiated, to anyone who lapsed.
+
+Apex Data Cloud helps brands answer the questions underneath the margin: who is genuinely recoverable, what they respond to, and what each of them is worth over a lifetime rather than a cart.
 
 ## Where AI and data create value
 

@@ -123,6 +123,7 @@ img { max-width:100%; height:auto; }
 .prose a:hover { text-decoration-color:var(--signal); }
 .prose blockquote { border-left:2px solid var(--signal); background:var(--ink-2); padding:18px 24px; border-radius:0 4px 4px 0;
   margin:26px 0; color:var(--paper); font-family:var(--serif); font-style:italic; font-size:1.2rem; }
+.prose blockquote > :last-child { margin-bottom:0; }
 .prose code { background:var(--ink-3); border:1px solid var(--line-2); border-radius:4px; padding:2px 7px; font-family:var(--mono); font-size:.85em; color:var(--signal-2); }
 .prose pre { background:var(--ink-2); border:1px solid var(--line-2); border-radius:6px; padding:18px; overflow-x:auto; margin:22px 0; }
 .prose pre code { background:none; border:none; padding:0; color:var(--paper); }

@@ -32,7 +32,11 @@ faqs:
 cta_title: "Know which marketing actually drives revenue?"
 ---
 
-Most marketing teams are drowning in metrics and starving for truth. Apex Data Cloud's marketing analytics cuts through it — connecting spend to revenue so you can confidently move budget toward what works.
+> "Which of our efforts actually drive growth — and which just look busy?"
+
+Most marketing teams are drowning in metrics and starving for truth. There is no shortage of dashboards; there's a shortage of anyone able to say, with confidence, which line of spend produced which dollar of revenue.
+
+Apex Data Cloud's marketing analytics answers that question — connecting spend to revenue so you can move budget toward what works and defend the decision when someone asks why.
 
 ## What we build
 

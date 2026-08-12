@@ -22,7 +22,11 @@ faqs:
 cta_title: "Ready to apply AI in a regulated environment?"
 ---
 
-Financial services has the data, the budget, and the regulatory scrutiny that make disciplined AI essential. Apex Data Cloud helps banks, insurers, and fintechs capture value while keeping models explainable, governed, and compliant.
+> "Which clients will deepen the relationship — and which will quietly leave?"
+
+Financial institutions rarely lose a client to a dramatic event. They lose them to a slow drift that was visible in the data months earlier — if anyone had been able to look. That's the question worth answering, and it's harder here than anywhere: the models have to be explainable, the data governed, the whole thing defensible to a regulator.
+
+Apex Data Cloud helps banks, insurers, and fintechs answer questions like that one without trading away compliance to do it.
 
 ## Where AI and data create value
 

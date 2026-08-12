@@ -5,7 +5,7 @@ sitemap: false
 ---
 # Apex Data Cloud
 
-> Apex Data Cloud is an AI, data analytics, and machine learning consulting firm based in Orlando, Florida, serving clients across Central Florida, Florida, and nationwide. We help companies turn data into measurable revenue through AI, generative AI, RAG systems, AI agents, data engineering, cloud architecture, customer segmentation, and marketing analytics.
+> Apex Data Cloud is an AI, data analytics, and machine learning consulting firm based in Orlando, Florida, serving clients across Central Florida, Florida, and nationwide. We help organizations answer the questions they've never been able to answer — through AI, generative AI, RAG systems, AI agents, data engineering, cloud architecture, customer segmentation, and marketing analytics.
 
 Contact: ezequiel@apexdata.cloud
 Location: Orlando, Florida, United States (service-area business; remote nationwide)

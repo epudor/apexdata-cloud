@@ -32,7 +32,11 @@ faqs:
 cta_title: "Have a prediction problem worth solving?"
 ---
 
-A machine learning model only creates value when it runs in production, drives a decision, and stays accurate over time. Apex Data Cloud's machine learning consulting is built around that reality — we ship models that change outcomes, then keep them healthy.
+> "What does each customer want next — before they ask?"
+
+That's the question machine learning is actually for. Not a report on what already happened, but a defensible prediction of what comes next — churn, demand, intent, risk — early enough to do something about it.
+
+A model only answers it, though, if it runs in production, drives a decision, and stays accurate over time. Apex Data Cloud's machine learning consulting is built around that reality: we ship models that change outcomes, then keep them healthy.
 
 ## What we build
 

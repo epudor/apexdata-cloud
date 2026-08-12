@@ -10,7 +10,9 @@ tldr: "Apex Data Cloud applies AI and data to the real acquisition, retention, r
 cta_title: "Want sector-specific AI expertise?"
 ---
 
-The best data and AI solutions are built with deep understanding of the industry they serve — its data, its regulations, and the decisions that actually move the business. Apex Data Cloud brings that context to every engagement.
+Every industry has its own unanswered question — the one everyone in the room has asked and no one can settle with evidence. In healthcare it's where the patient journey breaks down. In SaaS it's which trials convert. In real estate it's who is genuinely ready to buy.
+
+Answering those questions takes more than a model. It takes knowing the sector's data, its regulations, and which decisions actually move the business. Apex Data Cloud brings that context to every engagement.
 
 <div class="card-grid">
   <a class="card" href="/industries/healthcare/"><div class="card-icon">&#128138;</div><h3>Healthcare &amp; Life Sciences</h3><p>Patient journey analytics, HCP engagement, compliant segmentation, and outcomes-based measurement.</p><span class="card-link">Explore &#8594;</span></a>

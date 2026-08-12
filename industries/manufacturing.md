@@ -22,7 +22,11 @@ faqs:
 cta_title: "Ready to bring AI to your operations?"
 ---
 
-Manufacturing runs on forecasts, uptime, and efficiency — all of which AI improves when built on reliable data. Apex Data Cloud helps manufacturers turn operational and commercial data into lower cost and higher reliability.
+> "Which accounts and markets should we pursue first?"
+
+Manufacturing runs on forecasts, uptime, and efficiency — and on commercial bets made with far less evidence than the plant floor would ever accept. The operational data is instrumented to the second; the growth questions get answered by intuition.
+
+Apex Data Cloud brings the same rigor to both. We help manufacturers answer what to build, when to service it, and where the next order is actually coming from.
 
 ## Where AI and data create value
 

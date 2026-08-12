@@ -32,7 +32,11 @@ faqs:
 cta_title: "Need a data foundation you can trust?"
 ---
 
-AI projects fail on data more often than on models. Pipelines break silently, definitions drift, and teams lose trust in the numbers. Apex Data Cloud's data engineering builds the dependable foundation that everything else — analytics, ML, AI — stands on.
+> "Can our data actually answer the questions we ask of it?"
+
+Usually the honest answer is: not yet. AI projects fail on data far more often than on models. Pipelines break silently, definitions drift between teams, and eventually people stop trusting the numbers enough to make a decision with them.
+
+Apex Data Cloud's data engineering makes the answer yes. We build the dependable foundation everything else — analytics, ML, AI — has to stand on.
 
 ## What we build
 

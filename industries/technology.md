@@ -22,7 +22,11 @@ faqs:
 cta_title: "Ready to grow your product with data and AI?"
 ---
 
-Technology and SaaS companies are data-native — but turning product and usage data into growth, and shipping AI features that actually work, is its own discipline. Apex Data Cloud helps on both fronts.
+> "Which trials convert — and which accounts will churn?"
+
+Technology and SaaS companies are data-native, which makes the unanswered questions more frustrating, not less. The product emits every event you could want. Knowing which of those events actually predicts a conversion, an expansion, or a quiet non-renewal is a different discipline entirely.
+
+Apex Data Cloud helps on both fronts: answering the growth questions hiding in your usage data, and shipping AI features that hold up in production rather than in a demo.
 
 ## Where AI and data create value
 

@@ -17,7 +17,7 @@ faqs:
 cta_title: "Ready to bring AI to your Central Florida business?"
 ---
 
-Apex Data Cloud serves businesses throughout **Central Florida** and the I-4 corridor. From our base in [Orlando](/locations/orlando/), we work with companies across the region to turn data into measurable revenue.
+Apex Data Cloud serves businesses throughout **Central Florida** and the I-4 corridor. From our base in [Orlando](/locations/orlando/), we work with organizations across the region to answer the questions they've never been able to answer.
 
 ## AI & data consulting across the I-4 corridor
 

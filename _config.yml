@@ -86,4 +86,5 @@ exclude:
   - CONTENT-STRATEGY.md
   - IMPLEMENTATION-README.md
   - README.md
+  - PENDING-WORK.md
   - vendor

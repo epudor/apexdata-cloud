@@ -6,12 +6,14 @@ eyebrow: "Services"
 breadcrumb_name: "Services"
 keywords: "AI consulting services, machine learning consulting, generative AI consulting, RAG development, AI agent development, data engineering services, data governance, cloud architecture, customer segmentation, marketing analytics"
 sidebar: false
-tldr: "Apex Data Cloud offers ten core consulting services across AI, data engineering, and analytics — from generative AI and RAG systems to data governance and marketing analytics. Every engagement ties to a measurable business KPI."
+tldr: "Apex Data Cloud offers ten core consulting services across AI, data engineering, and analytics — from generative AI and RAG systems to data governance and marketing analytics. Each one exists to answer a specific question, and every engagement ties to a measurable business KPI."
 cta_title: "Not sure which service you need?"
 cta_text: "Book a free consultation and we'll map the highest-ROI opportunities for your business."
 ---
 
-Apex Data Cloud helps companies turn data into measurable revenue. Our consulting services span the full stack — from the data infrastructure underneath to the AI systems and analytics on top. Each service below is delivered by senior practitioners and tied to a financial outcome agreed before work begins.
+We don't sell tools or hours. We sell answers — and each service below exists to settle a specific question, for good.
+
+Our consulting services span the full stack, from the data infrastructure underneath to the AI systems and analytics on top. Every engagement is delivered by senior practitioners and tied to a financial outcome agreed before work begins.
 
 ## AI & Machine Learning
 

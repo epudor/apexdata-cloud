@@ -32,7 +32,11 @@ faqs:
 cta_title: "Have a workflow an agent could run?"
 ---
 
-Agents are the next step beyond chat: AI that doesn't just answer but *acts*. Apex Data Cloud builds production AI agents that complete real workflows — with the orchestration, integration, and safety controls that separate a reliable system from a risky demo.
+> "What if the answer could act on itself?"
+
+Agents are the step beyond chat: AI that doesn't just answer a question but carries out the work the answer implies. It's also where the risk changes character — a wrong answer is an inconvenience, a wrong *action* is an incident.
+
+Apex Data Cloud builds production AI agents that complete real workflows, with the orchestration, integration, and safety controls that separate a dependable system from a risky demo.
 
 ## What we build
 

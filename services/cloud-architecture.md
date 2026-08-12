@@ -32,7 +32,11 @@ faqs:
 cta_title: "Is your data platform ready to scale?"
 ---
 
-Your data platform is the foundation for analytics and AI — and one of your larger recurring cloud bills. Apex Data Cloud designs platforms that are scalable and secure *and* cost-efficient, because architecture decisions made early compound for years.
+> "Will this platform still answer our questions at ten times the scale?"
+
+Your data platform is the foundation for every analytic and AI question you'll ask — and one of your larger recurring cloud bills. Architecture decisions made early compound for years, in both directions.
+
+Apex Data Cloud designs platforms that are scalable and secure *and* cost-efficient, so growth doesn't quietly price you out of your own data.
 
 ## What we design
 

@@ -7,7 +7,7 @@ breadcrumb_name: "Guides"
 permalink: /resources/guides/
 keywords: "AI adoption guide, RAG guide, data strategy guide, machine learning in production, enterprise AI guide"
 sidebar: false
-tldr: "Long-form, practical guides to help you adopt AI, build RAG systems, and turn data into a strategic asset."
+tldr: "Long-form, practical guides to help you adopt AI, build RAG systems, and get real answers out of your data."
 cta_title: "Want a guide turned into a plan?"
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI, Data & Machine Learning Consulting in Orlando | Apex Data Cloud"
-description: "Apex Data Cloud is an Orlando-based AI, data analytics, and machine learning consulting firm. We help Orlando companies turn data into measurable revenue with AI, generative AI, and analytics."
+description: "Apex Data Cloud is an Orlando-based AI, data analytics, and machine learning consulting firm. We help Orlando organizations answer the questions they've never been able to answer, with AI, generative AI, and analytics."
 eyebrow: "Orlando, Florida"
 breadcrumb_name: "Orlando"
 keywords: "Orlando AI consulting, AI consultant Orlando, Orlando data analytics, machine learning consulting Orlando, generative AI Orlando, data consulting Orlando FL"
@@ -19,7 +19,7 @@ faqs:
 cta_title: "Ready to work with an Orlando AI consulting team?"
 ---
 
-Apex Data Cloud is based in **Orlando, Florida**. We help local companies turn data into measurable revenue with AI, machine learning, and analytics — combining the rigor of an enterprise consultancy with the responsiveness of a local partner.
+Apex Data Cloud is based in **Orlando, Florida**. We help local organizations answer the questions they've never been able to answer — using AI, machine learning, and analytics, and combining the rigor of an enterprise consultancy with the responsiveness of a local partner.
 
 ## AI & data consulting for Orlando businesses
 

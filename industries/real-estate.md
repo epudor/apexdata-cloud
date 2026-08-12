@@ -22,7 +22,11 @@ faqs:
 cta_title: "Ready to convert more buyers with data?"
 ---
 
-Real estate and PropTech run on leads, timing, and local market knowledge. AI sharpens all three. Apex Data Cloud helps brokerages, platforms, and PropTech firms convert more of the right opportunities at lower cost.
+> "Who is genuinely ready to buy — and when?"
+
+Real estate has always been a timing business. Everyone in it can tell you that the difference between a closed deal and a wasted month is reaching the right person in the right week — and almost no one can tell you, from their own data, who that person is.
+
+Apex Data Cloud helps brokerages, platforms, and PropTech firms answer it: intent, timing, and local market signal turned into a ranked list your team can work today.
 
 ## Where AI and data create value
 

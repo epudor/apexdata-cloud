@@ -32,7 +32,11 @@ faqs:
 cta_title: "Ready to put generative AI to work safely?"
 ---
 
-Generative AI is easy to demo and hard to operationalize. The gap between an impressive prototype and a reliable production system is where most initiatives stall. Apex Data Cloud's generative AI consulting closes that gap.
+> "How do we scale knowledge and creativity without losing control?"
+
+Generative AI is easy to demo and hard to operationalize. The prototype impresses everyone in the room; the gap between it and a system you'd let touch a customer is where most initiatives quietly stall.
+
+Apex Data Cloud's generative AI consulting closes that gap — the evaluation, grounding, and guardrails that turn a promising demo into something you can actually depend on.
 
 ## What we do
 

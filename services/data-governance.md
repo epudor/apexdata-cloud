@@ -32,7 +32,11 @@ faqs:
 cta_title: "Want governance that enables, not blocks?"
 ---
 
-Governance has a reputation problem: too often it means slow committees and shelfware policies. Done well, it does the opposite — it gives teams trusted data faster and makes AI safe to deploy. That's the governance Apex Data Cloud implements.
+> "Can we trust the answers our data gives us?"
+
+If you can't answer that one, none of the others count. And governance has a reputation problem here: too often it means slow committees and shelfware policies that make the question harder to answer, not easier.
+
+Done well it does the opposite — teams get trusted data faster and AI becomes safe to deploy. That's the governance Apex Data Cloud implements.
 
 ## What we implement
 

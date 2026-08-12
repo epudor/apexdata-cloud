@@ -1,17 +1,17 @@
 ---
 layout: page
 title: "About Apex Data Cloud — AI & Data Consulting"
-description: "Apex Data Cloud is an Orlando-based AI, data analytics, and machine learning consulting firm. Learn about our approach, expertise, and how we turn data into measurable revenue."
+description: "Apex Data Cloud is an Orlando-based AI, data analytics, and machine learning consulting firm. Learn about our approach, our expertise, and how we help organizations answer the questions they've never been able to answer."
 eyebrow: "About"
 breadcrumb_name: "About"
 keywords: "about Apex Data Cloud, AI consulting firm, data consulting company, Orlando AI consultancy"
 sidebar: true
-tldr: "Apex Data Cloud is an Orlando-based AI, data analytics, and machine learning consulting firm. We combine the rigor of data scientists with the commercial instincts of operators to turn data into measurable revenue — for clients in Florida and nationwide."
+tldr: "Apex Data Cloud is an Orlando-based AI, data analytics, and machine learning consulting firm. We help organizations answer the questions they've never been able to answer — combining the rigor of data scientists with the commercial instincts of operators, for clients in Florida and nationwide."
 faqs:
   - q: "What is Apex Data Cloud?"
-    a: "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm based in Orlando, Florida. We help companies turn data into measurable revenue through AI, generative AI, RAG systems, data engineering, cloud architecture, and analytics."
+    a: "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm based in Orlando, Florida. We help organizations answer the questions they've never been able to answer — through AI, generative AI, RAG systems, data engineering, cloud architecture, and analytics."
   - q: "What makes Apex Data Cloud different?"
-    a: "We pair deep technical capability with business focus — every engagement ties to a financial KPI agreed up front, and we build systems that ship to production and keep working, not slideware."
+    a: "We start with the question, not the technology. Every engagement begins by naming the question you need answered and the financial KPI it moves, and ends with a system in production that keeps answering it — not slideware."
   - q: "Where is Apex Data Cloud based?"
     a: "Orlando, Florida. We serve clients across Central Florida and the state, and remotely nationwide."
 related:
@@ -20,11 +20,15 @@ related:
   - { title: "Free Assessments", url: "/assessments/" }
 ---
 
-Apex Data Cloud is an **Orlando-based AI, data analytics, and machine learning consulting firm**. We help companies turn data into measurable revenue — combining the rigor of data scientists with the commercial instincts of operators.
+Apex Data Cloud is an **Orlando-based AI, data analytics, and machine learning consulting firm**. We help organizations answer the questions they've never been able to answer — combining the rigor of data scientists with the commercial instincts of operators.
 
 ## What we believe
 
-Data and AI only matter when they change a decision and move a number. So every engagement starts by agreeing on the financial KPI it must improve — pipeline, CAC, LTV, conversion, cost, or cycle time — and ends with a system in production, not a slide deck.
+Every organization is already sitting on its own answers. The questions are just trapped in the data.
+
+Most teams aren't short on data — they're short on the ability to interrogate it. Reports describe what already happened. Dashboards count the obvious. The questions that would actually change the trajectory go unasked, because nobody has built the system that could answer them.
+
+That's the gap we close. And because an answer only matters if it changes a decision, every engagement starts by agreeing on the question *and* the financial KPI it must move — pipeline, CAC, LTV, conversion, cost, or cycle time — and ends with a system in production, not a slide deck.
 
 ## What we do
 
@@ -32,7 +36,7 @@ We work across the full stack: [AI](/services/ai-consulting/) and [machine learn
 
 ## How we work
 
-A disciplined four-phase model — **Audit & Diagnose → Strategy & Blueprint → Build & Deploy → Measure & Scale** — keeps every initiative connected to outcomes, and transfers capability to your team along the way.
+A disciplined four-phase model — **Frame the Question → Design the Answer → Build & Activate → Prove & Scale** — keeps every initiative connected to outcomes, and transfers capability to your team along the way.
 
 ## Who we serve
 
@@ -40,4 +44,4 @@ Mid-to-large enterprises and growth-stage companies across [healthcare](/industr
 
 ## Get started
 
-[Book a free consultation](/contact/) or take a [free assessment](/assessments/) to see where AI and data can move your business.
+Bring us your question. [Book a free consultation](/contact/) or take a [free assessment](/assessments/) to find out whether your data can already answer it.

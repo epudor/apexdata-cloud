@@ -32,7 +32,11 @@ faqs:
 cta_title: "Know your customers well enough to grow?"
 ---
 
-Treating every customer the same wastes spend on the indifferent and under-invests in the valuable. Customer segmentation fixes that — and Apex Data Cloud makes sure it actually changes what you do, not just what you know.
+> "Who are our customers, really — and which ones matter most?"
+
+Almost every company believes it knows the answer. Very few can produce it on demand, defend it with data, or act on it differently tomorrow than they did yesterday — so spend keeps going out evenly to the indifferent and the invaluable alike.
+
+Customer segmentation is how that question gets settled. Apex Data Cloud builds the models that answer it, and makes sure the answer changes what you *do*, not just what you know.
 
 ## What we build
 

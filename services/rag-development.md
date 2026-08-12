@@ -32,7 +32,11 @@ faqs:
 cta_title: "Want an AI that answers from your own knowledge?"
 ---
 
-The single biggest unlock for enterprise generative AI is grounding: making the model answer from *your* knowledge. Retrieval-augmented generation (RAG) is how that's done in production, and Apex Data Cloud builds RAG systems that are accurate, fast, and maintainable.
+> "Why can't we just ask our own knowledge base a question?"
+
+You should be able to. The single biggest unlock for enterprise generative AI is grounding — making the model answer from *your* documents, policies, and product data instead of guessing from its training set.
+
+Retrieval-augmented generation is how that's done in production. Apex Data Cloud builds RAG systems that are accurate, fast, maintainable, and able to show you where each answer came from.
 
 ## What we build
 

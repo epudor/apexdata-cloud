@@ -412,20 +412,6 @@ a { color: inherit; }
 .ind-q { font-family: var(--serif); font-style: italic; color: var(--dim); font-size: 1.02rem; line-height: 1.45; }
 
 /* ============================================================
-   TESTIMONIALS
-   ============================================================ */
-.testimonials-section { padding: 0 0 130px; }
-.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.testimonial-card { border: 1px solid var(--line); border-radius: 6px; padding: 36px 32px; position: relative; transition: border-color 0.3s, transform 0.3s; background: var(--ink-2); }
-.testimonial-card:hover { border-color: var(--line); transform: translateY(-4px); box-shadow: var(--shadow); }
-.quote-icon { font-family: var(--serif); font-style: italic; font-size: 4rem; color: var(--signal); opacity: 0.5; line-height: 0.5; display: block; height: 28px; }
-.testimonial-text { font-family: var(--serif); font-weight: 340; font-size: 1.12rem; line-height: 1.55; color: var(--paper); margin: 14px 0 26px; }
-.testimonial-author { display: flex; align-items: center; gap: 14px; border-top: 1px solid var(--line); padding-top: 22px; }
-.author-avatar { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 13px; font-weight: 500; color: var(--ink); flex-shrink: 0; }
-.author-name { font-weight: 600; font-size: 0.98rem; }
-.author-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--faint); margin-top: 3px; }
-
-/* ============================================================
    TECH
    ============================================================ */
 .tech-section { padding: 0 0 130px; }
@@ -546,7 +532,7 @@ a { color: inherit; }
   .nav-links { display: none; }
   .hamburger-btn { display: flex; }
   .premise-inner, .why-grid, .contact-inner { grid-template-columns: 1fr; gap: 44px; }
-  .stats-grid, .steps-row, .ind-grid, .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid, .steps-row, .ind-grid { grid-template-columns: repeat(2, 1fr); }
   .stat-item { border-left: 0; padding: 12px 0; }
   .why-cards { position: static; }
   .footer-top { grid-template-columns: 1fr 1fr; }
@@ -554,7 +540,7 @@ a { color: inherit; }
 }
 @media (max-width: 600px) {
   .container, .hero-inner, .trust-bar-inner, .premise-inner, .tech-inner, .footer-top { padding-left: 22px; padding-right: 22px; }
-  .stats-grid, .steps-row, .ind-grid, .testimonials-grid, .footer-top { grid-template-columns: 1fr; }
+  .stats-grid, .steps-row, .ind-grid, .footer-top { grid-template-columns: 1fr; }
   .disc { grid-template-columns: 1fr; gap: 8px; }
   .disc-arrow { display: none; }
   .fg-row { grid-template-columns: 1fr; }
@@ -942,47 +928,6 @@ a { color: inherit; }
         <h4>Media &amp; Entertainment</h4>
         <p class="ind-q">&ldquo;What keeps an audience — and what makes them leave?&rdquo;</p>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======================== TESTIMONIALS ======================== -->
-<section class="testimonials-section" aria-labelledby="testimonials-heading">
-  <div class="container">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Client voices</span>
-      <h2 id="testimonials-heading">Questions they couldn't answer. Until <em>they could.</em></h2>
-      <p>We measure success not by deliverables — but by the decisions, growth, and clarity we create alongside our clients.</p>
-    </div>
-    <div class="testimonials-grid">
-
-      <div class="testimonial-card reveal">
-        <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">We'd asked &lsquo;which customers will we lose&rsquo; for years with no real answer. Apex built the model that finally told us — and gave us the playbook to keep them. Three audience cohorts we'd never monetized drove a 40% lift in six months.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" style="background:linear-gradient(135deg,#F0B429,#D98C5F);" aria-hidden="true">SC</div>
-          <div><div class="author-name">Sarah Chen</div><div class="author-title">Chief Data Officer, FinServ Enterprise</div></div>
-        </div>
-      </div>
-
-      <div class="testimonial-card reveal reveal-delay-1">
-        <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">What sets Apex apart is that they speak both languages — they'll align with leadership on the question, then architect the models to answer it. We went from zero intelligence capability to production-grade lead scoring in 14 weeks. Pipeline quality transformed overnight.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" style="background:linear-gradient(135deg,#D98C5F,#C8674E);" aria-hidden="true">MR</div>
-          <div><div class="author-name">Marcus Rivera</div><div class="author-title">VP Growth, HealthTech Scale-Up</div></div>
-        </div>
-      </div>
-
-      <div class="testimonial-card reveal reveal-delay-2">
-        <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p class="testimonial-text">Our biggest question was simply &lsquo;where do we even start?&rsquo; Apex delivered a clear roadmap, built our first RFM model, and stayed through full deployment. Three months later, CAC was down 31% and our best-fit cohort had doubled in size.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar" style="background:linear-gradient(135deg,#F8CD5C,#F0B429);" aria-hidden="true">AB</div>
-          <div><div class="author-name">Alexandra Brooks</div><div class="author-title">CEO, Retail Analytics Company</div></div>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>

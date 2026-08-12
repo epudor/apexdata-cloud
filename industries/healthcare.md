@@ -22,7 +22,11 @@ faqs:
 cta_title: "Ready to put healthcare data to work responsibly?"
 ---
 
-Healthcare and life sciences sit on rich data and strict constraints. The opportunity is real — better patient experiences, more efficient operations, smarter commercial engagement — but only with privacy and compliance built in. That's how Apex Data Cloud approaches every healthcare engagement.
+> "Where does the patient journey break down — and why?"
+
+It's the question almost every healthcare leader has asked, and very few can answer with evidence. The data exists — in claims, EHRs, scheduling, and engagement systems — but it's fragmented, and the constraints around it are strict. So the question gets set aside.
+
+Apex Data Cloud exists to answer questions like that one. Better patient experiences, more efficient operations, smarter commercial engagement — all of it starts with being able to interrogate your own data, with privacy and compliance designed in from the first day rather than bolted on at the end.
 
 ## Where AI and data create value
 
