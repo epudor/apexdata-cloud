@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------
+# Secrets / credentials — never commit these
+# ---------------------------------------------------------------
+tokengithubapexdata.txt
+*token*.txt
+*.token
+.env
+.env.*
+*_secret*
+*credentials*
+*.pem
+*.key
+
+# ---------------------------------------------------------------
+# Jekyll build output & caches
+# ---------------------------------------------------------------
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+Gemfile.lock
+
+# ---------------------------------------------------------------
+# Internal working docs (excluded from the build in _config.yml)
+# ---------------------------------------------------------------
+PENDING-WORK.md
+
+# ---------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
