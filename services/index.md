@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "AI, Data & Machine Learning Consulting Services | Apex Data Cloud"
-description: "Explore Apex Data Cloud's consulting services: AI consulting, machine learning, generative AI, RAG development, AI agents, data engineering, data governance, cloud architecture, customer segmentation, and marketing analytics."
+description: "Explore Apex Data Cloud's consulting services: AI consulting, machine learning, generative AI, RAG development, AI agents, data engineering, data governance, cloud architecture, customer segmentation, marketing analytics, and advertising measurement."
 eyebrow: "Services"
 breadcrumb_name: "Services"
-keywords: "AI consulting services, machine learning consulting, generative AI consulting, RAG development, AI agent development, data engineering services, data governance, cloud architecture, customer segmentation, marketing analytics"
+keywords: "AI consulting services, machine learning consulting, generative AI consulting, RAG development, AI agent development, data engineering services, data governance, cloud architecture, customer segmentation, marketing analytics, advertising measurement, retail media analytics"
 sidebar: false
-tldr: "Apex Data Cloud offers ten core consulting services across AI, data engineering, and analytics — from generative AI and RAG systems to data governance and marketing analytics. Each one exists to answer a specific question, and every engagement ties to a measurable business KPI."
+tldr: "Apex Data Cloud offers eleven core consulting services across AI, data engineering, analytics, and advertising measurement — from generative AI and RAG systems to data governance, marketing analytics, and retail media measurement. Each one exists to answer a specific question, and every engagement ties to a measurable business KPI."
 cta_title: "Not sure which service you need?"
 cta_text: "Book a free consultation and we'll map the highest-ROI opportunities for your business."
 ---
@@ -35,9 +35,10 @@ Our consulting services span the full stack, from the data infrastructure undern
 
 ## Analytics & Growth
 
-<div class="card-grid two">
+<div class="card-grid">
   <a class="card" href="/services/customer-segmentation/"><div class="card-icon">&#127919;</div><h3>Customer Segmentation</h3><p>Behavioral, predictive, and lookalike segmentation that powers targeting, retention, and LTV growth.</p><span class="card-link">Learn more &#8594;</span></a>
   <a class="card" href="/services/marketing-analytics/"><div class="card-icon">&#128200;</div><h3>Marketing Analytics</h3><p>Multi-touch attribution, ROI dashboards, and forecasting that tie marketing to revenue.</p><span class="card-link">Learn more &#8594;</span></a>
+  <a class="card" href="/services/amazon-advertising/"><div class="card-icon">&#128226;</div><h3>Advertising Measurement</h3><p>Retail media and Amazon Ads performance reporting, attribution, incrementality testing, and ROAS/TACoS modeling.</p><span class="card-link">Learn more &#8594;</span></a>
 </div>
 
 ## How engagements work
