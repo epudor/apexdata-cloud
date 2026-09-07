@@ -1,9 +1,9 @@
 ---
 layout: home
 title: "AI, Data & Machine Learning Consulting | Apex Data Cloud"
-description: "Apex Data Cloud helps organizations answer the questions they've never been able to answer — turning data into decisions with AI, machine learning, predictive analytics, RAG systems, and data engineering."
+description: "Apex Data Cloud helps organizations answer the questions they've never been able to answer — AI, machine learning, and predictive analytics, plus advertising measurement and retail media analytics for Amazon Ads and other paid channels."
 image: "/apex_logo.PNG"
-keywords: "AI consulting, machine learning consulting, generative AI consulting, data analytics consulting, RAG development, AI agent development, data engineering, predictive analytics, customer segmentation, Orlando AI consulting"
+keywords: "AI consulting, machine learning consulting, generative AI consulting, data analytics consulting, advertising measurement, retail media analytics, Amazon Ads reporting, Amazon Ads API, marketing attribution, RAG development, AI agent development, data engineering, customer segmentation, Orlando AI consulting"
 faqs:
   - q: "What kinds of questions do you help organizations answer?"
     a: "The ones buried in your data that no report has ever surfaced: which customers you're about to lose, which decisions are quietly costing you the most, where your next dollar of growth will actually come from, and what to do first. If the answer should exist in your data but doesn't yet, that's our work."
@@ -15,6 +15,8 @@ faqs:
     a: "Yes — always. We work within and around your existing platforms (Salesforce, HubSpot, Segment, GA4, Snowflake, BigQuery, and more) rather than replacing them. We extract maximum value from what you already have, and recommend additions only when the ROI is clear."
   - q: "How do you measure success?"
     a: "By the quality of the decisions you can now make. We align on measurable outcomes before any engagement begins — pipeline growth, CAC reduction, LTV improvement, faster time-to-answer — and report transparently throughout."
+  - q: "Do you offer advertising services?"
+    a: "Yes. Apex Data Cloud provides advertising-related services focused on measurement and analytics: retail media and Amazon Ads performance reporting, attribution and incrementality testing, ROAS/ACOS/TACoS modeling, budget and bid-strategy analysis, and advertising audience design. We also build the data pipelines that pull advertising reporting data — including via the Amazon Ads API — into a client's own warehouse and dashboards. We are an independent analytics consultancy, not an agency of record, and we do not resell advertising inventory."
   - q: "Where is Apex Data Cloud located?"
     a: "Apex Data Cloud is based in Orlando and serves clients across Central Florida, the state of Florida, and nationwide. Engagements run remotely and on-site as needed."
 ---
@@ -570,6 +572,44 @@ a { color: inherit; }
 .why-content h2,
 .contact-info h2,
 .faq-question { font-optical-sizing: none; font-variation-settings: 'opsz' 32; }
+/* ============================================================
+   ADVERTISING SERVICES (retail media / Amazon Ads measurement)
+   ============================================================ */
+.ads-section { padding: 0 0 130px; }
+.ads-panel {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--ink-2);
+  padding: 46px 48px;
+}
+.ads-panel h3 {
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+.ads-panel > p { color: var(--dim); max-width: 70ch; line-height: 1.75; }
+.ads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+  gap: 24px 44px;
+  margin-top: 36px;
+  list-style: none;
+}
+.ads-grid li { position: relative; padding-left: 26px; color: var(--dim); font-size: 0.95rem; line-height: 1.65; }
+.ads-grid li::before { content: "\2192"; position: absolute; left: 0; top: 0; color: var(--signal); }
+.ads-grid strong { display: block; margin-bottom: 4px; color: var(--paper); font-weight: 600; }
+.ads-legal {
+  margin-top: 38px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line-2);
+  font-size: 0.8rem;
+  line-height: 1.65;
+  color: var(--faint);
+  max-width: 88ch;
+}
+@media (max-width: 640px) { .ads-panel { padding: 32px 24px; } .ads-section { padding-bottom: 90px; } }
 </style>
 
 <div class="apex-site">
@@ -648,6 +688,7 @@ a { color: inherit; }
     <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Decisions, Not Dashboards</div>
     <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>AI-Native Methods</div>
     <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Measurable Impact</div>
+    <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Advertising Measurement</div>
     <div class="t-item"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>15+ Industries Served</div>
   </div>
 </div>
@@ -701,7 +742,7 @@ a { color: inherit; }
   <div class="container">
     <div class="sec-head reveal">
       <span class="eyebrow">What we do</span>
-      <h2 id="disc-heading">Nine disciplines, each built to answer <em>a question that matters.</em></h2>
+      <h2 id="disc-heading">Ten disciplines, each built to answer <em>a question that matters.</em></h2>
       <p>We don't sell tools or hours. We sell answers — and below is the question each capability exists to settle, for good.</p>
     </div>
 
@@ -806,6 +847,44 @@ a { color: inherit; }
         <span class="disc-arrow" aria-hidden="true">&#8599;</span>
       </a>
 
+      <a href="/services/amazon-advertising/" class="disc reveal">
+        <div class="disc-num">10</div>
+        <div>
+          <div class="disc-q">&ldquo;What is our advertising spend actually returning?&rdquo;</div>
+          <div class="disc-name">Advertising Measurement &amp; Retail Media Analytics</div>
+          <p class="disc-desc">Measurement and analytics for paid media — retail media and Amazon Ads performance reporting, attribution, incrementality testing, and ROAS/TACoS modeling that tie every advertising dollar back to revenue.</p>
+          <div class="disc-tags"><span class="tag">Amazon Ads Measurement</span><span class="tag">Retail Media Analytics</span><span class="tag">ROAS / ACOS / TACoS</span><span class="tag">Amazon Ads API</span><span class="tag">Incrementality Testing</span></div>
+        </div>
+        <span class="disc-arrow" aria-hidden="true">&#8599;</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================== ADVERTISING SERVICES ======================== -->
+<section id="advertising" class="ads-section" aria-labelledby="ads-heading">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Advertising services</span>
+      <h2 id="ads-heading">Advertising measurement and <em>retail media analytics.</em></h2>
+      <p>Apex Data Cloud offers advertising-related services. Our advertising practice is measurement-led: we quantify, model, and report on paid media performance for advertisers, agencies, and retail brands.</p>
+    </div>
+
+    <div class="ads-panel reveal">
+      <h3>What we provide to advertisers</h3>
+      <p>We connect advertising data to revenue outcomes so advertisers can see what their spend actually returns — across Amazon Ads and other retail media networks, paid search, paid social, and programmatic display. Engagements are delivered as analytics, reporting infrastructure, and strategic recommendations that the advertiser or their agency then acts on.</p>
+
+      <ul class="ads-grid" role="list">
+        <li><strong>Retail media &amp; Amazon Ads measurement</strong> Performance reporting and analysis of advertising activity, including Sponsored Products, Sponsored Brands, Sponsored Display, and Amazon DSP campaigns.</li>
+        <li><strong>Advertising data pipelines</strong> Automated ingestion of advertising reporting data — via the Amazon Ads API and other advertising platform APIs — into the advertiser's own data warehouse.</li>
+        <li><strong>Attribution &amp; incrementality</strong> Multi-touch attribution, marketing mix modeling, and geo/holdout lift tests that separate genuinely ad-driven revenue from baseline demand.</li>
+        <li><strong>ROAS, ACOS &amp; TACoS reporting</strong> Ad-efficiency dashboards tracking return on ad spend, advertising cost of sale, and total advertising cost of sale at campaign, product, and portfolio level.</li>
+        <li><strong>Budget &amp; bid-strategy modeling</strong> Spend allocation analysis, marginal-return curves, and bid-strategy recommendations that inform how advertisers plan and pace their media budgets.</li>
+        <li><strong>Advertising audience design</strong> Segmentation, behavioral cohort, and lookalike audience definitions built specifically for advertising targeting and suppression.</li>
+      </ul>
+
+      <p class="ads-legal">Apex Data Cloud is an independent data analytics and consulting company. We provide advertising measurement, analytics, and advisory services; we are not an agency of record and we do not resell advertising inventory or media. Amazon, Amazon Ads, Amazon DSP, and related marks are trademarks of Amazon.com, Inc. or its affiliates. Apex Data Cloud is not affiliated with, endorsed by, or sponsored by Amazon.</p>
     </div>
   </div>
 </section>
@@ -1112,6 +1191,7 @@ a { color: inherit; }
         <li><a href="/services/rag-development/">RAG Development</a></li>
         <li><a href="/services/data-engineering/">Data Engineering</a></li>
         <li><a href="/services/marketing-analytics/">Marketing Analytics</a></li>
+        <li><a href="/services/amazon-advertising/">Advertising Measurement</a></li>
       </ul>
     </div>
     <div class="f-col">
