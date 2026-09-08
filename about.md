@@ -12,6 +12,8 @@ faqs:
     a: "Apex Data Cloud is an AI, data analytics, and machine learning consulting firm based in Orlando, Florida. We help organizations answer the questions they've never been able to answer — through AI, generative AI, RAG systems, data engineering, cloud architecture, and analytics."
   - q: "What makes Apex Data Cloud different?"
     a: "We start with the question, not the technology. Every engagement begins by naming the question you need answered and the financial KPI it moves, and ends with a system in production that keeps answering it — not slideware."
+  - q: "Is Apex Data Cloud a certified small business?"
+    a: "Yes. Apex Data Cloud is a certified Small Business Enterprise (SBE) through the Orange County, Florida Business Development Division. Organizations with small-business participation goals can apply engagements with us toward those goals."
   - q: "Where is Apex Data Cloud based?"
     a: "Orlando, Florida. We serve clients across Central Florida and the state, and remotely nationwide."
 related:
@@ -37,6 +39,17 @@ We work across the full stack: [AI](/services/ai-consulting/) and [machine learn
 ## How we work
 
 A disciplined four-phase model — **Frame the Question → Design the Answer → Build & Activate → Prove & Scale** — keeps every initiative connected to outcomes, and transfers capability to your team along the way.
+
+## Certifications
+
+<div class="cert-card">
+  <img src="/assets/img/sbe-certified-seal.png" width="118" height="121" loading="lazy"
+       alt="Orange County, Florida Small Business Enterprise (SBE) Certified seal">
+  <div>
+    <h3>Certified Small Business Enterprise (SBE)</h3>
+    <p>Apex Data Cloud is certified as a Small Business Enterprise by the Orange County, Florida Business Development Division. If your organization carries small-business participation goals, engagements with us count toward them.</p>
+  </div>
+</div>
 
 ## Who we serve
 

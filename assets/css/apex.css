@@ -1,6 +1,6 @@
 /* ============================================================
    APEX DATA CLOUD — Design System  ·  "The Unanswered"
-   Warm ink + amber, editorial serif. Shared across all pages.
+   Warm ink + cerise rose, editorial serif. Shared across all pages.
    Class names preserved so existing layouts/markup keep working.
    ============================================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -10,8 +10,8 @@ html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
   --ink:#0E0E11; --ink-2:#15151A; --ink-3:#1D1D24;
   --paper:#F3EFE6; --paper-2:#E9E3D6;
   --dim:rgba(243,239,230,0.64); --faint:rgba(243,239,230,0.40);
-  --signal:#F0B429; --signal-2:#F8CD5C; --signal-soft:rgba(240,180,41,0.12);
-  --clay:#D98C5F; --green:#3FB984;
+  --signal:#E8659B; --signal-2:#EE86AE; --signal-soft:rgba(232,101,155,0.12);
+  --clay:#A32F5F; --green:#3FB984;
   --line:rgba(243,239,230,0.13); --line-2:rgba(243,239,230,0.07);
   --shadow-sm:0 10px 30px rgba(0,0,0,0.4); --shadow-md:0 30px 80px -40px rgba(0,0,0,0.8);
   --serif:'Fraunces',Georgia,'Times New Roman',serif;
@@ -71,7 +71,7 @@ img { max-width:100%; height:auto; }
   font-family:var(--mono); font-size:13px; text-transform:uppercase; letter-spacing:.12em; font-weight:500;
   padding:16px 30px; border-radius:2px; text-decoration:none; border:1px solid var(--signal); cursor:pointer;
   transition:all .28s ease; white-space:nowrap; }
-.btn-primary:hover { background:var(--signal-2); transform:translateY(-2px); box-shadow:0 16px 40px -16px rgba(240,180,41,.55); color:var(--ink); }
+.btn-primary:hover { background:var(--signal-2); transform:translateY(-2px); box-shadow:0 16px 40px -16px rgba(232,101,155,.55); color:var(--ink); }
 .btn-ghost { display:inline-flex; align-items:center; gap:10px; background:transparent; color:var(--paper);
   font-family:var(--mono); font-size:13px; text-transform:uppercase; letter-spacing:.12em;
   padding:16px 30px; border-radius:2px; text-decoration:none; border:1px solid var(--line); transition:all .28s ease; white-space:nowrap; }
@@ -85,7 +85,7 @@ img { max-width:100%; height:auto; }
 /* ---------------- PAGE HERO + BREADCRUMB ---------------- */
 .page-hero { position:relative; overflow:hidden; padding:170px 32px 80px; background:var(--ink); border-bottom:1px solid var(--line-2); }
 .page-hero::before { content:''; position:absolute; top:-20%; right:-4%; width:760px; height:620px; pointer-events:none;
-  background:radial-gradient(ellipse at center,rgba(240,180,41,.13),rgba(240,180,41,.03) 40%,transparent 66%); filter:blur(8px); }
+  background:radial-gradient(ellipse at center,rgba(232,101,155,.13),rgba(232,101,155,.03) 40%,transparent 66%); filter:blur(8px); }
 .page-hero::after { content:'?'; position:absolute; bottom:-40%; right:2%; font-family:var(--serif); font-style:italic;
   font-size:30rem; line-height:1; color:var(--paper); opacity:.025; pointer-events:none; }
 .page-hero-inner { max-width:var(--maxw); margin:0 auto; position:relative; z-index:1; }
@@ -119,7 +119,7 @@ img { max-width:100%; height:auto; }
 .prose ul, .prose ol { margin:0 0 18px 22px; }
 .prose li { margin-bottom:9px; }
 .prose strong { color:var(--paper); font-weight:600; }
-.prose a { color:var(--signal); text-decoration:underline; text-underline-offset:3px; text-decoration-color:rgba(240,180,41,.4); }
+.prose a { color:var(--signal); text-decoration:underline; text-underline-offset:3px; text-decoration-color:rgba(232,101,155,.4); }
 .prose a:hover { text-decoration-color:var(--signal); }
 .prose blockquote { border-left:2px solid var(--signal); background:var(--ink-2); padding:18px 24px; border-radius:0 4px 4px 0;
   margin:26px 0; color:var(--paper); font-family:var(--serif); font-style:italic; font-size:1.2rem; }
@@ -132,6 +132,14 @@ img { max-width:100%; height:auto; }
 .prose th, .prose td { text-align:left; padding:13px 14px; border-bottom:1px solid var(--line); }
 .prose th { color:var(--paper); font-family:var(--mono); font-size:.82rem; text-transform:uppercase; letter-spacing:.08em; font-weight:500; }
 .prose tr:hover td { background:var(--ink-2); }
+
+/* ---------------- CREDENTIAL CARD ---------------- */
+.cert-card { display:flex; align-items:center; gap:26px; margin:34px 0; padding:26px 28px;
+  background:var(--ink-2); border:1px solid var(--line); border-left:2px solid var(--signal); border-radius:0 8px 8px 0; }
+.cert-card img { width:118px; height:auto; flex-shrink:0; background:var(--paper); border-radius:8px; padding:9px; }
+.cert-card h3 { font-family:var(--serif)!important; font-weight:400; font-size:1.28rem!important; line-height:1.25; color:var(--paper); margin:0 0 10px!important; }
+.cert-card p { font-size:.99rem; line-height:1.62; color:var(--dim); margin:0!important; }
+@media (max-width:640px) { .cert-card { flex-direction:column; align-items:flex-start; gap:20px; } }
 
 .tldr { background:var(--signal-soft); border:1px solid var(--line); border-left:2px solid var(--signal); border-radius:0 6px 6px 0; padding:24px 26px; margin:0 0 40px; }
 .tldr h2 { font-family:var(--mono)!important; font-size:11px!important; letter-spacing:.2em; text-transform:uppercase; color:var(--signal)!important; margin:0 0 10px!important; font-weight:500!important; }
@@ -230,6 +238,10 @@ section.band { padding:96px 32px; }
 .f-social-link { width:38px; height:38px; border-radius:50%; border:1px solid var(--line); display:flex; align-items:center; justify-content:center;
   font-family:var(--mono); font-size:13px; text-decoration:none; transition:all .25s; color:var(--dim); }
 .f-social-link:hover { border-color:var(--signal); color:var(--signal); }
+.f-cert { display:flex; align-items:center; gap:15px; margin-top:30px; padding-top:26px; border-top:1px solid var(--line-2); }
+.f-cert-seal { width:88px; height:auto; flex-shrink:0; background:var(--paper); border-radius:8px; padding:7px; }
+.f-cert-name { font-size:.9rem; color:var(--paper); line-height:1.35; }
+.f-cert-issuer { font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; line-height:1.55; color:var(--faint); margin-top:6px; }
 .f-col h5 { font-family:var(--mono); font-size:11px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); margin-bottom:20px; }
 .f-col ul { list-style:none; display:flex; flex-direction:column; gap:12px; }
 .f-col ul a { font-size:.95rem; color:var(--dim); text-decoration:none; transition:color .2s; }

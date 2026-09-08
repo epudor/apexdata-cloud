@@ -44,10 +44,10 @@ html { scroll-behavior: smooth; }
   --paper-2:  #E9E3D6;
   --dim:      rgba(243,239,230,0.64);
   --faint:    rgba(243,239,230,0.40);
-  --signal:   #F0B429;
-  --signal-2: #F8CD5C;
-  --signal-soft: rgba(240,180,41,0.12);
-  --clay:     #D98C5F;
+  --signal:   #E8659B;
+  --signal-2: #EE86AE;
+  --signal-soft: rgba(232,101,155,0.12);
+  --clay:     #A32F5F;
   --line:     rgba(243,239,230,0.13);
   --line-2:   rgba(243,239,230,0.07);
   --serif:    'Fraunces', Georgia, 'Times New Roman', serif;
@@ -190,7 +190,7 @@ a { color: inherit; }
 .hero-glow {
   position: absolute; top: -10%; left: 50%; transform: translateX(-50%);
   width: 1100px; height: 760px; pointer-events: none;
-  background: radial-gradient(ellipse at center, rgba(240,180,41,0.16), rgba(240,180,41,0.04) 38%, transparent 66%);
+  background: radial-gradient(ellipse at center, rgba(232,101,155,0.16), rgba(232,101,155,0.04) 38%, transparent 66%);
   filter: blur(8px);
 }
 .hero-ghost {
@@ -210,12 +210,12 @@ a { color: inherit; }
 }
 .live-dot {
   width: 7px; height: 7px; border-radius: 50%; background: var(--signal);
-  box-shadow: 0 0 0 0 rgba(240,180,41,0.6); animation: pulse 2.4s infinite;
+  box-shadow: 0 0 0 0 rgba(232,101,155,0.6); animation: pulse 2.4s infinite;
 }
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(240,180,41,0.5); }
-  70% { box-shadow: 0 0 0 9px rgba(240,180,41,0); }
-  100% { box-shadow: 0 0 0 0 rgba(240,180,41,0); }
+  0% { box-shadow: 0 0 0 0 rgba(232,101,155,0.5); }
+  70% { box-shadow: 0 0 0 9px rgba(232,101,155,0); }
+  100% { box-shadow: 0 0 0 0 rgba(232,101,155,0); }
 }
 .hero h1 {
   font-family: var(--serif); font-optical-sizing: auto;
@@ -254,7 +254,7 @@ a { color: inherit; }
   padding: 16px 30px; border-radius: 2px; text-decoration: none; font-weight: 500;
   transition: all 0.28s ease; border: 1px solid var(--signal);
 }
-.btn-primary:hover { background: var(--signal-2); transform: translateY(-2px); box-shadow: 0 16px 40px -16px rgba(240,180,41,0.55); }
+.btn-primary:hover { background: var(--signal-2); transform: translateY(-2px); box-shadow: 0 16px 40px -16px rgba(232,101,155,0.55); }
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 10px;
   border: 1px solid var(--line); color: var(--paper);
@@ -507,6 +507,10 @@ a { color: inherit; }
 .f-social { display: flex; gap: 10px; margin-top: 22px; }
 .f-social-link { width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; color: var(--dim); transition: all 0.25s; font-family: var(--mono); font-size: 13px; }
 .f-social-link:hover { color: var(--signal); border-color: var(--signal); }
+.f-cert { display: flex; align-items: center; gap: 15px; margin-top: 30px; padding-top: 26px; border-top: 1px solid var(--line-2); }
+.f-cert-seal { width: 88px; height: auto; flex-shrink: 0; background: var(--paper); border-radius: 8px; padding: 7px; }
+.f-cert-name { font-size: 0.9rem; color: var(--paper); line-height: 1.35; }
+.f-cert-issuer { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; line-height: 1.55; color: var(--faint); margin-top: 6px; }
 .f-col h5 { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--faint); margin-bottom: 20px; }
 .f-col ul { list-style: none; }
 .f-col li { margin-bottom: 12px; }
@@ -1180,6 +1184,14 @@ a { color: inherit; }
       <div class="f-social" aria-label="Contact">
         <a href="mailto:ezequiel@apexdata.cloud" class="f-social-link" aria-label="Email Apex Data Cloud">&#9993;</a>
         <a href="https://www.linkedin.com/company/apex-data-cloud" class="f-social-link" aria-label="Apex Data Cloud on LinkedIn" rel="noopener" target="_blank">in</a>
+      </div>
+      <div class="f-cert">
+        <img src="/assets/img/sbe-certified-seal.png" class="f-cert-seal" width="88" height="90" loading="lazy"
+             alt="Orange County, Florida Small Business Enterprise (SBE) Certified seal">
+        <div>
+          <div class="f-cert-name">Certified Small Business Enterprise (SBE)</div>
+          <div class="f-cert-issuer">Orange County, Florida<br>Business Development Division</div>
+        </div>
       </div>
     </div>
     <div class="f-col">

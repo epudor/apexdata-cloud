@@ -36,6 +36,18 @@
       "sameAs": [
         {% for s in site.company.sameAs %}"{{ s }}"{% unless forloop.last %},{% endunless %}{% endfor %}
       ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "Small Business Enterprise (SBE) Certification",
+        "description": "Apex Data Cloud is a certified Small Business Enterprise (SBE) through the Orange County, Florida Business Development Division.",
+        "image": "{{ site.url }}/assets/img/sbe-certified-seal.png",
+        "recognizedBy": {
+          "@type": "GovernmentOrganization",
+          "name": "Orange County, Florida — Business Development Division",
+          "url": "https://www.orangecountyfl.net/"
+        }
+      },
       "knowsAbout": [
         "Artificial Intelligence Consulting",
         "Machine Learning Consulting",
