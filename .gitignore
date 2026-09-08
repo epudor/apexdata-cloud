@@ -27,6 +27,12 @@ Gemfile.lock
 PENDING-WORK.md
 
 # ---------------------------------------------------------------
+# Full-resolution source artwork — the web-optimized copies that the
+# site actually serves live in assets/img/
+# ---------------------------------------------------------------
+transparent background seal.png
+
+# ---------------------------------------------------------------
 # OS / editor noise
 # ---------------------------------------------------------------
 .DS_Store
