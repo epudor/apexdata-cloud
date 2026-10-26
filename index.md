@@ -661,8 +661,8 @@ a { color: inherit; }
       <span class="live-dot" aria-hidden="true"></span>
       AI, Data &amp; Machine Learning Consulting
     </div>
-    <h1 id="hero-heading">We help organizations answer the questions they've <em>never been able to answer.</em></h1>
-    <p class="hero-sub">We investigate problems where the obvious explanation may not be the correct one.</p>
+    <h1 id="hero-heading">We investigate problems <em>where the obvious explanation may not be the correct one.</em></h1>
+    <p class="hero-sub">We help organizations answer the questions they've never been able to answer.</p>
 
     <div class="qrotator" aria-label="Examples of questions we help answer">
       <div class="qrotator-label">Questions we hear</div>
