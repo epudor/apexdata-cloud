@@ -662,7 +662,7 @@ a { color: inherit; }
       AI, Data &amp; Machine Learning Consulting
     </div>
     <h1 id="hero-heading">We help organizations answer the questions they've <em>never been able to answer.</em></h1>
-    <p class="hero-sub">The answers are already inside your data. We build the intelligence — models, pipelines, and AI systems — that finally lets you ask the hard questions and act on what comes back.</p>
+    <p class="hero-sub">We investigate problems where the obvious explanation may not be the correct one.</p>
 
     <div class="qrotator" aria-label="Examples of questions we help answer">
       <div class="qrotator-label">Questions we hear</div>
